@@ -1,0 +1,106 @@
+Core Java Programming Questions
+Basics
+Write a program to check if a number is even or odd.
+Write a program to find the factorial of a number using recursion.
+Write a program to swap two numbers without using a third variable.
+Write a program to print the Fibonacci series up to N terms.
+Write a program to reverse a number.
+Write a program to find the greatest of three numbers.
+Object-Oriented Programming
+Design a class for a Bank Account with methods for deposit, withdrawal, and displaying account details.
+Write a program to demonstrate method overloading and overriding.
+Create a program to implement multiple inheritance using interfaces.
+Design a class hierarchy for a Vehicle and demonstrate polymorphism with method overriding.
+Implement encapsulation by creating a class Student with private fields and public getter/setter methods.
+File Handling
+Write a program to read data from a text file and display it on the console.
+Write a program to copy content from one file to another.
+Create a program to append text to an existing file.
+Write a program to count the number of words and lines in a file.
+Exception Handling
+Write a program to demonstrate try-catch-finally blocks.
+Create a custom exception and throw it when invalid input is provided.
+Write a program to handle multiple exceptions (e.g., ArrayIndexOutOfBoundsException and NullPointerException).
+Write a program to demonstrate the throws keyword with checked exceptions.
+Data Structures and Algorithms (Java Implementation)
+Arrays
+Find the maximum and minimum elements in an array.
+Write a program to rotate an array by K positions.
+Find the duplicate elements in an array.
+Write a program to merge two sorted arrays.
+Write a program to move all zeros to the end of the array.
+Strings
+Write a program to count the occurrences of each character in a string.
+Write a program to check if two strings are anagrams.
+Reverse each word in a given sentence.
+Write a program to find the longest palindrome substring.
+Check if a string contains only digits.
+Linked Lists
+Implement a singly linked list with operations like add, remove, and search.
+Reverse a linked list.
+Detect a cycle in a linked list using Floyd’s Cycle Detection Algorithm.
+Merge two sorted linked lists into one.
+Find the middle node of a linked list.
+Stacks and Queues
+Implement a stack using arrays and linked lists.
+Implement a queue using two stacks.
+Write a program to check if a given string has balanced parentheses.
+Design a circular queue and implement its operations.
+Write a program to evaluate a postfix expression.
+Trees
+Implement a binary tree and perform in-order, pre-order, and post-order traversals.
+Find the height of a binary tree.
+Check if two binary trees are identical.
+Write a program to find the lowest common ancestor (LCA) of two nodes in a binary tree.
+Print the left view of a binary tree.
+Graphs
+Implement a graph using adjacency matrix and adjacency list.
+Perform Breadth-First Search (BFS) and Depth-First Search (DFS).
+Detect a cycle in a graph.
+Implement Dijkstra’s algorithm for the shortest path.
+Implement Kruskal’s algorithm for Minimum Spanning Tree (MST).
+Algorithm-Specific Java Problems
+Sorting and Searching
+Implement Bubble Sort, Selection Sort, and Insertion Sort.
+Implement Merge Sort and Quick Sort.
+Write a program to search an element in a rotated sorted array.
+Implement Binary Search and return the index of the target.
+Find the first and last occurrence of a given number in a sorted array.
+Dynamic Programming
+Find the nth Fibonacci number using dynamic programming.
+Solve the 0/1 Knapsack problem.
+Find the longest increasing subsequence in an array.
+Write a program to find the minimum number of coins required for a given amount.
+Solve the edit distance problem between two strings.
+Greedy Algorithms
+Implement the activity selection problem.
+Write a program to find the minimum number of platforms required for a railway station.
+Solve the fractional knapsack problem.
+Find the maximum number of meetings that can be scheduled in a room.
+Implement Prim’s algorithm for Minimum Spanning Tree.
+Advanced Java Programming Questions
+Java 8 Features
+Write a program to demonstrate the use of lambda expressions.
+Implement a program using the Stream API to filter and sort a list.
+Use the Optional class to avoid NullPointerException.
+Demonstrate the use of Function and Predicate interfaces.
+Write a program to convert a list of strings into uppercase using streams.
+Multi-threading
+Create a program to demonstrate thread creation using Thread class and Runnable interface.
+Implement the producer-consumer problem using threads.
+Write a program to demonstrate thread synchronization.
+Implement a program to simulate deadlock and resolve it.
+Create a thread pool using the Executor framework.
+Database and System Design
+SQL
+Write an SQL query to find the second highest salary in a table.
+Retrieve the nth highest salary from a table.
+Write a query to display employee details who earn more than the average salary.
+Write a query to count the number of employees in each department.
+Find employees who have joined in the last six months.
+System Design
+Design an online library management system.
+Design a parking lot management system.
+Implement a URL shortener (e.g., Bitly).
+Design a system to handle real-time messaging (like WhatsApp).
+Design a basic e-commerce system.
