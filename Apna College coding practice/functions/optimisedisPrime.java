@@ -11,7 +11,7 @@ package functions;
                     return false;
                 }
             }
-            return false;
+            return true;
         }
     
         public static void main(String[] args){
