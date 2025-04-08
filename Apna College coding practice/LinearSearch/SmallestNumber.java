@@ -1,6 +1,6 @@
 package LinearSearch;
 
-
+/*shuruvat me badi value leleng etoh baki sar ivalues chhoti hongi  */
 public class SmallestNumber {
     public static int getSmallest( int numbers[]){
     int smallest = Integer.MAX_VALUE;
