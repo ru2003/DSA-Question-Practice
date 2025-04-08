@@ -12,8 +12,8 @@ public class Findindex{
         return -1;
     }
     public static void main(String[] args){
-        int numbers[] = {2,3,45,67,7,42,1,};
-        int key = 10;
+        int numbers[] = {2,3,45,67,7,42,1};
+        int key = 3;
 
         int index = linearSearch(numbers,key);
         if(index == -1){
@@ -23,4 +23,8 @@ public class Findindex{
         }
 
     }
+    /* time complexity -> koi programme kitna time leta hai execute krne ke liye.  ==>O(n)
+     * n operations hote hai.
+     * TC directly propertional to looop(n)
+    */
 }
