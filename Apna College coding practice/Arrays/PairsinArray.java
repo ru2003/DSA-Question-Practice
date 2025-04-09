@@ -5,6 +5,7 @@ package Arrays;
  * (4,6) (4,8) (4,10)
  * (6,8) (6,10)
  * (8,10)
+ * time complexity ==> O(n^2)
  */
 public class PairsinArray {
    public static void printPairs(int numbers[]){
