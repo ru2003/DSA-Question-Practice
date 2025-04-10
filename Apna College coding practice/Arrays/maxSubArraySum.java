@@ -1,6 +1,8 @@
 package Arrays;
  //find the array which has the maximum sum .
- /* just like hum addition krte then ,  ek variable declare krto tevha tya element chi sum add krt jato . */
+ /* just like hum addition krte then ,  ek variable declare krto tevha tya element chi sum add krt jato .
+  * Time Complexity = n^3 ye optimised hai but time complexity jyada hai .
+  */
 public class maxSubArraySum {
 
     public static void maxSubArraySum(int numbers[]){
@@ -15,7 +17,7 @@ public class maxSubArraySum {
                 currSum = 0; 
                 for(int k=start; k<=end; k++){
                     //SubArray sum
-                    currSum += numbers[k];
+                    currSum += numbers[k];      
                 }
                 System.out.println(currSum);
                 if(MaxSum < currSum) {
