@@ -11,7 +11,7 @@ public class SubArrays {
                 int end = j;
                 for(int k=start; k<=end; k++){
                     System.out.print(numbers[k] + " ");
-                }
+                }//sabse pehle i ka elment select hoga then j ke then start ke loop ke andar dusre honge , then starting me start same rahega and then end badlat rahega uska loop chalta rahega  thats it only.
                 ts++;
                 System.out.println();
             }

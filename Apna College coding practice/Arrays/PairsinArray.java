@@ -14,7 +14,7 @@ public class PairsinArray {
         int curr = numbers[i];
         for(int j=i+1; j<numbers.length; j++){
             System.out.print("(" + curr + "," + numbers[j] + ")");
-            tp++;
+            tp++; /* suppose  i ye element lete hai then j+1 se start krte hai then later j=1 se start hoke uske baad ke sare elemnt lete hue print krte hain. */
             
         }
         System.out.println();
