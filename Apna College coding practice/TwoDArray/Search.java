@@ -1,7 +1,22 @@
 package TwoDArray;
-import java.util.*;
-/* @-D array -->  suppose n*m  --> n= rows and m =columns  */
-public class First {
+
+import java.util.Scanner;
+
+/* Searching an element in the 2-D array . */
+public class Search {
+   public static void searchanelement(int matrix[] [] , int key){
+    for(int i=0; i<matrix.length; i++) {
+        for(int j=0; j<matrix[0].length; j++) {
+            if(matrix[i][j] == key) {
+                System.out.println("found at cell (" + i + j + " )");
+            }
+        }
+        System.out.println();
+       }
+   }
+
+
+
     public static void main(String[] args){
         int matrix [] [] = new int[3][3];
         int n = matrix.length, m = matrix[0].length;
@@ -20,7 +35,6 @@ public class First {
         }
         System.out.println();
        }
-
     }
     
 }
