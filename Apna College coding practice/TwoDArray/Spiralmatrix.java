@@ -25,7 +25,7 @@ public class Spiralmatrix {
              for(int j=endCol-1; j>=startCol; j--) {
                 if(startRow == endRow) {
                     break;
-                }
+                } 
                 System.out.println(matrix[endRow][j] +" ");//jo variable hota hai like jo badlata hai uske liye lete hai like i or j
              }
              //left
