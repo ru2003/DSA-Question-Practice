@@ -4,15 +4,17 @@ import java.util.Scanner;
 
 /* Searching an element in the 2-D array . */
 public class Search {
-   public static void searchanelement(int matrix[] [] , int key){
+   public static boolean searchanelement(int matrix[] [] , int key){
     for(int i=0; i<matrix.length; i++) {
         for(int j=0; j<matrix[0].length; j++) {
             if(matrix[i][j] == key) {
-                System.out.println("found at cell (" + i + j + " )");
+                System.out.println("found at cell (" + i + " ," + j + " )");
+                return true;
             }
         }
-        System.out.println();
        }
+       System.out.println();
+       return false;
    }
 
 
@@ -35,6 +37,8 @@ public class Search {
         }
         System.out.println();
        }
+      //searchanelement(matrix, m) 
+      searchanelement(matrix, 5);
     }
     
 }
