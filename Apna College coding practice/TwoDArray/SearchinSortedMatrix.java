@@ -5,12 +5,21 @@ package TwoDArray;
  * staircase solution ==>in which take 1 as a start element and then later , go with comparing the element it will create the staircase soltuion . 
  */
 public class SearchinSortedMatrix  {
+        public static boolean staircaseSearch(int matrix[] [] , int key) {
+            int row = 0,  col=matrix[0].length-1;
+            while(row < matrix.length && col >= 0) {
+                System.out.println("found key at(" + row + "," + col+ ")");
+            }
+        }
+
+
+
     public static void main(String[] args) {
         int matrix [] [] = {
-            {1,2,3,4}, 
-            {5,6,7,8},
-             {9,10,11,12},
-             {13,14,15,16}
+            {10,20,30,40},
+            {15,25,35,45},
+            {27,29,37,48},
+            {32,33,39,50}
         };
         int ket = 32;
     }
