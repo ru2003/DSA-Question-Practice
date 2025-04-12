@@ -5,7 +5,7 @@
 */
 public class First {
     public static int binarySearch(int numbers[] , int key){
-         int start =0, end=numbers.length-1;
+         int start =0, end=numbers.length-1; //numbers.length gives u total number of length but indexing 1 se kam hoti hai so tab tk ke indexing tk loop chalana hain.
          while(start <= end) {
             int mid = (start + end)/2;
 
