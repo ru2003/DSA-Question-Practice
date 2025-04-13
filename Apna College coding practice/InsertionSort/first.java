@@ -1,6 +1,7 @@
 package InsertionSort;
 /* Pick an element (from unsorted part) and place in the right position in sorted part.
  * (n-1) ==> agr n element me se agr (n-1) elemnt ko bhi sahi jagah pe pohcha diya toh bhi array sorted ho jayega.
+ * selection ,bubble and insertion tino ki time complexity n^2 hoti hain ==> tino mese koi bhi optimised nhi hain  
  */
 
 public class first {
