@@ -20,7 +20,11 @@ public class first {
     public static void main(String[] args){
     int arr[] = {5,4,3,1,2};
     //insertionSort(arr)
-    Arrays.sort(arr);
-    printArr(arr);
+    Arrays.sort(arr , 0,3);
+
+    printArr(arr);/*reason for writing the method ==>only for reusability and cleaner code. 
+    if you need to print arrays multiple times in your programme the n its better to put that
+    code into a method to avoid repeating yourself.
+      */
     }
 }
