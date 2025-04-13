@@ -1,4 +1,5 @@
 package Strings;
+import java.util.Scanner;
 
 public class first {
     public static void main(String args[]) {
@@ -6,6 +7,10 @@ public class first {
         String str = "abcd";
         String str2 = new String("xyz");
         //Strings are immutable 
+        Scanner sc = new Scanner(System.in);
+        String name;
+        name = sc.next();
+        System.out.println(name);
+ 
     }
-    
 }
