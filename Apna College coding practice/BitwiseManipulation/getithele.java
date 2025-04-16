@@ -1,5 +1,8 @@
 package BitwiseManipulation;
-
+/*
+ * A bitmask is just a number (ususally in binary form ) thats it used to select , modify,or check
+ * specific bits in another number using bitwise operations like AND (&) ,OR(|) , and XOR(^)
+ */
 public class getithele {
     public static void getIthBit(int num , int i) {
         int bitmask = 1 << i; // create a bitmask where only i-th bit is 1 ,others are 0
