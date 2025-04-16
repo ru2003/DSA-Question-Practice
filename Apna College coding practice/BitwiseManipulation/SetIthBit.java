@@ -8,7 +8,7 @@ public class SetIthBit {
 
     public static void main(String[] args) {
         int num = 10; // Binary: 1010
-        int i = 2;
+        int i = 2; //set the 1st bit (from right, 0-indexed)
         int result = setIthBit(num, i);
 
         System.out.println("Original number: " + num + " (Binary: " + Integer.toBinaryString(num) + ")");
