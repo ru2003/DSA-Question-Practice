@@ -7,6 +7,11 @@ public class Ooops {
          Pen p1 = new Pen();
          p1.setColor("Blue");
          System.out.println(p1.color);
+         p1.setTip(5);
+         System.out.println(p1.tip);
+        // p1.setColor("yellow");
+        p1.color = "Yelllow";
+        System.out.println(p1.color);
     }
     
 }
@@ -30,6 +35,6 @@ class Student {
     float percentage; //cgpa
 
     void calculatepercentage(int phy, int chem , int math) {
-        percentage = (phy + chem + math) / 3;
+        percentage = (phy + chem + math) / 3 ;
     }
 }
