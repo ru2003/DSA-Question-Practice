@@ -20,5 +20,9 @@ class Pen {
 classStudent {
     String name;
     int age;
-    float percentage;
+    float percentage; //cgpa
+
+    void calculatepercentage(int phy, int chem , int math) {
+        percentage = (phy + chem + math) / 3;
+    }
 }
