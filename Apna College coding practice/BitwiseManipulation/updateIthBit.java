@@ -1,7 +1,7 @@
 package BitwiseManipulation;
 
 public class updateIthBit {
-    public class ClearithBit {
+    
         public static int cleartheBit(int n, int i) {
             int bitMask = ~(1 << i);
             return n & bitMask; 
@@ -25,12 +25,13 @@ public class updateIthBit {
              */
             n = cleartheBit(n,i);
             int Bitmask = newBit<<i;
+            return n | Bitmask;
 
 
 
     }
     public static void main(String[] args) {
-
+        System.out.println(updateIthBit(10,2 ,1 ));
     }
     
 }
