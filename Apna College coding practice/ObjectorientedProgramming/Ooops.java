@@ -16,3 +16,9 @@ class Pen {
         tip = newTip;
     }
 }
+
+classStudent {
+    String name;
+    int age;
+    float percentage;
+}
