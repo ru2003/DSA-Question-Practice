@@ -23,6 +23,11 @@ public class updateIthBit {
             }
         }
              */
+            n = cleartheBit(n,i);
+            int Bitmask = newBit<<i;
+
+
+
     }
     public static void main(String[] args) {
 
