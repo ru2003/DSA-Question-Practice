@@ -8,7 +8,9 @@ public class ClearithBit {
     public static void main(String[] args) {
         int n=13;
         int i=2;
-        System.out.println();
+        System.out.println("Original number: " + n);
+        int result = cleartheBit(n,i);
+        System.out.println("After clearing bit at index:" + i + ":" + result);
 
     }
     
