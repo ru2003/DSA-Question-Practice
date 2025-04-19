@@ -1,12 +1,12 @@
 package Recursion;
-
+//base case is very important in the recursion.  
 public class Decreasingnumber {
     public static void printDec(int n) {
          if(n == 1) {
             System.out.println(n);
             return ;
          }
-         System.out.println(n + " ");
+         System.out.print(n + " ");
          printDec(n-1);
     }
 
