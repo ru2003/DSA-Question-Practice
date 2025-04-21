@@ -6,8 +6,9 @@ public class NaturalNumbersSum {
         if(n==1) {
             return 1;
         }
-
+System.out.println("agge ke direction me");
         int Snm1 = calcSum(n-1);
+        System.out.println("stack me ulte ate time");
         int Sn = n +Snm1;
         return Sn;
     }
