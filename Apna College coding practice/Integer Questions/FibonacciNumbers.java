@@ -8,6 +8,8 @@ public class FibonacciNumbers {
 
        //Print the first 'count' Fibonacci numbers
        for( int i= 0; i< n ;i++) {
+        System.out.println(firstterm + " ");
+
            
        }
 
