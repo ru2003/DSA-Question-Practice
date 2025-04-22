@@ -16,6 +16,8 @@ public class FirstOcuurence {
         return firtOccurenceofelement( arr, key , i+1);//after that its just a assumption that ki baki ke bache hue check ho jayenge.
     }
     public static void main(String[] args) {
+        int arr[] = {8,7,4,3,2,1,6,7,3,};
+        System.out.println(firtOccurenceofelement(arr , 7, 0));
 
     }
     
