@@ -7,11 +7,16 @@ public class First {
     }
     System.out.println();
    }
+
+   public static void mergeSort(int arr[] , int si, int ei) {
+
+   }
+   
    
 
-
     public static void main(String[] args) {
-        int arr[] = {6,3,9,5,2,8};2
+        int arr[] = {6 , 3 , 9 , 5 , 2 , 8};
+        mergeSort(arr,0,arr.length-1);
 
     }
     
