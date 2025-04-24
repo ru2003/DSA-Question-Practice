@@ -9,7 +9,10 @@ public class First {
    }
 
    public static void mergeSort(int arr[] , int si, int ei) {
-
+         //work
+         int mid = si + (ei - si)/2; //(si+ei)/2
+         mergeSort(arr,si,mid); //left part
+         mergeSort(arr, mid+1, ei);//right part
    }
    
    
