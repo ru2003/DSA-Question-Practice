@@ -18,6 +18,9 @@ public class First {
          mergeSort(arr, mid+1, ei);//right part
          merge(arr,si,mid,ei);
    }
+
+
+   //right and left part dono sorted hokr agye recursive function se .
    public static void merge(int arr[], int si, int mid, int ei) {
     //left(0,3)=4 right(4,6) =3 -->6-0+1
     int temp[]= new int[ei-si+1];
@@ -32,10 +35,21 @@ public class First {
         }else {
             temp[k] = arr[j];
             j++;
-            k++;
+           
         }
+        k++;
      }
-}
+     //agr first part ke khatam hogye sare and 2nd part ke bache hue hai uske liye while loop
+     //then later second part ke hogya and first part kebache hue hai uske liye while loop likhan padega.
+     //left part 
+     while(i <= mid) {
+        temp[k+1] = arr[i+1];
+     }
+     //right part
+     while(j <= ei) {
+        temp[k++] = arr[j+1];
+     }
+}   
 
    
 
