@@ -64,7 +64,6 @@ public class First {
         int arr[] = {6 , 3 , 9 , 5 , 2 , 8};
         mergeSort(arr,0,arr.length-1);
         printArr(arr);
-
     }
    
 }
