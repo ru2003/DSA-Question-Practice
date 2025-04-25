@@ -9,6 +9,9 @@ public class First {
    }
 
    public static void mergeSort(int arr[] , int si, int ei) {
+        if(si >= ei) {
+            return;//base case for recusrion
+        }
          //work
          int mid = si + (ei - si)/2; //(si+ei)/2
          mergeSort(arr,si,mid); //left part , recursive function hai woh. recursively left chhote part ko sort kr dega. 
@@ -24,8 +27,11 @@ public class First {
         
 
     }
-    public static void merge(int arr[], int si, int mid, int e) {
-        
+    public static void merge(int arr[], int si, int mid, int ei) {
+        //left(0,3)=4 right(4,6) =3 -->6-0+1
+        int temp[]= new int[ei-si+1];
+        int i = si;//iterator for left part
+        int j = mid+1;//iterator for right part
     }
     
 }
