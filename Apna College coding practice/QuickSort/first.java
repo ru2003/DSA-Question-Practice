@@ -11,8 +11,16 @@ package QuickSort;
  */
 
 public class first {
-    public static void main(String[] args) {
 
+    public static void printArr(int arr[]) {
+        for (int i=0; i<arr.length; i++){
+            System.out.println(arr[i] + " ");
+        }
+        System.out.println();
     }
+    public static void main(String[] args) {
+        int arr[] = {6,3,9,8,2,5};
     
+    }
+      
 }
