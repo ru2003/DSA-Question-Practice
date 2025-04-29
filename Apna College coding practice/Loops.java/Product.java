@@ -10,7 +10,7 @@ public class Product {
 
          //using a for loop to print a each produc and its price
          for(int i=0; i<product.length; i++) {
-            System.out.println();
+            System.out.println(product[i] + "- " + prices[i]);
          }
     }
     
