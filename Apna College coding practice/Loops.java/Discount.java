@@ -10,12 +10,16 @@ public class Discount {
 
        int sum = 0;
        for(int i=0; i<arr.length; i++) {
-           sum += arr[i];
-           /* % ==> wrong operator and wrong use of int  */
-            int bill = 10/sum;
-
-            //int result = int sum - int bill; ==> you dont write int in fornt of variable names during calculations.
+           sum += arr[i];    
            }
+           /* % ==> wrong operator and wrong use of int  */
+           double discount = 0;
+           if( sum > 500) {
+              discount = 0.10 * sum;
+           }
+
+           double finalBill = sum - discount;
+           //int result = int sum - int bill; ==> you dont write int in fornt of variable names during calculations.
     }
     
 }
