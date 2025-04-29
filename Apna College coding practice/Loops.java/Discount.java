@@ -20,6 +20,7 @@ public class Discount {
 
            double finalBill = sum - discount;
            //int result = int sum - int bill; ==> you dont write int in fornt of variable names during calculations.
+           System.out.println("Total Bill: " + Sum );
     }
     
 }
