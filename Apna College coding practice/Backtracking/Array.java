@@ -1,6 +1,7 @@
 package Backtracking;
 //like array print krna hai 1 to 5 and print krte time -2 krna hai har value se and then use print krna hain .
 //time complexity O(n)
+//space complexity --> O(  )
 public class Array {
     public static void changeArr(int arr[], int i, int val) {
      //base case
