@@ -2,7 +2,12 @@ package Backtracking;
 
 public class Array {
     public static void changeArr(int arr[], int i, int val) {
+     //base case
 
+     //recursion
+     arr[i] = val;
+     changeArr(arr, i+1,val+1);
+     arr[i] = arr[i] -2;
     }
 
     public static void printArr(int arr[]) {
