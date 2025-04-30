@@ -33,7 +33,7 @@ public class first {
     
      //methods
      /* 
-      * add() 
+       add() 
       remove() 
       print() 
       search()
