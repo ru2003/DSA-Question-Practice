@@ -1,5 +1,5 @@
 package functions;
-
+//whether the number is prime or not?
 public class prime{
 
      public static boolean isPrime(int n){

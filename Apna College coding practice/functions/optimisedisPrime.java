@@ -1,6 +1,6 @@
 package functions;
  
-
+//optimised solution of whether the number is prime or not.
     public class optimisedisPrime {
         public static boolean isPrime(int n){
             if(n == 2) {
