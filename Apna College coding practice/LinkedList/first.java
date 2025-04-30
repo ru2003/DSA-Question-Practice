@@ -32,6 +32,7 @@ public class first {
     public static Node tail;//creation of tail
     //bakike bich me next address se dusre ko direct karenge.
     public static void main(String[] args) {
+        first ll = new first(); //first class ki ek object banayi  hai "ll " naam se aur issipe sare nodes ko create krne wlai hun .
 
     }
     
