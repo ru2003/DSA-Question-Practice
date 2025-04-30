@@ -30,12 +30,22 @@ public class first {
     }
     public static Node head;//creation of head
     public static Node tail;//creation of tail
+    
+     //methods
+     /* 
+      * add() 
+      remove() 
+      print() 
+      search()
+      */
+
+
     //bakike bich me next address se dusre ko direct karenge.
     public static void main(String[] args) {
         first ll = new first(); //first class ki ek object banayi  hai "ll " naam se aur issipe sare nodes ko create krne wlai hun .
         
         ll.head = new Node(1);//linked list ke andat jo head hai wha pe ek nyi node create hogyi uske andar value 1 hai.
-        ll.head.next = new Node(2);
+        ll.head.next = new Node(2);//ek linked next ko point kr rha hai wha pe 2 data save hain.
     }
     
 }
