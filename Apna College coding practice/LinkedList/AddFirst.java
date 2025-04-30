@@ -20,6 +20,9 @@ public class AddFirst {
 
     //ste 2: newnode next =head ==>starting me add krna hain.
     newNode.next = head; //link
+    
+    //step 3 = head =newnode
+    head = newNode;
   }
 
 
