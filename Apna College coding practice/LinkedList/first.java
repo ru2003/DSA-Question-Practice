@@ -35,6 +35,7 @@ public class first {
         first ll = new first(); //first class ki ek object banayi  hai "ll " naam se aur issipe sare nodes ko create krne wlai hun .
         
         ll.head = new Node(1);//linked list ke andat jo head hai wha pe ek nyi node create hogyi uske andar value 1 hai.
+        ll.head.next = new Node(2);
     }
     
 }
