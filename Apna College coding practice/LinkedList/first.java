@@ -25,9 +25,11 @@ public class first {
         //constructor
         public Node(int data) {
             this.data = data;
-            this.next = null;//isse ek single node create hogi 
+            this.next = null; //isse ek single node create hogi 
         }
     }
+    public static Node head;
+    public static Node tail;
     public static void main(String[] args) {
 
     }
