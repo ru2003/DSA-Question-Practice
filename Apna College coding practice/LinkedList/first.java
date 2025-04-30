@@ -13,10 +13,17 @@ package LinkedList;
  * 1)sequential access -> unlike arrays, linked lists do not allow direct access to elemnts via indices;traversal is necessary
  * 2)extra memory -> each node requires additional memory for the pointers
  * 3)complexity -> operations like reverse traversal or accessing previous nodes required more logic or a different list tupe.
+ * 
+ * linked list class ki jo object bante hai whi pure linked list hoti hain.
  */
 public class first {
+
+    public static class Node{
+        int data;
+        Node next;
+    }
     public static void main(String[] args) {
-        
+
     }
     
 }
