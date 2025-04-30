@@ -28,8 +28,9 @@ public class first {
             this.next = null; //isse ek single node create hogi 
         }
     }
-    public static Node head;
-    public static Node tail;
+    public static Node head;//creation of head
+    public static Node tail;//creation of tail
+    //bakike bich me next address se dusre ko direct karenge.
     public static void main(String[] args) {
 
     }
