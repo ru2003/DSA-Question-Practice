@@ -4,6 +4,7 @@ package functions;
 public class discount {
 
     public static int calcualate_discount(int price[], int discount_prince ) {
+    //suppose applying 10 percent discount on the price.
         
     }
 
