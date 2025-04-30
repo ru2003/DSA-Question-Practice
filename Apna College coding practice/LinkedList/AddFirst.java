@@ -16,9 +16,10 @@ public class AddFirst {
   public static Node tail;
   public void addFirstnode (int data) {
     //step1 == create new node
-    Node newNode = new node(data);//Node =class ka nam , newNode=>object ka nam 
+    Node newNode = new Node(data);//Node =class ka nam , newNode=>object ka nam 
 
     //ste 2: newnode next =head ==>starting me add krna hain.
+    newNode.next = head; //link
   }
 
 
