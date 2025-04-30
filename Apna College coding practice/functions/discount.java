@@ -3,8 +3,12 @@ package functions;
  returns the price after applying discount. Use it to print bills for 5 customers. */
 public class discount {
 
-    public static void main (String[] args) {
+    public static int calcualate_discount(int price[], int discount_prince ) {
         
+    }
+
+    public static void main (String[] args) {
+
     }
     
 }
