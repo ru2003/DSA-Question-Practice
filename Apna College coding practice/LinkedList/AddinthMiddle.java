@@ -55,6 +55,10 @@ public class AddinthMiddle {
             }
             System.out.println("null");
           }
+
+          public void add(int idx, int data) {
+            Node newNode = new Node(data);
+          }
     
     
         public static void main(String[] args) {
