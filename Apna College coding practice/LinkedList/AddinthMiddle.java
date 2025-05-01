@@ -58,6 +58,8 @@ public class AddinthMiddle {
 
           public void add(int idx, int data) {
             Node newNode = new Node(data);
+            Node temp = head;
+            int i=0;
           }
     
     
