@@ -49,11 +49,11 @@ public class AddFirst {
         }
         Node temp = head;//becoz of therse lines we can print the linked list.
         while(temp != null) {
-            System.out.println(temp.data+" ");
+            System.out.print(temp.data+"-> ");
             temp = temp.next;
 
         }
-        System.out.println();
+        System.out.println("null");
       }
 
 
@@ -67,6 +67,7 @@ public class AddFirst {
         ll.addLast(3);
         ll.print();
         ll.addLast(4);
+        ll.print();
     
     }
     
