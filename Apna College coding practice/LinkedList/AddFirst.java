@@ -10,12 +10,11 @@ public class AddFirst {
         this.data = data;
         this.next = null;
     }
-  }
-
-
+}
 
   public static Node head;
   public static Node tail;
+
   public void addFirstnode (int data) {
     
     //step1 == create new node
@@ -40,18 +39,17 @@ public class AddFirst {
         return;
       }
       tail.next = newNode;
-      
-      
-
-  }
+      tail = newNode;
+      }
 
 
 
 
     public static void main(String[] args) {
         AddFirst ll = new AddFirst();
-        ll.addFirstnode(1);
         ll.addFirstnode(2);
+        ll.addFirstnode(1);
+        ll.addLast(3);
     
     }
     
