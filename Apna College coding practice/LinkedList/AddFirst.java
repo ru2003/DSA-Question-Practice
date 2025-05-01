@@ -34,7 +34,13 @@ public class AddFirst {
   
 
   public void addLast(int data) {
-    
+      Node newNode = new Node(data);
+      if(head == null) {
+        head = tail = newNode;
+        return;
+      }
+      
+
   }
 
 
