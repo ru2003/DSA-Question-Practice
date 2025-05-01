@@ -39,6 +39,8 @@ public class AddFirst {
         head = tail = newNode;
         return;
       }
+      tail.next = newNode;
+      
       
 
   }
