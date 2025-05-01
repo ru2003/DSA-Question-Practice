@@ -72,15 +72,16 @@ public class AddinthMiddle {
     
     
         public static void main(String[] args) {
-            AddFirst ll = new AddFirst();
-            ll.print();
+            AddinthMiddle ll = new AddinthMiddle();
+       
             ll.addFirstnode(2);
-            ll.print();
+        
             ll.addFirstnode(1);
-            ll.print();
+           
             ll.addLast(3);
-            ll.print();
+        
             ll.addLast(4);
+            ll.add(2,9);
             ll.print();
         
         }
