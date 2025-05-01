@@ -47,7 +47,7 @@ public class AddFirst {
             System.out.println("LL is empty");
             return;
         }
-        Node temp = head;
+        Node temp = head;//becoz of therse lines we can print the linked list.
         while(temp != null) {
             System.out.println(temp.data+" ");
             temp = temp.next;
@@ -59,6 +59,7 @@ public class AddFirst {
 
     public static void main(String[] args) {
         AddFirst ll = new AddFirst();
+        ll.print();
         ll.addFirstnode(2);
         ll.addFirstnode(1);
         ll.addLast(3);
