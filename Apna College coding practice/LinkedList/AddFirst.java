@@ -61,8 +61,11 @@ public class AddFirst {
         AddFirst ll = new AddFirst();
         ll.print();
         ll.addFirstnode(2);
+        ll.print();
         ll.addFirstnode(1);
+        ll.print();
         ll.addLast(3);
+        ll.print();
         ll.addLast(4);
     
     }
