@@ -45,8 +45,10 @@ public class AddFirst {
       public void print() {
         Node temp = head;
         while(temp != null) {
-            System.out.println(temp);
+            System.out.println(temp.data+" ");
+            
         }
+        System.out.println();
       }
 
 
