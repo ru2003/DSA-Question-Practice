@@ -12,6 +12,8 @@ public class AddFirst {
     }
   }
 
+
+
   public static Node head;
   public static Node tail;
   public void addFirstnode (int data) {
@@ -29,6 +31,12 @@ public class AddFirst {
     //step 3 = head =newnode
     head = newNode;
   }
+  
+
+  public void addLast(int data) {
+    
+  }
+
 
 
 
