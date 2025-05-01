@@ -50,6 +50,7 @@ public class AddFirst {
         ll.addFirstnode(2);
         ll.addFirstnode(1);
         ll.addLast(3);
+        ll.addLast(4);
     
     }
     
