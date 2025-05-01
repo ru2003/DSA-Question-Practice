@@ -57,11 +57,18 @@ public class AddinthMiddle {
           }
 
           public void add(int idx, int data) {
+            if(idx == 0) {
+                addFirstnode(data);
+                return;
+            }
+
+
+           //creation of new node jo add krni hain.
             Node newNode = new Node(data);
             Node temp = head;
             int i=0;
 
-            while(i < idx-1) {
+            while(i < idx-1) {//loop chalenge jis position pe add krna hai wha se 1 minus 
                 temp = temp.next;
                 i++;
             }

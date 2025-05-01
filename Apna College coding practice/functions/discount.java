@@ -3,8 +3,10 @@ package functions;
  returns the price after applying discount. Use it to print bills for 5 customers. */
 public class discount {
 
-    public static int calcualate_discount(int price[], int discount_prince ) {
+    public static int calcualate_discount(double price, double  discount_prince ) {
     //suppose applying 10 percent discount on the price.
+    
+    
         
     }
 
