@@ -42,7 +42,12 @@ public class AddFirst {
       tail = newNode;
       }
 
-
+      public void print() {
+        Node temp = head;
+        while(temp != null) {
+            System.out.println(temp);
+        }
+      }
 
 
     public static void main(String[] args) {
