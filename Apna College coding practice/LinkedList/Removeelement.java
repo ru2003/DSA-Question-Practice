@@ -93,10 +93,14 @@ public class Removeelement {
                 System.out.println("LL is empty ");
                 return Integer.MIN_VALUE;
             }else if(size == 1) {
-                
+                int val = head.data;
+                head = tail = null;
+                size =0; // agr ye condition satisfy hoti hai like 1 hi elemnt hain pure linked list me 
+                return val;
             }
             int val = head.data;
             head = head.next;
+            size --;
             return val;
           }
     
