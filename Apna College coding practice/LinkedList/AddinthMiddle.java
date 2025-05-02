@@ -28,7 +28,7 @@ public class AddinthMiddle {
         
         //step1 == create new node
         Node newNode = new Node(data);//Node =class ka nam , newNode=>object ka nam 
-        
+        size++;
         if(head == null) {//agr existing linked list null ho and usme hame new nodeat starting add krna hoto uske liye ye condition hoti hain .
             head = tail = newNode;
             return;
@@ -43,6 +43,7 @@ public class AddinthMiddle {
     
       public void addLast(int data) {
           Node newNode = new Node(data);
+          size++;
           if(head == null) {
             head = tail = newNode;
             return;
@@ -74,6 +75,7 @@ public class AddinthMiddle {
 
            //creation of new node jo add krni hain.
             Node newNode = new Node(data);
+            size++;
             Node temp = head;
             int i=0;
 
