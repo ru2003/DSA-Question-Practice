@@ -103,7 +103,13 @@ public class Removeelement {
             size --;
             return val;
           }
-    
+
+          //removing last element .
+          public int removeLast() {
+            
+          }
+
+
     
         public static void main(String[] args) {
             //AddinthMiddle ll = new AddinthMiddle();
