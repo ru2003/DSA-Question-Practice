@@ -127,6 +127,7 @@ public class Removeelement {
             prev.next = null;
             tail = prev;
             size --;
+            return val;
 
           }
 
