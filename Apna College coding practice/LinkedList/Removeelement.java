@@ -1,7 +1,7 @@
 package LinkedList;
-//add in the middle of the linked list
-public class AddinthMiddle {
 
+public class Removeelement {
+    
     public static class Node {
         int data;
         Node next;
@@ -87,10 +87,22 @@ public class AddinthMiddle {
             newNode.next = temp.next;
             temp.next = newNode;
           }
+           //remove first elment mtlb head ko remove krte head ke next ko head assign kr dena.
+          public int removeFirst() {
+            if(size ==0) {
+                System.out.println("LL is empty ");
+                return Integer.MAX_VALUE;
+            }
+            int val = head.data;
+            head = head.next;
+            return val;
+          }
     
     
         public static void main(String[] args) {
-            AddinthMiddle ll = new AddinthMiddle();
+            //AddinthMiddle ll = new AddinthMiddle();
+            Removeelement ll = new Removeelement();
+
        
             ll.addFirstnode(2);
         
@@ -101,8 +113,9 @@ public class AddinthMiddle {
             ll.addLast(5);
             ll.add(2,3);
             ll.print();
-            System.out.println(ll.size);
-        
+            //System.out.println(ll.size);
+            ll.removeFirst();
+            ll.print();
         }
     
 }
