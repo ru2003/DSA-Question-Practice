@@ -12,10 +12,19 @@ public class AddinthMiddle {
         }
     }
     
-      public static Node head;
+      public static Node head; //variable declaration
       public static Node tail;
+      public static int size;/*
+      public: The variable is accessible from other classes.
+
+      static: The variable belongs to the class, not to any individual instance.
+
+      int: The variable is of integer type.
+
+      size: The name of the variable. */
+
     
-      public void addFirstnode (int data) {
+        public void addFirstnode (int data) {
         
         //step1 == create new node
         Node newNode = new Node(data);//Node =class ka nam , newNode=>object ka nam 
