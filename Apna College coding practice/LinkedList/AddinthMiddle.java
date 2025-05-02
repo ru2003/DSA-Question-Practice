@@ -96,10 +96,10 @@ public class AddinthMiddle {
         
             ll.addFirstnode(1);
            
-            ll.addLast(3);
-        
             ll.addLast(4);
-            ll.add(2,9);
+        
+            ll.addLast(5);
+            ll.add(2,3);
             ll.print();
         
         }
