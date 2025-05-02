@@ -110,8 +110,19 @@ public class Removeelement {
                 System.out.println("LL is empty");
                 return Integer.MIN_VALUE;
             }else if(size == 1) {
-                
+                int val = head.data; //val variable me save hoga yes 
+                head = tail = null; //nul kr denge value ko
+                size = 0;
+                return val;
             }
+            //prev == second last tk jane ke liye last-2 krna padega becoz last wale ka last-1
+            //upar wale toh exception the , abhi jab proper linked list hogi tab kya kre this is the below solution
+
+            Node prev = head;
+            for(int i=0; i<size-1; i++) {
+                prev = prev.next;
+            }
+
           }
 
 
