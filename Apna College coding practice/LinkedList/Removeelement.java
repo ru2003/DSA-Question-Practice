@@ -106,7 +106,12 @@ public class Removeelement {
 
           //removing last element .
           public int removeLast() {
-            
+            if(size == 0) {
+                System.out.println("LL is empty");
+                return Integer.MIN_VALUE;
+            }else if(size == 1) {
+                
+            }
           }
 
 
