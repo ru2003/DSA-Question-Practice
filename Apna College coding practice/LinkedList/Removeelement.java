@@ -123,6 +123,11 @@ public class Removeelement {
                 prev = prev.next;
             }
 
+            int val = prev.next.data;
+            prev.next = null;
+            tail = prev;
+            size --;
+
           }
 
 
