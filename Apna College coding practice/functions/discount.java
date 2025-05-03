@@ -7,6 +7,7 @@ public class discount {
     //suppose applying 10 percent discount on the price.
     
     
+    
         
     }
 

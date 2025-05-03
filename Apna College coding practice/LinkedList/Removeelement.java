@@ -119,7 +119,7 @@ public class Removeelement {
             //upar wale toh exception the , abhi jab proper linked list hogi tab kya kre this is the below solution
 
             Node prev = head;
-            for(int i=0; i<size-1; i++) {
+            for(int i=0; i<size-2; i++) {//This loop actually moves the prev pointer to the last node, not the second-last. As a result, prev.next becomes null, leading to a NullPointerException when you attempt to access prev.next.data.
                 prev = prev.next;
             }
 
@@ -150,6 +150,9 @@ public class Removeelement {
             //System.out.println(ll.size);
             ll.removeFirst();
             ll.print();
+            ll.removeLast();
+            ll.print();
+            System.out.println(ll.size);
         }
     
 }
