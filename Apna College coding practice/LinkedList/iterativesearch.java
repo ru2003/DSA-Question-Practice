@@ -145,6 +145,8 @@ public class iterativesearch {
                 temp = temp.next;
                 i++;
             }
+            //key not found
+
             return -1;
           }
 
@@ -152,8 +154,8 @@ public class iterativesearch {
     
         public static void main(String[] args) {
             //AddinthMiddle ll = new AddinthMiddle();
-            Removeelement ll = new Removeelement();
-
+           // Removeelement ll = new Removeelement();
+           iterativesearch ll = new iterativesearch();
        
             ll.addFirstnode(2);
         
@@ -170,6 +172,8 @@ public class iterativesearch {
             ll.removeLast();
             ll.print();
             System.out.println(ll.size);
+            System.out.println(ll.itrSearch(3));
+            
         }
     
 }
