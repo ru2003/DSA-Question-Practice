@@ -131,9 +131,17 @@ public class iterativesearch {
 
           }
 
+          //search for the element in the linked list.
           public int itrSearch(int key) {
             Node temp = head;
             int i = 0;
+
+            while(temp != null) {
+                if(temp.data == key) {
+                    //key found
+                    
+                }
+            }
           }
 
 
