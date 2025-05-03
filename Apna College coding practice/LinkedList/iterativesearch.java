@@ -149,9 +149,11 @@ public class iterativesearch {
              return -1;
           }
            
-
+   //  searching element using recursion.
           public int helper(Node head, int key) {
-            
+              if(head == null) {
+                
+              }
           }
           public int receSearch(int key) {
             return helper(head,key);
