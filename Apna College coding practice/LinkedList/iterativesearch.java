@@ -131,6 +131,11 @@ public class iterativesearch {
 
           }
 
+          public int itrSearch(int key) {
+            Node temp = head;
+            int i = 0;
+          }
+
 
     
         public static void main(String[] args) {
