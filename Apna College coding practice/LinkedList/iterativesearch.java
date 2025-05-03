@@ -4,7 +4,7 @@ public class iterativesearch {
     
     public static class Node {
         int data;
-        Node next;
+        Node next;   
     
         public Node(int data) {
             this.data = data;
@@ -146,13 +146,15 @@ public class iterativesearch {
                 i++;
             }
             //key not found
-
-            return -1;
+             return -1;
           }
-          
+           
+          public int receSearch(int key) {
+            
+          }
 
 
-          
+
 
     
         public static void main(String[] args) {
