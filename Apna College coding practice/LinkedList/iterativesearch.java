@@ -139,9 +139,13 @@ public class iterativesearch {
             while(temp != null) {
                 if(temp.data == key) {
                     //key found
-                    
+                    return i;
+
                 }
+                temp = temp.next;
+                i++;
             }
+            return -1;
           }
 
 
