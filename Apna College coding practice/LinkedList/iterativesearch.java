@@ -155,8 +155,14 @@ public class iterativesearch {
                 return -1;
               }
               if(head.data == key) {
-                
+                return 0;
               }
+
+              int idx = helper(head.next, key);
+              if(idx == -1) {
+                return -1;
+              }
+              return idx+1;
           }
           public int receSearch(int key) {
             return helper(head,key);
@@ -186,7 +192,9 @@ public class iterativesearch {
             ll.removeLast();
             ll.print();
             System.out.println(ll.size);
-            System.out.println(ll.itrSearch(3));
+            System.out.println(ll.itrSearch(3)); //3 ka index 1 hai so 1 print hoke ajayega
+            System.out.println(ll.receSearch(10)); //then badme -1 ajata hai 
+            
             
         }
     
