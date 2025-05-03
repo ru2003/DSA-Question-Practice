@@ -150,7 +150,7 @@ public class iterativesearch {
           }
            
           public int receSearch(int key) {
-            
+            return helper(head,key);
           }
 
 
