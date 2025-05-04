@@ -12,5 +12,9 @@
          //taking the input
          System.out.println("Enter the value of N:");
          int N = sc.nextInt();
+
+         for(int i=1 ; i<=N ;i++){
+            
+         }
     }
  }
