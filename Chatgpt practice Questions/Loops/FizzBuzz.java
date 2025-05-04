@@ -7,6 +7,9 @@
 
  public class FizzBuzz{
     public static void main(String[] args) {
-        
+         Scanner sc = new Scanner(System.in);
+
+         //taking the input
+         System.out.println("Enter the value of N:");
     }
  }
