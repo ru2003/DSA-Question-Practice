@@ -8,5 +8,11 @@ public class _7primenumber {
 
           System.out.println("Enter the number:");
           int num =sc.nextInt();
+
+          if(num % 2 ==0){
+            System.out.println("The number is even");
+          }else{
+            System.out.println("The number is notr even numver");
+          }
     }
 }

@@ -20,3 +20,11 @@ Copy code
 **
 ***
 ****
+9.Print the multiplication table of any number (1 to 10).
+
+10.Count the number of digits in a number (without converting to string).
+
+11.Reverse a number (e.g., input: 1234 → output: 4321).
+
+12.Calculate sum of digits of a number (e.g., 123 → 1+2+3=6).
+
