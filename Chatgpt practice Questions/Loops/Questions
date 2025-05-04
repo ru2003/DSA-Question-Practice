@@ -1,0 +1,21 @@
+ 1: You are given a list of products with their prices. Print each product and its price in the format: "Product Name - Price".
+
+2: Print a bill for a customer that calculates the total sum of prices and applies 10% discount if the bill is more than 500 
+3:Print all numbers from 1 to N, but for multiples of 3 print "Fizz", for 5 print "Buzz", and for 3 and 5 both print "FizzBuzz". (⭐ FizzBuzz is a famous interview question)
+
+4:Find the sum of all even numbers between 1 and 100.
+
+5:Find the factorial of a number using loop (not recursion).
+
+6:Find the largest number among three numbers entered by user.
+
+7:Check if a given number is prime.
+
+8:Print the pattern
+
+markdown
+Copy code
+*
+**
+***
+****
