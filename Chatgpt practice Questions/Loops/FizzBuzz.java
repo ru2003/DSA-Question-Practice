@@ -14,12 +14,13 @@
          int N = sc.nextInt();
 
          for(int i=1 ; i<=N ;i++){
-            if(N % 3 == 0 ){
+            if(i % 3 == 0 ){
                 System.out.println("Fizz");
-            }else if(N % 5 == 0 ) {
+            }else if(i % 5 == 0 ) {
                 System.out.println("Buzz");
-            }else if(){
+            }else if(i % 3 == 0 && i % 5 ==0 ){
                 
+
             }
          }
     }
