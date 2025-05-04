@@ -1,6 +1,6 @@
 /*Find the largest number among three numbers entered by user. */
 
-public class _5LargestofThree {
+public class _6LargestofThree {
     public static void main(String[] args) {
          int a=5;
          int b= 4;
