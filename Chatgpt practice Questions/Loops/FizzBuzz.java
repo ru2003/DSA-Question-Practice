@@ -13,15 +13,17 @@
          System.out.println("Enter the value of N:");
          int N = sc.nextInt();
 
-         for(int i=1 ; i<=N ;i++){
-            if(i % 3 == 0 ){
+         // Loop from 1 to N
+        for (int i = 1; i <= N; i++) {
+            if (i % 3 == 0 && i % 5 == 0) {//this condition should come first always
+                System.out.println("FizzBuzz");
+            } else if (i % 3 == 0) {
                 System.out.println("Fizz");
-            }else if(i % 5 == 0 ) {
+            } else if (i % 5 == 0) {
                 System.out.println("Buzz");
-            }else if(i % 3 == 0 && i % 5 ==0 ){
-                
-
+            } else {
+                System.out.println(i);
             }
-         }
+        }
     }
  }
