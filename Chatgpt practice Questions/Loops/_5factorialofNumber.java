@@ -9,7 +9,7 @@ public class _5factorialofNumber {
         int num = 5;
         int factorial =1;
         for(int i=1;i<=5;i++){
-            factorial +=  i*5;
+            factorial *= i;
         }
         System.out.println("factorial is" + factorial);
     }
