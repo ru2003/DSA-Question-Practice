@@ -9,6 +9,8 @@ public class _5LargestofThree {
             System.out.println("The greates of three number is:" + a);
          }else if(b>1 && b>c) {
             System.out.println("The greates of three number is:"+b);
+         }else(c>a && c>b) {
+            
          }
     }
 }
