@@ -16,10 +16,13 @@ public class _12SumOftheDigits {
         while(num != 0) {
             int digit = num % 10;
             sum += digit;
-            
+
+            num /= 10;
         }
+        return sum;
     }
     public static void main(String[] args) {
-           
+           int number = 1234;
+           System.out.println(SumtheDigit(number));
     }
 }
