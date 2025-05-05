@@ -10,7 +10,7 @@ public class _11reverseAnumber {
 
         int reversed =0;
         while(num !=0){
-            
+            int digit = num % 10; //get the last digit because of this.
         }
 
 
