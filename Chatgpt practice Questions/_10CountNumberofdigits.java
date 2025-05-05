@@ -19,8 +19,8 @@ public class _10CountNumberofdigits {
     }
 
     public static void main (String[] args) {
-        
-
+        int number = 12345;
+         
 
 
     }
