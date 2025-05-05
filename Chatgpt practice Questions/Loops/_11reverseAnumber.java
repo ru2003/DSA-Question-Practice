@@ -11,11 +11,12 @@ public class _11reverseAnumber {
         int reversed =0;
         while(num !=0){
             int digit = num % 10; //get the last digit because of this.
+            reversed = reversed * 10 + digit ;//jo last wala element mila use aage rakho and then uske previous wala uske baas thats it .
+            num /= 10; //remove last digit 
         }
-
-
+        return reversed;
     }
     public static void main(String[] args) {
-
+            int number = 1234;
     }
 }
