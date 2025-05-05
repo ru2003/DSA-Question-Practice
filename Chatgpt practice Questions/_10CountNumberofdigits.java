@@ -8,6 +8,12 @@ public class _10CountNumberofdigits {
           num = Math.abs(num);
           int count =0;
          
+
+          while (num != 0) {
+            num /= 10;
+            count++;
+          }
+          return count;
          
 
     }
