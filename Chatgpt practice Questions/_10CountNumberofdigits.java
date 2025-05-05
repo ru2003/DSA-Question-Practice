@@ -18,12 +18,10 @@ public class _10CountNumberofdigits {
     }
 
     public static void main (String[] args) {
-         int number = 12345;
-       // number is used in the main method — it's your input.
+           int number = 12345;
+          // number is used in the main method — it's your input.
 
         System.out.println("Number of digits: " + countDigit(number));
          
-
-
     }
 }
