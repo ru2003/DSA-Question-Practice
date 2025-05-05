@@ -9,6 +9,9 @@ Step  num	digit (num % 10)	sum	    num after num /= 10
  */
 public class _12SumOftheDigits {
     
+    public static int SumtheDigit(int num) {
+        
+    }
     public static void main(String[] args) {
            
     }
