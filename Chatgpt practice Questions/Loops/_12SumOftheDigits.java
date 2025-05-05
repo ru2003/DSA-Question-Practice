@@ -10,7 +10,12 @@ Step  num	digit (num % 10)	sum	    num after num /= 10
 public class _12SumOftheDigits {
     
     public static int SumtheDigit(int num) {
-        
+        //handle negative number
+        num = Math.abs(num);
+        int sum =0;
+        while(num != 0) {
+            
+        }
     }
     public static void main(String[] args) {
            
