@@ -13,6 +13,10 @@ public class StackArrayList {
               {
                 list.add(data);
               }
+              //pop ==>  stack se delete krne ke liye pop use kiya jata hai ==>pehle woh return hota hain.
+              public static int pop() {
+                
+              }
         }
     
 
