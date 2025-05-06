@@ -17,6 +17,11 @@ public class StackArrayList {
               public static int pop() {
                 int top = list.get(list.size() -1);
                 list.remove(list.size() -1);
+                return top;
+              }
+              //peek==>isme delete nhi krna hota hai jo sirf stack ke top pe hota hai usse remove krna hota hain .
+              public static int peek() {
+                return list.get(list.size() -1);
               }
         }
     
