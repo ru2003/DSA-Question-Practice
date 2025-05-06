@@ -4,5 +4,7 @@
   for 5 customers. */
 
   public class _1Discountprice{
-    
+       public static void main(String[] args) {
+        
+       }
   }
