@@ -12,5 +12,11 @@ public class _2LeapYearOrNot {
     }
     public static void main(String[] args) {
 
+        int year = 2024;
+        //
+        if(leapyear(year)) {
+
+        }
+
     }
 }
