@@ -4,8 +4,11 @@ package Functions ;
 public class _2LeapYearOrNot {
 
     public static boolean leapyear(int year ) {
-       boolean result = ( year % 4 ==0  && year % 100 !=0  || (year % 100 ==0));
-       return result;
+       /*boolean result = ( year % 4 ==0  && year % 100 !=0  || (year % 100 ==0));
+       return result;*/
+
+       return (year %4 ==0 && year % 100 != 0) || ( year % 400==0);
+
     }
     public static void main(String[] args) {
 
