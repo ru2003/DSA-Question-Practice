@@ -4,7 +4,11 @@
   for 5 customers. */
 
   public class _1Discountprice{
-       public static void main(String[] args) {
+
+    public static int calculate_discount(double finalPrice,double discount) {
         
+    }
+       public static void main(String[] args) {
+
        }
   }
