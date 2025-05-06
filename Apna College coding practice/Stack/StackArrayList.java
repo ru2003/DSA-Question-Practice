@@ -15,6 +15,9 @@ public class StackArrayList {
               }
               //pop ==>  stack se delete krne ke liye pop use kiya jata hai ==>pehle woh return hota hain.
               public static int pop() {
+                if(isEmpty()) {
+                    return -1;
+                }
                 int top = list.get(list.size() -1);
                 list.remove(list.size() -1);
                 return top;
