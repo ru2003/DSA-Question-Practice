@@ -16,6 +16,15 @@ public class _1Discountprice{
 
         for(int i=0;i<=5;i++) {
             System.out.println("Customer" + i + ":");
+
+            System.out.println("Enter the original price");
+            double price = sc.nextDouble();
+
+            System.out.println("Enter the discount percentage");
+            double discountPercentage = sc.nextDouble();
+
+            //call the method.
+           
         }
 
        }
