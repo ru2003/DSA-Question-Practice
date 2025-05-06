@@ -24,6 +24,9 @@ public class StackArrayList {
               }
               //peek==>isme delete nhi krna hota hai jo sirf stack ke top pe hota hai usse remove krna hota hain .
               public static int peek() {
+                if(isEmpty()) {
+                    return -1;
+                }
                 return list.get(list.size() -1);
               }
         }
