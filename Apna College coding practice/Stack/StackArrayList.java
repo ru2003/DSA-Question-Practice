@@ -35,6 +35,7 @@ public class StackArrayList {
 
            while(!s.isEmpty()) {
             System.out.println(s.peek());
+            s.pop();
            }
     }
     
