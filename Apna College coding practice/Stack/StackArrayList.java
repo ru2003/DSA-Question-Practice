@@ -32,6 +32,10 @@ public class StackArrayList {
            Stack s = new Stack();
            s.push(1);
            s.push(2);
+
+           while(!s.isEmpty()) {
+            System.out.println(s.peek());
+           }
     }
     
 }
