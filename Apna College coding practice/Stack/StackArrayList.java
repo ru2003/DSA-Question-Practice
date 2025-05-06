@@ -3,7 +3,9 @@ import java.util.ArrayList;
 public class StackArrayList {
 
     static class Stack {
-        
+        static class Stack {
+            static ArrayList<Integer> list = new ArrayList<>();
+        }
     }
 
 
