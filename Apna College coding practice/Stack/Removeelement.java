@@ -134,6 +134,10 @@ public class Removeelement {
 
           static class Stack {
             static Node head = null;
+
+            public static boolean isEmpty() {
+              return head == null;
+            }
           }
 
 
