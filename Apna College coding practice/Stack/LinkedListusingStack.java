@@ -132,7 +132,12 @@ public class LinkedListusingStack {
           }
 
 
-          
+          static class Stack {
+            static Node head = null;
+          }
+
+
+
 
 
     
