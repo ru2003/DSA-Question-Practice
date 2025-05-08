@@ -179,7 +179,7 @@ public class Removeelement {
     
         public static void main(String[] args) {
             //AddinthMiddle ll = new AddinthMiddle();
-        Removeelement ll = new Removeelement();
+        /*Removeelement ll = new Removeelement();
 
        
             ll.addFirstnode(2);
@@ -197,6 +197,12 @@ public class Removeelement {
             ll.removeLast();
             ll.print();
             System.out.println(ll.size);
+            */
+
+            Stack s = new Stack();
+            s.push(1);
+            s.push(2);
+            
         }
     
 }
