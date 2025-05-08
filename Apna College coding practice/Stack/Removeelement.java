@@ -152,6 +152,14 @@ public class Removeelement {
             }
           }
 
+          //pop
+          public static int pop() {
+            if(isEmpty()) {
+              return -1;
+            }
+            int top = head.data;
+          }
+
 
 
 
