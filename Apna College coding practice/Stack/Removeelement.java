@@ -141,9 +141,14 @@ public class Removeelement {
 
             //push 
             public static void push (int data) {
+              Node newNode = new Node(data);
               if(isEmpty()) {
-                
+                head = newNode;
+                return;
+
               }
+              newNode.next = head;
+              head = newNode;
             }
           }
 
