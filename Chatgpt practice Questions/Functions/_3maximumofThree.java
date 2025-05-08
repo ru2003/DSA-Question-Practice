@@ -17,5 +17,8 @@ public class _3maximumofThree{
            int a =5;
            int b =6;
            int c =9;
+
+           int max = maximofThree(a, b, c);
+           System.out.println(max + "is the freatest of all numbers");
     }
 }
