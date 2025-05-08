@@ -1,6 +1,6 @@
 package Stack;
 
-public class LinkedListusingStack {
+public class Removeelement {
     
     public static class Node {
         int data;
@@ -143,7 +143,7 @@ public class LinkedListusingStack {
     
         public static void main(String[] args) {
             //AddinthMiddle ll = new AddinthMiddle();
-            Removeelement ll = new Removeelement();
+        Removeelement ll = new Removeelement();
 
        
             ll.addFirstnode(2);
