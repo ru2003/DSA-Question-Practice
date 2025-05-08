@@ -150,15 +150,19 @@ public class Removeelement {
               newNode.next = head;
               head = newNode;
             }
-          }
 
-          //pop
+            //pop
           public static int pop() {
             if(isEmpty()) {
               return -1;
             }
             int top = head.data;
+            head = head.next;
+            return top;
           }
+          }
+
+          
 
 
 
