@@ -31,7 +31,12 @@ public class LinkedListusingStack {
                 return list.get(list.size() -1);
               }
         }
-    
+    Static clss Stack {
+        static Node head = null;
+    }
+
+
+
 
 
 
