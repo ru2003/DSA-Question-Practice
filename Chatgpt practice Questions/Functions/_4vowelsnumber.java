@@ -2,6 +2,8 @@
 
 public class _4vowelsnumber {
 
-    
+    public static void main(String[] args) {
+        
+    }
     
 }
