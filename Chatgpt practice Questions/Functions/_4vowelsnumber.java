@@ -2,8 +2,12 @@
 
 public class _4vowelsnumber {
 
-    public static void main(String[] args) {
+    public static char numberofVowels( char a; char e; char i ; char o; char u ){
         
+    }
+
+    public static void main(String[] args) {
+
     }
     
 }
