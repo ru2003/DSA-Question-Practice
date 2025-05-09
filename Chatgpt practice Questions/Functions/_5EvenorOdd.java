@@ -20,7 +20,7 @@ public class _5EvenorOdd {
             }
 
          }
-         return false;
+         return true;
          
     }
     public static void main(String[] args) {
