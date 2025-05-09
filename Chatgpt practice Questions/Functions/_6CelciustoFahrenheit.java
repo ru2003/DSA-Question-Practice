@@ -3,4 +3,8 @@
 
 public class _6CelciustoFahrenheit {
     
+
+    public static void main(String[] args) {
+        
+    }
 }
