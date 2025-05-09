@@ -2,10 +2,8 @@
 
 public class _4vowelsnumber {
 
-    public static char numberofVowels( char a; char e; char i ; char o; char u ){
-        if(char == 'a' || char == 'e' || char == 'i' || char =='o' , char =='u'){
-            return vowels;
-        }
+    public static int  numberofVowels( String str){
+        
     }
 
     public static void main(String[] args) {
