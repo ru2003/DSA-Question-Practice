@@ -3,7 +3,7 @@
 public class _7StringisPallindrome {
 
     public static boolean isPallindrome(String str) {
-       
+        str = str.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();
 
         int left =0;
         int right=str.length()-1;
@@ -22,9 +22,9 @@ public class _7StringisPallindrome {
     public static void main(String[] args) {
       String input = "Madam";
       if(isPallindrome(input)){
-        System.out.println("the give string" + input + " is Pallindrome.");
+        System.out.println("the give string " + input + " is Pallindrome.");
       }else{
-        System.out.println("The give string" + input + " is not a Pallindrome");
+        System.out.println("The give string " + input + " is not a Pallindrome");
       }
     }
 }
