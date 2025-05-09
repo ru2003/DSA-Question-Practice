@@ -23,6 +23,8 @@ public class _7StringisPallindrome {
       String input = "Madam";
       if(isPallindrome(input)){
         System.out.println("the give string" + input + " is Pallindrome.");
+      }else{
+        System.out.println("The give string" + input + " is not a Pallindrome");
       }
     }
 }
