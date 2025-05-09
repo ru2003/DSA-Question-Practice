@@ -26,7 +26,9 @@ public class _5EvenorOdd {
     public static void main(String[] args) {
         int number = 17;
         if(is_prime(number)){
-            System.out.println(number +"is a prime number");
+            System.out.println(number +" is a prime number");
+        }else{
+            System.out.println(number+" is not a prime number");
         }
 
     }
