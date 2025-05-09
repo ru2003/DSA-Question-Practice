@@ -3,12 +3,12 @@
 public class _4vowelsnumber {
 
     public static int  numberofVowels( String str){
-        
+         int count  = 0;
+
     }
 
     public static void main(String[] args) {
-           char name = 'a';
-           if(n)
+           
     }
     
 }
