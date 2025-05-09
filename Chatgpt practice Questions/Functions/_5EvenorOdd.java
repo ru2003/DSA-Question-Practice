@@ -14,9 +14,20 @@ public class _5EvenorOdd {
             return false; //// Numbers less than or equal to 1 are not prime
          }
          //check for the numbers from 2 to suqre root of number 
+         for (int i=2;i<=Math.sqrt(num); i++) {
+            if (num % i == 0) {
+                return false; //found a factor , so not a prime.
+            }
+
+         }
+         return false;
          
     }
     public static void main(String[] args) {
+        int number = 17;
+        if(is_prime(number)){
+            System.out.println(number +"is a prime number");
+        }
 
     }
 }
