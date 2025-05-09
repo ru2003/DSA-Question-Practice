@@ -10,7 +10,9 @@ i = 2 to 5 (since √29 ≈ 5.38)
 public class _5EvenorOdd {
 
     public static boolean  is_prime(int num) {
-
+         if(num == 1){
+            return false;
+         }
          
     }
     public static void main(String[] args) {
