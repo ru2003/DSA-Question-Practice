@@ -11,8 +11,9 @@ public class _5EvenorOdd {
 
     public static boolean  is_prime(int num) {
          if(num == 1){
-            return false;
+            return false; //// Numbers less than or equal to 1 are not prime
          }
+         //check for the numbers from 2 to suqre root of number 
          
     }
     public static void main(String[] args) {
