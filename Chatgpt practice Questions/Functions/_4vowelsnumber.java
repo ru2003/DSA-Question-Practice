@@ -15,12 +15,11 @@ public class _4vowelsnumber {
 
          }
          return count;
-
-
     }
 
     public static void main(String[] args) {
-           
+           String input = "hello world";
+           int vowelcount = numberofVowels(input);
     }
     
 }
