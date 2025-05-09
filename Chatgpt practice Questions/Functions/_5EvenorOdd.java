@@ -3,7 +3,7 @@
 public class _5EvenorOdd {
 
     public static int  main(int num) {
-        
+         if(num )
     }
     public static void main(String[] args) {
 
