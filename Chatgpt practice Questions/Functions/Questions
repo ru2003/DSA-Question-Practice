@@ -14,7 +14,7 @@ Create a function to check if a number is even or odd.
 
 7.Create a function to check if a string is a palindrome.
 
-8,Create a reusable function find_minimum(arr) that returns the minimum element in an array.
+8.Create a reusable function find_minimum(arr) that returns the minimum element in an array.
 
 9.Create a calculator using functions: add, subtract, multiply, divide.
 

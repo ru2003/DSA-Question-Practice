@@ -20,7 +20,7 @@ public class _7StringisPallindrome {
 
     }
     public static void main(String[] args) {
-      String input = "Madam";
+      String input = "Ruchita";
       if(isPallindrome(input)){
         System.out.println("the give string " + input + " is Pallindrome.");
       }else{
