@@ -25,13 +25,17 @@ public class _9Calculator {
 
        //input
        System.out.println("Enter the first number");
-       int num1 = sc.nextInt();
+       double num1 = sc.nextInt();
 
        System.out.println("Enter an operator(+ , - , * , /):" );
        char operator = sc.next().charAt(0);
 
        System.out.println("Enter the second number:");
-       int num2 = sc.nextInt();
+       double num2 = sc.nextInt();
+
+       double result;
+
+       //switch case.==>there are various methods out of which one should use.
 
 
 
