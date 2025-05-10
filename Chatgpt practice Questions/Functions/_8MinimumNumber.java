@@ -8,6 +8,15 @@ public class _8MinimumNumber {
        if(arr == null || arr.length == 0) {
         throw new IllegalArgumentException("Array should not be null");
        }
+       int min = arr[0];
+
+       for(int i=0; i<= arr.length-1;i++){
+        if(arr[i] < min) {
+            min = arr[i];
+        }
+
+       }
+       return min;
     }
 
     public static void main(String[] args) {
