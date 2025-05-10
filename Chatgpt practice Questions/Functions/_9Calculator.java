@@ -50,6 +50,7 @@ public class _9Calculator {
          result = division(num1,num2);
          break;
          default:
+         System.out.println("Invalid operator.");
          
        }
 
