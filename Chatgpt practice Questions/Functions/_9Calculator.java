@@ -51,8 +51,10 @@ public class _9Calculator {
          break;
          default:
          System.out.println("Invalid operator.");
+         return;
          
        }
+       System.out.println("Result :" + result);
 
 
     }
