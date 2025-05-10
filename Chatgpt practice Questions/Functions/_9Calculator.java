@@ -36,7 +36,11 @@ public class _9Calculator {
        double result;
 
        //switch case.==>there are various methods out of which one should use.
-
+       switch (operator) {
+         case'+' :
+         result = add(num1,num2);
+         break;
+       }
 
 
     }
