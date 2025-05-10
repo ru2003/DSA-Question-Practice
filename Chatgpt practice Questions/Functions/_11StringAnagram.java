@@ -7,7 +7,7 @@ public class _11StringAnagram {
 
         //function to check of strings ara anagrams or not
         str1 = str1.replaceAll("/s" , "").toLowerCase();
-
+        str2 = str2.replaceAll("/s" ,"" ).toLowerCase();
      }
     public static void main(String[] args) {
 
