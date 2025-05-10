@@ -26,5 +26,11 @@ public class _9Calculator {
        //input
        System.out.println("Enter the first number");
        int num1 = sc.nextInt();
+
+       System.out.println("Enter an operator(+ , - , * , /):" );
+       char operator = sc.next().charAt(0);
+
+
+
     }
 }
