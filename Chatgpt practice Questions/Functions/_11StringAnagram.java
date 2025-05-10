@@ -32,6 +32,8 @@ public class _11StringAnagram {
 
          if(AnagramChecker(str1, str2)){
             System.out.println("both the strings are anagrams");
+         }else{
+            System.out.println("The Strings are not the anagrams");
          }
     }
 }
