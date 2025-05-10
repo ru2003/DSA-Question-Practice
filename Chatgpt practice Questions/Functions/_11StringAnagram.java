@@ -1,5 +1,5 @@
 /* 11.Create a function is_anagram(str1, str2) that checks if two strings are anagrams.
-
+note ==> ye boolean wale originally true hi hote hain and coditions false wali theni hoti hain.
  */
 import java.util.Arrays;
 public class _11StringAnagram {
@@ -8,6 +8,15 @@ public class _11StringAnagram {
         //function to check of strings ara anagrams or not
         str1 = str1.replaceAll("/s" , "").toLowerCase();
         str2 = str2.replaceAll("/s" ,"" ).toLowerCase();
+
+        //if lengths are different , they cant be anagrams
+        if(str1.length() != str2.length() ){
+            return false;
+        }
+
+        //converting string to char Array and then sorting them 
+        char[] arr1 = str1.toCharArray();
+        char[] arr2 = str2.toCharArray();
      }
     public static void main(String[] args) {
 
