@@ -21,6 +21,9 @@ public class _11StringAnagram {
         //compare sorted array
         Arrays.sort(arr1);
         Arrays.sort(arr2);
+
+        //compare the sored array
+        return Arrays.equals(arr1,arr2);
      }
     public static void main(String[] args) {
 
