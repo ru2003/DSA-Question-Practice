@@ -17,6 +17,10 @@ public class _11StringAnagram {
         //converting string to char Array and then sorting them 
         char[] arr1 = str1.toCharArray();
         char[] arr2 = str2.toCharArray();
+
+        //compare sorted array
+        Arrays.sort(arr1);
+        Arrays.sort(arr2);
      }
     public static void main(String[] args) {
 
