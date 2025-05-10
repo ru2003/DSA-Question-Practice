@@ -4,8 +4,8 @@ import java.lang.reflect.Array;
 
 public class _8MinimumNumber {
     
-    public static int minimum (Array num) {
-      for(int)
+    public static int minimum (int[] num) {
+      
     }
 
     public static void main(String[] args) {
