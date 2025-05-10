@@ -40,6 +40,17 @@ public class _9Calculator {
          case'+' :
          result = add(num1,num2);
          break;
+         case'-' :
+         result = substraction(num1,num2);
+         break;
+         case'*' :
+         result = multiplication(num1,num2);
+         break;
+         case'/' :
+         result = division(num1,num2);
+         break;
+         default:
+         
        }
 
 
