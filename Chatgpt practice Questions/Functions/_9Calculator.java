@@ -22,5 +22,9 @@ public class _9Calculator {
     
     public static void main(String[] args) {
        Scanner sc = new Scanner(System.in);
+
+       //input
+       System.out.println("Enter the first number");
+       int num1 = sc.nextInt();
     }
 }
