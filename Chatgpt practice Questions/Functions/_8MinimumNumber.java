@@ -20,6 +20,7 @@ public class _8MinimumNumber {
     }
 
     public static void main(String[] args) {
-
+      int[] array = {1,2,3,4,8,6,7};
+      System.out.println("The minimum eelement of the array is: " + minimum(array));
     }
 }
