@@ -3,4 +3,7 @@
  */
 public class _11StringAnagram {
     
+    public static void main(String[] args) {
+        
+    }
 }
