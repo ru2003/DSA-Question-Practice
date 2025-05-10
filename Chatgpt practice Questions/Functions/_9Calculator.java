@@ -30,6 +30,9 @@ public class _9Calculator {
        System.out.println("Enter an operator(+ , - , * , /):" );
        char operator = sc.next().charAt(0);
 
+       System.out.println("Enter the second number:");
+       int num2 = sc.nextInt();
+
 
 
     }
