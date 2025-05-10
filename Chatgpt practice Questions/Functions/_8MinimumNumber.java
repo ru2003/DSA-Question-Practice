@@ -6,7 +6,7 @@ public class _8MinimumNumber {
     
     public static int minimum (int[] arr) {
        if(arr == null || arr.length == 0) {
-        
+        throw new IllegalArgumentException("Array should not be null");
        }
     }
 
