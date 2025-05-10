@@ -1,0 +1,6 @@
+/* 11.Create a function is_anagram(str1, str2) that checks if two strings are anagrams.
+
+ */
+public class _11StringAnagram {
+    
+}
