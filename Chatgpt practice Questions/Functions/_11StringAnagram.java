@@ -27,5 +27,11 @@ public class _11StringAnagram {
      }
     public static void main(String[] args) {
 
+         String str1 = "silent";
+         String str2 = "listen";
+
+         if(AnagramChecker(str1, str2)){
+            System.out.println("both the strings are anagrams");
+         }
     }
 }
