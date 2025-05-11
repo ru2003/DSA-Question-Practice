@@ -3,7 +3,11 @@ package Arrays;
 public class _1LargestElement {
      
     public static int largestelement(int[] arr) {
-        
+
+        int  max = arr[0];
+        for(int i=0;i<arr.length;i++){
+            
+        }
     }
 
     public static void main(String[] args) {
