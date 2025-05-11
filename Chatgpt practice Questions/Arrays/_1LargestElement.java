@@ -15,8 +15,9 @@ public class _1LargestElement {
 
     public static void main(String[] args) {
       int[] array = {1,2,3,55,7,89};
+      System.out.print("[");
       for(int i=0; i<array.length;i++) {
-        System.out.print(i);
+        System.out.print(array[i] +", ");
       }
       System.out.println();
       System.out.println("Largest element of the array is:" + largestelement(array));
