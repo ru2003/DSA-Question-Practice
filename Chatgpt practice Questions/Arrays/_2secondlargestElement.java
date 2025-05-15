@@ -37,7 +37,7 @@ public class _2secondlargestElement {
         int result = secondlargest(array);
 
         if(result != -1) {
-            
+            System.out.println("Second largest element is:" + result);
         }
 
     }
