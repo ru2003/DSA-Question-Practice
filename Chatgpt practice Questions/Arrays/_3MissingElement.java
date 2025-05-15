@@ -16,5 +16,9 @@ public class _3MissingElement {
     }
     public static void main(String[] args) {
        int[] array = {1,2,3,4,5,6,9,10};
+
+       int n = 10;
+       int elementmissing = missingElements(array, n);
+       System.out.println("Missing element is:" + elementmissing);
     }
 }
