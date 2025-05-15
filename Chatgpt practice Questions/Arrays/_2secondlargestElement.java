@@ -34,5 +34,11 @@ public class _2secondlargestElement {
          
         int[] array = {1,2,3,4,5,8};
 
+        int result = secondlargest(array);
+
+        if(result != -1) {
+            
+        }
+
     }
 }
