@@ -15,7 +15,9 @@ public class _2secondlargestElement {
             if(num > largest) {
                 secondLargest = largest;
                 largest = num;
-            }else if (num > secondLargest)
+            }else if (num > secondLargest && num != largest) {
+                secondLargest = num;
+            }
         }
         
         
