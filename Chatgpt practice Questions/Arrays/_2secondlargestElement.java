@@ -11,6 +11,11 @@ public class _2secondlargestElement {
 
         int largest = Integer.MIN_VALUE;
         int secondLargest = Integer.MIN_VALUE;
+        for (int num : arr) {
+            if(num > largest) {
+                
+            }
+        }
         
         
 
