@@ -13,7 +13,8 @@ public class _2secondlargestElement {
         int secondLargest = Integer.MIN_VALUE;
         for (int num : arr) {
             if(num > largest) {
-                
+                secondLargest = largest;
+                largest = num;
             }
         }
         
