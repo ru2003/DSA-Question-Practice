@@ -21,7 +21,8 @@ public class _2secondlargestElement {
         }
 
         if(secondLargest == Integer.MIN_VALUE) {
-            
+            System.out.println("There is no largest element(all elements might be same )");
+            return -1;
         }
         
         
