@@ -19,6 +19,10 @@ public class _2secondlargestElement {
                 secondLargest = num;
             }
         }
+
+        if(secondLargest == Integer.MIN_VALUE) {
+            
+        }
         
         
 
