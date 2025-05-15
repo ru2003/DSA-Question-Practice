@@ -24,11 +24,15 @@ public class _2secondlargestElement {
             System.out.println("There is no largest element(all elements might be same )");
             return -1;
         }
+
+        return secondLargest;
         
         
 
     }
     public static void main(String[] args) {
-        
+         
+        int[] array = {1,2,3,4,5,8};
+
     }
 }
