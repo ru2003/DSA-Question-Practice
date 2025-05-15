@@ -8,6 +8,11 @@ public class _2secondlargestElement {
             System.out.println("Array must contain at least two wlements.");
             return -1;
         }
+
+        int largest = Integer.MIN_VALUE;
+        
+        
+
     }
     public static void main(String[] args) {
         
