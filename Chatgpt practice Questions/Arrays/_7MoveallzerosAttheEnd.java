@@ -26,6 +26,8 @@ public class _7MoveallzerosAttheEnd {
         for(int num :array) {
             System.out.println(num + " ");
             moveZeros(array);
+
+            System.out.println("\nAfter :");
         }
     }
 }
