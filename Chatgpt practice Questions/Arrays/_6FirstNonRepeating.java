@@ -18,6 +18,8 @@ public class _6FirstNonRepeating {
             return num;
             }
         }
+        //if no non-repeating element is found
+        return -1;
 
     }
     public static void main(String[] args) {
