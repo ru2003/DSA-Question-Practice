@@ -11,6 +11,10 @@ public class _7MoveallzerosAttheEnd {
                 index++;
             }
         }
+        //steps to fill the rest with zeros
+        while(index < arr.length) {
+            arr[index] =0;
+        }
 
     }
 
