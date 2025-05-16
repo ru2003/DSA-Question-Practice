@@ -29,5 +29,8 @@ public class _6FirstNonRepeating {
         if(result != -1){
             System.out.println("First non-reapeating elemnt is: " + result);
         }
+        else {
+            System.out.println("No non-repeating element found. ");
+        }
     }
 }
