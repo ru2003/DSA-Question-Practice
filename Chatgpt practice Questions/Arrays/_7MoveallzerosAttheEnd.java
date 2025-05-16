@@ -21,5 +21,7 @@ public class _7MoveallzerosAttheEnd {
 
     public static void main(String[] args) {
         int[] array = {0,1,0,3,67}; 
+
+        System.out.println("Before:");
     }
 }
