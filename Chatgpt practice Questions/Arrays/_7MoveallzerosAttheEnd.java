@@ -24,13 +24,13 @@ public class _7MoveallzerosAttheEnd {
 
         System.out.println("Before:");
         for(int num :array) {
-            System.out.println(num + " ");
+            System.out.print(num + " ");
              }
             moveZeros(array);
 
             System.out.println("\nAfter : ");
             for(int num :array){
-              System.out.println(num + " ");
+              System.out.print(num + " ");
             }
        
     }
