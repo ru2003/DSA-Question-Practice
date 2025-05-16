@@ -14,7 +14,9 @@ public class _6FirstNonRepeating {
 
         //Count the occurences of each element 
         for(int num : arr ){
-            
+            if(countMap.get(num) == 1) {
+
+            }
         }
 
     }
