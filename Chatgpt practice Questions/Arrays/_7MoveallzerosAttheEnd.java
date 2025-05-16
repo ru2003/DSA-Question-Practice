@@ -23,5 +23,8 @@ public class _7MoveallzerosAttheEnd {
         int[] array = {0,1,0,3,67}; 
 
         System.out.println("Before:");
+        for(int num :array) {
+            System.out.println(num + " ");
+        }
     }
 }
