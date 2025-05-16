@@ -25,6 +25,6 @@ public class _6FirstNonRepeating {
     public static void main(String[] args) {
 
         int[] array = {4,5,1,2,0,4,5,2};
-
+        int result = firstNonRepeating(" First non-repeating elemnt is:"+ result);
     }
 }
