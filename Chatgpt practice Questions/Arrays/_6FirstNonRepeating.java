@@ -12,6 +12,11 @@ public class _6FirstNonRepeating {
 
         HashMap<Integer , Integer > countMap = new HashMap<>();
 
+        //Count the occurences of each element 
+        for(int num : arr ){
+            
+        }
+
     }
     public static void main(String[] args) {
 
