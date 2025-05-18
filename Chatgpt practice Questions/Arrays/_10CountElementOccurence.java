@@ -9,8 +9,13 @@ public class _10CountElementOccurence {
                 count++;
             }
          } 
+         return count;
     }
     public static void main(String[] args) {
+      int[] array = {5,4,2,7,2,6,9,2};
+      int key =2;
+      int result = countElement(array, key);
+      System.out.println("The element " + key +" Occurs: " +result+ " times");
 
     }
 }
