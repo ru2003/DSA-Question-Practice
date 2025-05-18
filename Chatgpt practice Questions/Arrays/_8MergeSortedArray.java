@@ -31,6 +31,9 @@ public class _8MergeSortedArray {
   }
  
   public static void main(String[] args) {
+    int[] array1 = {1,2,5,8};
+    int[] array2 = {3,4,6,7};
+    int[] merged = mergingthearray(array1, array2);
 
   }
 
