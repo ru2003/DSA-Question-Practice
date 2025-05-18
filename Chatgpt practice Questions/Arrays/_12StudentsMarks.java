@@ -4,9 +4,16 @@ public class _12StudentsMarks {
      
 
     public static int morethaneightperc(int[] arr) {
+        int count =0;
+        for(int marks:arr){
+           if(marks>80) {
+            count++;
+           }
+        }
+        return count;
 
     }
     public static void main(String[] args) {
-        
+
     }
 }
