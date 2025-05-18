@@ -10,7 +10,7 @@ public class _8MergeSortedArray {
 
        int i=0, j=0, k=0; 
        //merge both arrays
-       while(i<n) {
+       while(i<n && i<m) {
         if(arr1[i] < arr2[j]){
           merged[k++] = arr1[i++];
         } else {
@@ -19,10 +19,11 @@ public class _8MergeSortedArray {
        }
 
       //copy remaining elements
-      while(i<n && j<m) {
-        if(arr1[i] < arr2[j]) {
-          merged[k++] = arr2[i++];
-         }
+      while(i<n) {
+        merged[k++] = arr1[i++] ;
+      }
+      while(j<m) {
+        merged[k++] =arr2[j++];
       }
       
       return merged;
