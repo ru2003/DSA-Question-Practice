@@ -1,0 +1,20 @@
+4. Strings (10 Questions)
+1.Reverse a string without using reverse function.
+
+2.Find the most frequent character in a string.
+
+3.Count the number of words in a given string.
+
+4.Capitalize the first letter of each word in a string.
+
+5.Check if two strings are rotations of each other.
+
+6.Remove all duplicate characters from a string.
+
+7.Find the longest word in a given sentence.
+
+8.Compress the string (e.g., "aaabbcc" → "a3b2c2")
+
+9.Check if one string is a subsequence of another.
+
+10.Check if a string has all unique characters.
