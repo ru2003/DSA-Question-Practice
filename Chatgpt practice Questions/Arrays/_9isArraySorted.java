@@ -11,6 +11,9 @@ public class _9isArraySorted {
           return true;
     }
     public static void main(String[] args) {
-
+        int[] array = {2,3,4,5,7,10};
+        if(isArraysorted(array)){
+            System.out.println("");
+        }
     }
 }
