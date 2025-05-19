@@ -12,6 +12,9 @@ public class _1ReverseaString {
             return reversed;
     }
     public static void main(String[] args) {
+        String original = "India";
 
+        String result = reverseString(original);
+        
     }
 }
