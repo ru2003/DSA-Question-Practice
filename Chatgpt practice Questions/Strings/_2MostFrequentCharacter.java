@@ -11,6 +11,13 @@ public class _2MostFrequentCharacter {
         }
         char mostFrequent = ' ' ;
         int maxCount =0;
+        //find the cahracter with maximum frequency
+        for( char key:freqMap.keySet()) {
+            if(freqMap.get(key) > maxCount) {
+                maxCount = freqMap.get(key);
+                mostFrequent=key;
+            }
+        }
     }
     public static void main(String[] args) {
          
