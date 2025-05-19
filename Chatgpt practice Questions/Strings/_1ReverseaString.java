@@ -3,7 +3,12 @@ package Strings;
 public class _1ReverseaString {
     
     public static String reverseString(String str) {
+            String reversed = "";
 
+            //loop from end to start
+            for(int i = str.length()-1;i>=0;i--) {
+                
+            }
     }
     public static void main(String[] args) {
 
