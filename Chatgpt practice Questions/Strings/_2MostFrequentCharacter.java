@@ -2,7 +2,7 @@ package Strings;
 import java.util.HashMap;
 //2.Find the most frequent character in a string.
 public class _2MostFrequentCharacter {
-    public static String freqCount(String str) {
+    public static char freqCount(String str) {
         HashMap<Character, Integer> freqMap = new HashMap<>();
 
         //count frequency of each character
