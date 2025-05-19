@@ -18,9 +18,12 @@ public class _2MostFrequentCharacter {
                 mostFrequent=key;
             }
         }
+        return mostFrequent;
     }
     public static void main(String[] args) {
-         
+         String inpput = "ruchitachaudhari";
+         char result = freqCount(inpput);
+         System.out.println("Most frequent characer :"+ result);
         
     }
 
