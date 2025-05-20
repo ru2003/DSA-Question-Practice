@@ -18,3 +18,8 @@
 9.Check if one string is a subsequence of another.
 
 10.Check if a string has all unique characters.
+11.Create a basic email ID generator.
+Input: first name and last name → Output: "firstname.lastname@company.com" (all lowercase)
+12. Detect if a given string is a palindrome (same forward and backward), ignoring spaces and cases.
+
+
