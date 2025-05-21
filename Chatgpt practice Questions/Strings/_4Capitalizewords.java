@@ -2,7 +2,7 @@ package Strings;
 //Capitalize the first letter of each word in a string.
 public class _4Capitalizewords {
     
-    public static int capitalizeWords(String str) {
+    public static String capitalizeWords(String str) {
         //split the string into words using whitespace
         String[] words = str.trim().split("\\s+");
         StringBuilder result = new StringBuilder();

@@ -1,0 +1,9 @@
+package Strings;
+//5.Check if two strings are rotations of each other.
+
+public class _5StringsareRotation {
+    
+    public static void main(String[] args) {
+        
+    }
+}
