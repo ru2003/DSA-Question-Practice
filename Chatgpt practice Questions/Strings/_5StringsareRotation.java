@@ -21,7 +21,7 @@ public class _5StringsareRotation {
        String temp = str1 + str2;
 
        //if str2 is a substring of temp its rotation
-       return temp.contains(str2);
+       return temp.contains(str2);//checks str2 is a substring of temp and returns true or false.
 
     }
     
