@@ -31,6 +31,8 @@ public class _5StringsareRotation {
 
         if(StringRotation(s1, s2)){
             System.out.println("The Strings are rotation of each other.");
+        }else{
+            System.out.println("The Strings are not rotations of each other.");
         }
     }
 }
