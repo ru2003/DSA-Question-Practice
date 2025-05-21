@@ -26,6 +26,8 @@ public class _5StringsareRotation {
     }
     
     public static void main(String[] args) {
-        String s1= "ruchita";
+        String s1 = "ruchita";
+        String s2 = "kaveri";
+        
     }
 }
