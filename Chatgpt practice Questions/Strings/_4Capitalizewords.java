@@ -8,6 +8,8 @@ public class _4Capitalizewords {
     public static void main(String[] args) {
         String str1 = "hello myself ruchita chaudhari";
 
+        String output = capitalizeWords(str1;)
+
     }
     
 }
