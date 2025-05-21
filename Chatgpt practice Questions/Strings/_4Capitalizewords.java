@@ -3,12 +3,14 @@ package Strings;
 public class _4Capitalizewords {
     
     public static int capitalizeWords(String str) {
+        //split the string into words using whitespace
+        String[] wrords = str.trim().split("\\s+");
 
     }
     public static void main(String[] args) {
         String str1 = "hello myself ruchita chaudhari";
 
-        String output = capitalizeWords(str1;)
+        String output = capitalizeWords(str1);
 
     }
     
