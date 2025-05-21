@@ -19,11 +19,13 @@ public class _5StringsareRotation {
         }
        //Concatenate s1 with itself
        String temp = str1 + str2;
-       
+
+       //if str2 is a substring of temp its rotation
+       return temp.contains(str2);
 
     }
     
     public static void main(String[] args) {
-        
+        String s1= "ruchita";
     }
 }
