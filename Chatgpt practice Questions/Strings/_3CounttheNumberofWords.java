@@ -8,6 +8,10 @@ public class _3CounttheNumberofWords {
         if(str == null || str.trim().isEmpty()) {
             return 0;
         }
+        //split the string by one or more spaces using regex
+        String[] words = str.trim().split("//s+");
+
+        return words.length;
 
     }
     public static void main(String[] args){
