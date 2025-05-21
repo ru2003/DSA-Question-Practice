@@ -17,6 +17,8 @@ public class _5StringsareRotation {
         if(str1.length() != str2.length()){
             return false;
         }
+       //Concatenate s1 with itself
+       String temp = str1 + str2;
        
 
     }
