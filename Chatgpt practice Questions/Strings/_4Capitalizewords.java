@@ -8,6 +8,12 @@ public class _4Capitalizewords {
         StringBuilder result = new StringBuilder();
 
         for(String word:words) {
+            //capitalize first letter and apppend the rest in lowercase
+            if(word.length() > 0) {
+                result.append(Character.toUpperCase(word.charAt(0)))
+                .append(word.substring(1).toLowerCase())
+                .append(" ");
+            }
 
         }
 
