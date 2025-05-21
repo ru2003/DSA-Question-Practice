@@ -15,6 +15,10 @@ public class _3CounttheNumberofWords {
 
     }
     public static void main(String[] args){
+        String input = "Ruchtita Chudhari is learning java";
+
+        int wordCount = countWords(input);
+        
 
     }
 }
