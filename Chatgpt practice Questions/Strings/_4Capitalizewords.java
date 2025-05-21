@@ -16,12 +16,13 @@ public class _4Capitalizewords {
             }
 
         }
-
+           return result.toString().trim();//remove trailing space
     }
     public static void main(String[] args) {
         String str1 = "hello myself ruchita chaudhari";
 
         String output = capitalizeWords(str1);
+        System.out.println("Capitalised: " + output);
 
     }
     
