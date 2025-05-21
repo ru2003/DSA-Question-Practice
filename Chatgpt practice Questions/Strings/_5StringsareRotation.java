@@ -28,6 +28,9 @@ public class _5StringsareRotation {
     public static void main(String[] args) {
         String s1 = "ruchita";
         String s2 = "kaveri";
-        
+
+        if(StringRotation(s1, s2)){
+            System.out.println("The Strings are rotation of each other.");
+        }
     }
 }
