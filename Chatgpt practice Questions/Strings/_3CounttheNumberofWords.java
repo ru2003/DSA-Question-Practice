@@ -18,7 +18,8 @@ public class _3CounttheNumberofWords {
         String input = "Ruchtita Chudhari is learning java";
 
         int wordCount = countWords(input);
-        
+        System.out.println("Number of words:" + wordCount);
+
 
     }
 }
