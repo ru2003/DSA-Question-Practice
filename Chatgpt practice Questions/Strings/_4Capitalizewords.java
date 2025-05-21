@@ -4,8 +4,12 @@ public class _4Capitalizewords {
     
     public static int capitalizeWords(String str) {
         //split the string into words using whitespace
-        String[] wrords = str.trim().split("\\s+");
+        String[] words = str.trim().split("\\s+");
         StringBuilder result = new StringBuilder();
+
+        for(String word:words) {
+
+        }
 
     }
     public static void main(String[] args) {
