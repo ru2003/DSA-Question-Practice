@@ -12,8 +12,13 @@ public class _6RemoveDuplicates {
 
         //step 2: Loop through each character of the String
         for( char ch: str.toCharArray()) {
-            
+            set.add(ch);//if ch already exists in set , it wont be added again.
         }
+
+        //step 3: build the result string with unique character
+        StringBuilder result = new StringBuilder();
+        
+      
 
     }
   public static void main (String[] args) {
