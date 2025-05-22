@@ -18,6 +18,10 @@ public class _10CheckUniqueChar {
     }
 
     public static void main(String[] args) {
+        String input1 = "ruchita";
+        String input2 = "hey";
+
+        System.out.println(input1 + "has all unique characters " + CheckUniqueChar(input1));
 
     }
     
