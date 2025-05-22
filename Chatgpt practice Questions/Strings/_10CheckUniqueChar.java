@@ -14,8 +14,7 @@ public class _10CheckUniqueChar {
             seen.add(ch);
 
         }
-
-    
+        return true;//all characters are tru
     }
 
     public static void main(String[] args) {
