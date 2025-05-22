@@ -11,6 +11,7 @@ public class _10CheckUniqueChar {
             if(seen.contains(ch)) {
                 return false;
             }
+            seen.add(ch);
 
         }
 
