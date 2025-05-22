@@ -1,0 +1,12 @@
+package Strings;
+//10.Check if a string has all unique characters.
+
+public class _10CheckUniqueChar {
+
+    
+
+    public static void main(String[] args) {
+
+    }
+    
+}

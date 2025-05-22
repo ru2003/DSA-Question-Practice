@@ -21,6 +21,7 @@
 
 11.Create a basic email ID generator.
 Input: first name and last name → Output: "firstname.lastname@company.com" (all lowercase)
+
 12. Detect if a given string is a palindrome (same forward and backward), ignoring spaces and cases.
 
 
