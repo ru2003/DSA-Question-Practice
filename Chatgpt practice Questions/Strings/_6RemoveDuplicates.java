@@ -21,6 +21,9 @@ public class _6RemoveDuplicates {
             result.append(ch);
         }
 
+        //step 4:return final string
+        return result.toString();
+
       
 
     }
