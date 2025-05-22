@@ -23,12 +23,15 @@ public class _6RemoveDuplicates {
 
         //step 4:return final string
         return result.toString();
-
-      
-
     }
   public static void main (String[] args) {
+        String input = "ruchitachaudhari";
 
+        //call the method to remove duplicates
+        String output = removeDuplicates(input);
+
+        //print the result
+        System.out.println("String after removing duplicates: " + output);
   }
 
     
