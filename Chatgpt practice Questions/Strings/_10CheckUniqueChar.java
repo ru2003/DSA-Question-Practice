@@ -5,7 +5,8 @@ public class _10CheckUniqueChar {
 
     public static boolean CheckUniqueChar(String str) {
 
-        HashSet<Character> seen
+        HashSet<Character> seen = new HashSet<>();
+        
     
     }
 
