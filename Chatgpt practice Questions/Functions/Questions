@@ -1,7 +1,7 @@
 
 1. Write a function calculate_discount(price, discount_percent) that returns the price after applying discount. Use it to print bills for 5 customers.
 
-2.Write a function to check if a given year is a leap year or not.
+2. Write a function to check if a given year is a leap year or not.
 Create a function to check if a number is even or odd.
 
 3.Create a function to find the maximum of three numbers.
@@ -16,10 +16,10 @@ Create a function to check if a number is even or odd.
 
 8.Create a reusable function find_minimum(arr) that returns the minimum element in an array.
 
-9.Create a calculator using functions: add, subtract, multiply, divide.
+9. Create a calculator using functions: add, subtract, multiply, divide.
 
-10.Write a function to compute nCr (combinations) of two numbers.
+10. Write a function to compute nCr (combinations) of two numbers.
 
-11.Create a function is_anagram(str1, str2) that checks if two strings are anagrams.
+11. Create a function is_anagram(str1, str2) that checks if two strings are anagrams.
 
 

@@ -24,3 +24,33 @@
 
 13. Implement your own version of Bubble Sort without using library functions.
 
+14. Find the kth largest element using sorting.
+
+15. Count inversions in an array.
+
+16. Sort a nearly sorted (k-sorted) array.
+
+17. Sort elements by frequency.
+
+19. Merge two sorted arrays without extra space.
+
+20. Sort characters by frequency.
+
+21. Sort an array with 3 unique numbers.
+
+22. Implement Bucket Sort.
+
+23. Implement Radix Sort.
+
+24. Sort a list of strings based on length.
+
+25. Sort array using comparator on object fields.
+
+26. Sort matrix row-wise and column-wise.
+
+27. Wiggle Sort the array.
+
+28. Sort array of 0s, 1s and 2s using Dutch National Flag algorithm.
+
+
+

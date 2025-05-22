@@ -1,23 +1,23 @@
-1.Find the largest element in an array.
+1. Find the largest element in an array.
 
-2.Find the second largest element in an array.
+2. Find the second largest element in an array.
 
-3.Find the missing number in an array containing numbers from 1 to n (one missing).
+3. Find the missing number in an array containing numbers from 1 to n (one missing).
 
-4.Find duplicates in an array.
+4. Find duplicates in an array.
 
-5.Rotate an array to the right by k steps.
+5. Rotate an array to the right by k steps.
 
-6.Find the first non-repeating element in an array.
+6. Find the first non-repeating element in an array.
 
-7.Move all zeros to the end of array without changing order of non-zero elements.
+7. Move all zeros to the end of array without changing order of non-zero elements.
 
-8.Merge two sorted arrays into one sorted array.
+8. Merge two sorted arrays into one sorted array.
 
-9.Check if an array is sorted (ascending order).
+9. Check if an array is sorted (ascending order).
 
-10.Count the number of occurrences of a specific element in an array.
+10. Count the number of occurrences of a specific element in an array.
 
-11.Problem 5: Find the maximum profit you can earn by buying and selling a stock on different days. (Buy low, sell high)
+11. Problem 5: Find the maximum profit you can earn by buying and selling a stock on different days. (Buy low, sell high)
 
-12.Problem 6: Given marks of 100 students, count how many scored more than 80%.
+12. Problem 6: Given marks of 100 students, count how many scored more than 80%.
