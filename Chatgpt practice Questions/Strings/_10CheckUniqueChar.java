@@ -6,7 +6,14 @@ public class _10CheckUniqueChar {
     public static boolean CheckUniqueChar(String str) {
 
         HashSet<Character> seen = new HashSet<>();
-        
+
+        for(char ch : str.toCharArray()) {
+            if(seen.contains(ch)) {
+                return false;
+            }
+
+        }
+
     
     }
 
