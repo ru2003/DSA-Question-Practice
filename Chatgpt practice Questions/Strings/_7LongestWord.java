@@ -18,7 +18,8 @@ public class _7LongestWord {
     public static void main(String[] args) {
           String input = "hello hi my name is ruchita Chaudhari" ;
           String output = LongestWord(input);
-          
+          System.out.println("Longest word is: " + output);
+
     }
     
 }
