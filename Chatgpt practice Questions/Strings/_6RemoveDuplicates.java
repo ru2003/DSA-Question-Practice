@@ -17,7 +17,10 @@ public class _6RemoveDuplicates {
 
         //step 3: build the result string with unique character
         StringBuilder result = new StringBuilder();
-        
+        for(char ch:set) {
+            result.append(ch);
+        }
+
       
 
     }
