@@ -22,6 +22,7 @@ public class _10CheckUniqueChar {
         String input2 = "hey";
 
         System.out.println(input1 + "has all unique characters " + CheckUniqueChar(input1));
+        System.out.println(input1 + "has all unique characters " + CheckUniqueChar(input2));
 
     }
     
