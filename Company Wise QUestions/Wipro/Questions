@@ -1,0 +1,23 @@
+Focus: Loops, Arrays, Strings, Simple Functions
+
+No.	Question
+1	Find even and odd numbers separately
+2	Swap two numbers without third variable
+3	Count digits in a number
+4	Find largest of three numbers
+5	Check leap year
+6	Sort array using Selection Sort
+7	Find sum and average of array elements
+8	Find second largest element in array
+9	Check if array is sorted or not
+10	Print all prime numbers between 1 and 100
+11	Reverse array elements
+12	Insert an element at a specific position in array
+13	Remove element from array
+14	Reverse a string without using extra space
+15	Convert string to uppercase manually
+16	Find number of vowels in a string
+17	Find first non-repeating character
+18	Check if a string contains only digits
+19	Simple recursion for nth Fibonacci number
+20	Find sum of digits until single digit remains (recursively)

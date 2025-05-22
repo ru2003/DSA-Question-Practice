@@ -1,0 +1,22 @@
+No.	Question
+1	Write class for Student details
+2	Implement basic Inheritance (class Employee, Manager)
+3	Implement method overloading
+4	Find unique element in array (using XOR)
+5	Check if a number is power of 2
+6	Find count of set bits in integer
+7	Swap numbers using XOR
+8	Check palindrome number
+9	Find Armstrong number between 1 to 500
+10	Find number of 1 bits (Hamming weight)
+11	Reverse elements of array using recursion
+12	Simple LRU Cache design concept
+13	Find kth largest element
+14	Binary Search implementation
+15	Find minimum element in rotated sorted array
+16	Count pairs whose sum is K
+17	Merge two sorted linked lists
+18	Find middle of linked list
+19	Find length of linked list
+20	Simple recursion problem: sum of array elements
+

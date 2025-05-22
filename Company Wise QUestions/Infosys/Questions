@@ -1,0 +1,23 @@
+Focus: Recursion, String Manipulation, Logical Reasoning
+
+No.	Question
+1	Reverse a string using recursion
+2	Fibonacci series using recursion
+3	Factorial using recursion
+4	Check if string is palindrome using recursion
+5	Find sum of natural numbers using recursion
+6	Armstrong number check
+7	Remove duplicates from string
+8	Anagram check between two strings
+9	Count words in a sentence
+10	Compress a string
+11	Find maximum appearing character
+12	Check if two strings are rotations of each other
+13	Find missing number in array
+14	Merge two sorted arrays
+15	Sort characters of string
+16	Generate all substrings of a string
+17	Find intersection of two arrays
+18	Password validator (at least 1 uppercase, 1 digit)
+19	Check balanced parentheses
+20	Tower of Hanoi (basic recursive understanding)

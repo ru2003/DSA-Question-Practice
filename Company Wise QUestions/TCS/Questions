@@ -1,0 +1,23 @@
+Focus: Patterns, Arrays, Basic Functions, Sorting
+
+No.	Question
+1	Print 1 to N using loops
+2	Print * pattern (triangle)
+3	Find sum of digits of a number
+4	Check prime number
+5	Print Fibonacci series
+6	Reverse a number
+7	Find GCD and LCM of two numbers
+8	Find factorial using function
+9	Find maximum and minimum in array
+10	Search element in array (linear search)
+11	Sort array using Bubble Sort
+12	Find second largest element
+13	Count frequency of elements
+14	Move all zeros to end
+15	Rotate array by K elements
+16	Reverse a string
+17	Check palindrome (string)
+18	Find duplicate characters in string
+19	Count vowels and consonants
+20	Simple Recursion: Print numbers from N to 1
