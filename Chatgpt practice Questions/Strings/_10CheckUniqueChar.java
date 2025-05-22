@@ -3,7 +3,9 @@ package Strings;
 
 public class _10CheckUniqueChar {
 
-    
+    public static boolean CheckUniqueChar(String str) {
+        
+    }
 
     public static void main(String[] args) {
 
