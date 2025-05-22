@@ -15,7 +15,8 @@ public class _10CheckUniqueChar {
                                      */
                 return false;
             }
-            seen.add(ch);
+            seen.add(ch); //this is also a method of hashSet
+                         //it adds the cahracter ch to the hashSet if its not alredy present.
         }
         return true;//all characters are tru
     }

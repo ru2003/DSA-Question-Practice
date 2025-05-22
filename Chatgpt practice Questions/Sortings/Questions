@@ -1,0 +1,26 @@
+1. Implement Bubble Sort.
+
+2. Implement Selection Sort.
+
+3. Implement Insertion Sort.
+
+4. Implement Merge Sort. (frequently asked)
+
+5. Implement Quick Sort. (important for advanced interviews)
+
+6. Sort an array of 0s, 1s and 2s (Dutch National Flag Problem).
+
+7. Sort a list of strings by their lengths.
+
+8. Sort student objects by their marks (object sorting).
+
+9. Sort an array by frequency of elements (most frequent first).
+
+10. Given two arrays A and B, sort A in such a way that relative ordering of elements in A is same as in B.
+
+11. Sort a list of student names alphabetically.
+
+12. Given a list of customers with pending payment amounts, sort customers in decreasing order of amounts.
+
+13. Implement your own version of Bubble Sort without using library functions.
+
