@@ -31,7 +31,12 @@ public class _1BubbleSort {
     public static void main(String[] args) {
 
         int arr[] = {34,56,2,32,78,1};
-        
+        System.out.println("Original array: ");
+        for (int num:arr) {
+            System.out.println(num+ " ") ;
+        }
+        bubblesort(arr);
+
 
             }
         }
