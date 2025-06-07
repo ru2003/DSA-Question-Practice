@@ -21,6 +21,11 @@ public class _1BubbleSort {
                     
                 }
             }
+            //if noo two elements were swapped in inner loop
+            if(!swapped) {
+                break;
+
+            }
     }
 }
     public static void main(String[] args) {
