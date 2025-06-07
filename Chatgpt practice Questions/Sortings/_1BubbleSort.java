@@ -1,8 +1,7 @@
 package Sortings;
 
 public class _1BubbleSort {
-    
-    public static void main(String[] args) {
+    public static void bubblesort(int[] arr){
         int n = arr.length;
         boolean swapped;
 
@@ -12,10 +11,20 @@ public class _1BubbleSort {
 
             //inner loop for pairwise comparison
             for(int j=0; j<n-i-1;j++){
-                
+                //swap if elements are in wrong order
+                if(arr[j] > arr[j+1]) {
+                    int temp = arr[j];
+                    
+                }
+            }
+    }
+}
+    public static void main(String[] args) {
+        
+
             }
         }
          
         
-    }
-}
+    
+
