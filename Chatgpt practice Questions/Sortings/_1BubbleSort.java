@@ -36,6 +36,10 @@ public class _1BubbleSort {
             System.out.println(num+ " ") ;
         }
         bubblesort(arr);
+        System.out.println("\n Sorted array  using bubble sort: ");
+        for(int num:arr) {
+            System.out.println(num + " ");
+        }
 
 
             }
