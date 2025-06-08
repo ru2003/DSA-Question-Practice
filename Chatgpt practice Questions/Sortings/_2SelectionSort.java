@@ -26,13 +26,16 @@ public class _2SelectionSort {
 
             arr[minIndex ] = arr[i] ;
             arr[i ] = temp;
-
-
-
-
         }
     }
 
 
-    
+    public static void main(String[] args) {
+        int[] arr = {3,4,7,1,98,54};
+
+        System.out.println("Original array: ");
+        for(int num :arr) {
+            
+        }
+    }
 }
