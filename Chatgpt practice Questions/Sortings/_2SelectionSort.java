@@ -9,8 +9,19 @@ Swapping it with the first unsorted element.
  * 
  */
 public class _2SelectionSort {
+    
     public static void selectionsort(int[] arr) {
-        
+        int n = arr.length;
+        //outer loop to move boundary of unserted array
+        for( int i=0; i<n-1; ){
+            int minIndex=i;
+
+            for(int j=i+1; j<n; j++) {
+                if(arr[j] < arr[minIndex]) {
+                    minIndex = j;
+                }
+            }
+        }
     }
 
 
