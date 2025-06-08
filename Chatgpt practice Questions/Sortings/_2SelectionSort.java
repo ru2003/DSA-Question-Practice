@@ -35,7 +35,12 @@ public class _2SelectionSort {
 
         System.out.println("Original array: ");
         for(int num :arr) {
-            
+            System.out.println(num+ " " );
+        }
+        selectionsort(arr);
+        System.out.println("\n\nSorted Array using Selection Sort: ");
+        for(int num:arr){
+            System.out.println(num+ " ");
         }
     }
 }
