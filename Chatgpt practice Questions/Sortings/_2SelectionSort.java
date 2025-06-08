@@ -1,11 +1,10 @@
 package Sortings;
-/*Selection Sort is a simple sorting algorithm that works by:
+/*
+- Selection Sort is a simple sorting algorithm that works by:
 
-Repeatedly finding the minimum element from the unsorted part of the array,
+- Repeatedly finding the minimum element from the unsorted part of the array,
 
-Swapping it with the first unsorted element.
-
-
+- Swapping it with the first unsorted element.
  * 
  */
 public class _2SelectionSort {
@@ -13,7 +12,7 @@ public class _2SelectionSort {
     public static void selectionsort(int[] arr) {
         int n = arr.length;
         //outer loop to move boundary of unserted array
-        for( int i=0; i<n-1; ){
+        for( int i=0; i<n-1; i++ ){
             int minIndex=i;
 
             for(int j=i+1; j<n; j++) {
@@ -33,14 +32,15 @@ public class _2SelectionSort {
     public static void main(String[] args) {
         int[] arr = {3,4,7,1,98,54};
 
-        System.out.println("Original array: ");
+        System.out.print("Original array: ");
         for(int num :arr) {
-            System.out.println(num+ " " );
+            System.out.print(num+ " " );
         }
+
         selectionsort(arr);
         System.out.println("\n\nSorted Array using Selection Sort: ");
         for(int num:arr){
-            System.out.println(num+ " ");
+            System.out.print(num+ " ");
         }
     }
 }
