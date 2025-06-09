@@ -1,7 +1,7 @@
 package Sortings;
 
 public class _3InsertionSort {
-    public static void insertioniSort(int[] arr) {
+    public static void insertionSort(int[] arr) {
          int n = arr.length;
 
         for (int i = 1; i < n; i++) {
@@ -19,10 +19,10 @@ public class _3InsertionSort {
         
 
     }
-}
+
     
 
-    public static void insertionSort(int[] arr){
+    public static void main(String[] args){
       int[] arr = {9,4,5,3,2};
 
       System.out.println("Original Array: ");
@@ -36,6 +36,6 @@ public class _3InsertionSort {
         System.out.println(num+ " ");
       }
     }
-    
-}
+}   
+
 
