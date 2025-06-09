@@ -7,6 +7,18 @@ package LinkedList;
  * unlike arrays ,linked lists do not store elements in the contiguous memory locations.
  * ==> this allows for efficient insertions and deletions but makes access time slowe (no indexing like arrays.)
 */
+
+  // Node class definition
+class Node {
+    int data;
+    Node next;
+
+    // Constructor
+    Node(int data) {
+        this.data = data;
+        this.next = null;
+    }
+}
 public class CreateLinkedList {
     Node head;
 
@@ -18,13 +30,24 @@ public class CreateLinkedList {
             return;
         }
 
-        node current = head;
+        Node current = head;
         while(current.next != null) {
             current = current.next;
         }
 
         current.next = newNode;
 
+        //print the list
+        
         
     }
+    public void printList() {
+            Node current = head;
+            while(current != null) {
+                System.out.print(current.data + "  ->");
+                current = current.next;
+            }
+            System.out.println("null");
+        }
+
 }
