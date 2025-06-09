@@ -9,11 +9,16 @@ package LinkedList;
 */
 
   // Node class definition
-class Node {
+class Node { //have to write this code in every linked list 
     int data;
     Node next;
 
-    // Constructor
+    // Constructor ==> to initilize the Node objects when it is created
+    /*1)avoid repetitive code
+    2)ensures each node is properly initilized when its created
+    3)improve readibility and maintainibility
+     * 
+     */
     Node(int data) {
         this.data = data;
         this.next = null;
@@ -23,14 +28,14 @@ public class CreateLinkedList {
     Node head;
 
     //insert at end
-    public void append(int data) {
-        Node newNode = new Node(data);
+    public void append(int data) { //==>this method is used to insert a node at the end of the linked list
+        Node newNode = new Node(data); //this create a new node with a value *data*
         if(head == null) {
             head = newNode;
             return;
         }
 
-        Node current = head;
+        Node current = head;/* current like a temporary pointer or a marker that helps us move through the list one node at time . */
         while(current.next != null) {
             current = current.next;
         }
