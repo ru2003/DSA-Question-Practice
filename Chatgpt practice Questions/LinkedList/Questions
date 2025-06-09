@@ -1,4 +1,166 @@
-1. Reverse a linked list.
+✅ Phase 1: Basic Understanding & Traversals
+Create a linked list and print all elements.
+
+Insert a node at the beginning.
+
+Insert a node at the end.
+
+Insert a node at a given position.
+
+Delete the first node of a linked list.
+
+Delete the last node of a linked list.
+
+Delete a node at a given position.
+
+Find the length of the linked list (iterative & recursive).
+
+Search an element in the linked list.
+
+Reverse a linked list (iterative & recursive).
+
+✅ Phase 2: Intermediate Applications
+Find the middle of the linked list.
+(Use slow and fast pointer approach)
+
+Detect a loop in a linked list.
+(Floyd’s Cycle Detection Algorithm)
+
+Remove a loop in a linked list.
+
+Check if the linked list is a palindrome.
+
+Merge two sorted linked lists.
+
+Find the N-th node from the end of the list.
+
+Remove duplicates from a sorted linked list.
+
+Remove duplicates from an unsorted linked list.
+
+Intersection point of two linked lists.
+
+Segregate even and odd nodes in a linked list.
+
+✅ Phase 3: Advanced Problems
+Clone a linked list with next and random pointer.
+
+Sort a linked list using Merge Sort.
+
+Add two numbers represented by linked lists.
+
+Flatten a multilevel linked list.
+
+Rearrange the linked list in zig-zag fashion.
+
+Reverse nodes in k-group.
+
+Rotate the linked list by K nodes.
+
+Swap nodes in pairs.
+
+Check if two linked lists are identical.
+
+Segregate 0s, 1s, and 2s in a linked list (like Dutch flag algo).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Reverse a linked list.
 
 Detect a cycle in a linked list.
 
