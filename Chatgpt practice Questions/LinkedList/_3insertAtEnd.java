@@ -1,9 +1,8 @@
 package LinkedList;
 //3. Insert a node at the end.
-public class _3insertAtEnd {
 
 
-    class Node{
+class Node{
         int data;
         Node next;
 
@@ -14,5 +13,13 @@ public class _3insertAtEnd {
 
         }
     }
+public class _3insertAtEnd {
+
+
     
-}
+
+
+        //linked list class
+    }
+    
+
