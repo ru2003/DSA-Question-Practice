@@ -24,7 +24,7 @@ class Node { //have to write this code in every linked list
         this.next = null;
     }
 }
-public class CreateLinkedList {
+public class _1CreateLinkedList {
     Node head;
 
     //insert at end
@@ -36,8 +36,8 @@ public class CreateLinkedList {
         }
 
         Node current = head;/* current like a temporary pointer or a marker that helps us move through the list one node at time . */
-        while(current.next != null) {
-            current = current.next;
+        while(current.next != null) { // keep moving current to the next node until u reach to the last one and how will u understand that u reached to the last node that==> it represent null next 
+            current = current.next;//jab tak he while loop chalta rahega current ki position current.next ho jayegi 
         }
 
         current.next = newNode;
@@ -57,7 +57,8 @@ public class CreateLinkedList {
 
 
         public static void main(String[] args){
-            CreateLinkedList list = new CreateLinkedList();
+            _1CreateLinkedList list = new _1CreateLinkedList();//this creates a bew object of the createLinkedList class,
+            //think of it like creating an empty linked list s
 
             list.append(10);
             list.append(20);
