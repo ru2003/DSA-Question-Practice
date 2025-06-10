@@ -29,5 +29,11 @@ public class _2InsertAtbeginning {
         }
         System.out.println("null");
     }
+    //main method
+    public static void main(String[] args){
+        
+        _2InsertAtbeginning list = new _2InsertAtbeginning();
+
+        }
     
 }
