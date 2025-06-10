@@ -24,6 +24,9 @@ public class _2InsertAtbeginning {
     //method to print the list
     public void printlist() {
         Node current = head;
+        while(current != null){
+            
+        }
     }
     
 }
