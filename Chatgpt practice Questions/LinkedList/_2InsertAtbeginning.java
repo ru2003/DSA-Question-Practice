@@ -25,7 +25,8 @@ public class _2InsertAtbeginning {
     public void printlist() {
         Node current = head;
         while(current != null){
-            System.out.println(current.data + "-> ");
+            System.out.print(current.data + "-> ");
+            current = current.next;
         }
         System.out.println("null");
     }
@@ -37,6 +38,8 @@ public class _2InsertAtbeginning {
         list.insertatthebeginning(30);
          list.insertatthebeginning(40);
           list.insertatthebeginning(50);
+
+          list.printlist();
 
         }
     
