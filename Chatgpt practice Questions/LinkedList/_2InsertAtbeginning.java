@@ -25,8 +25,9 @@ public class _2InsertAtbeginning {
     public void printlist() {
         Node current = head;
         while(current != null){
-            
+            System.out.println(current.data + "-> ");
         }
+        System.out.println("null");
     }
     
 }
