@@ -13,11 +13,15 @@ class Node{
 
         }
     }
+
+
 public class _3insertAtEnd {
 
-
-    
-
+          Node head;//head of the list
+      public void insertAtEnd(int data) {
+        //create a new node with given data
+        Node newNode = new Node(data);
+      }
 
         //linked list class
     }
