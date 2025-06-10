@@ -35,6 +35,8 @@ public class _2InsertAtbeginning {
         _2InsertAtbeginning list = new _2InsertAtbeginning();
 
         list.insertatthebeginning(30);
+         list.insertatthebeginning(40);
+          list.insertatthebeginning(50);
 
         }
     
