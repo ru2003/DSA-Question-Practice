@@ -26,12 +26,52 @@ public class _4InsertAtPosition {
 
      //teaverse to the node before the insertion point
      Node current=head;
-     for(int i=0;i<position-1 && current != null ; i++)
+     for(int i=0;i<position-1 && current != null ; i++ ){
+        current = current.next;
+     }
+
+     //if position is beyond the list of length insert at end 
+     if(current == null) {
+        insertAtEnd(data);
+        return;
+     }
+
+     //insert new node
+     newNode.next = current.next;
+     current.next = newNode;
 
      }
 
+     //helper method to insert at the end 
+     public void insertAtEnd(int data){
+        Node newNode = new Node(data);
+        if(head == null){
+            head = newNode;
+            return;
+        }
+        Node current = head;
+        while(current.next != null){
+            current = current.next;
+        }
+        current.next = newNode;
+     }
+
+     //method to print the linkedlist
+     public void printList(){
+        Node current = head;
+        while(current != null) {
+            System.out.println(current.data + "->");
+            current = current.next;
+        }
+        System.out.println("null");
+     }
+
+
+
 
     public static void main(String[] args){
+        _4InsertAtPosition list = new _4InsertAtPosition();
+        
 
     }
     
