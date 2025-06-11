@@ -40,8 +40,25 @@ public class _6deleteLastNode {
             return;
         }
         Node current = head;
+        while (current.next != null) {
+            current = current.next;
+        }
+        current.next = newNode;
+    }
+     
+    //method to print the lined list
+    public void printList() {
+        Node current = head;
+        while(current.next != null){
+            System.out.println(current.data+ "->");
+            current = current.next;
+        }
+        System.out.println("null");
     }
 
+    public static void main (String[] args) {
+        _6deleteLastNode list = new _6deleteLastNode();
+    }
 
     
 }
