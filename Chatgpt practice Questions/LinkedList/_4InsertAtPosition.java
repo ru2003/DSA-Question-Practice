@@ -60,7 +60,7 @@ public class _4InsertAtPosition {
      public void printList(){
         Node current = head;
         while(current != null) {
-            System.out.println(current.data + "->");
+            System.out.print(current.data + "->");
             current = current.next;
         }
         System.out.println("null");
@@ -71,7 +71,22 @@ public class _4InsertAtPosition {
 
     public static void main(String[] args){
         _4InsertAtPosition list = new _4InsertAtPosition();
-        
+
+        //create initial list
+        list.insertAtEnd(10);
+         list.insertAtEnd(20);
+          list.insertAtEnd(30);
+
+          System.out.println("Original List: ");
+          list.printList();
+
+          //iinsert at position 1
+          list.inserttheNodeAtPosition(15,1);
+          System.out.println("\n After inserting 15 at position 1: ");
+          list.printList();
+
+         
+
 
     }
     
