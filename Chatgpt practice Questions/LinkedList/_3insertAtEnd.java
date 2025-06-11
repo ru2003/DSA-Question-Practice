@@ -34,8 +34,16 @@ public class _3insertAtEnd {
         }
         //change the last node when it will be 
         current.next = newNode;
+
+      
+     
         
       }
+        //method to print the linkedList
+         public void printList() {
+            Node current  = head;
+            
+        }
 
         //linked list class
     }
