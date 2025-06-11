@@ -12,13 +12,13 @@
 
 6. Delete the last node of a linked list.
 
-Delete a node at a given position.
+7. Delete a node at a given position.
 
-Find the length of the linked list (iterative & recursive).
+8. Find the length of the linked list (iterative & recursive).
 
-Search an element in the linked list.
+9. Search an element in the linked list.
 
-Reverse a linked list (iterative & recursive).
+10. Reverse a linked list (iterative & recursive).
 
 ✅ Phase 2: Intermediate Applications
 Find the middle of the linked list.

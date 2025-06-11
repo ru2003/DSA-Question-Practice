@@ -49,8 +49,8 @@ public class _6deleteLastNode {
     //method to print the lined list
     public void printList() {
         Node current = head;
-        while(current.next != null){
-            System.out.println(current.data+ "->");
+        while(current != null){
+            System.out.print(current.data+ "->");
             current = current.next;
         }
         System.out.println("null");
@@ -64,8 +64,34 @@ public class _6deleteLastNode {
         list.append(10);
         list.append(20);
         list.append(30);
+        list.append(40);
 
         System.out.println("Original List: ");
+        list.printList();
+
+        //Delete last node
+        list.deleteLastNode();
+        System.out.println("\nafter deleting last node:");
+        list.printList();
+
+        //delete last node again
+        list.deleteLastNode();
+        System.out.println("\nAfter deleting last node again: ");
+        list.printList();
+
+        //delete last node again
+        list.deleteLastNode();
+        System.out.println("\nAfter deleting last node again: ");
+        list.printList();
+
+         //delete last node again
+        list.deleteLastNode();
+        System.out.println("\nAfter deleting last node again: ");
+        list.printList();
+        
+         //delete last node again
+        list.deleteLastNode();
+        System.out.println("\nAfter deleting last node again: ");
         list.printList();
 
     }
