@@ -58,6 +58,13 @@ public class _6deleteLastNode {
 
     public static void main (String[] args) {
         _6deleteLastNode list = new _6deleteLastNode();
+
+        //create sample list: 10->20->30->null
+
+        list.append(10);
+        list.append(20);
+        list.append(30);
+
     }
 
     
