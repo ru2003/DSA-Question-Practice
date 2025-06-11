@@ -42,6 +42,9 @@ public class _3insertAtEnd {
         //method to print the linkedList
          public void printList() {
             Node current  = head;
+            while ( current != null){
+                System.out.println(current.data+ "->");
+            }
             
         }
 
