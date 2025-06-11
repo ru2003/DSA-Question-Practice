@@ -29,23 +29,21 @@ public class _3insertAtEnd {
         }
         //else traverse till the end then add the node
         Node current = head;
-        while(current.next == null) {
+        while(current.next != null) {//loop condition is very important 
             current = current.next;
         }
         //change the last node when it will be 
         current.next = newNode;
 
-      
-     
-        
       }
         //method to print the linkedList
          public void printList() {
             Node current  = head;
-            while ( current != null){
+            while ( current != null){ //this loop condition is very important like when u have to reaverse the whole linked list curreent != null traverse till when current.next null hota hai tab tk
                 System.out.print(current.data+ "->");
+                current = current.next;
             }
-            System.out.println();
+            System.out.println("null");
             
         }
 
@@ -60,6 +58,7 @@ public class _3insertAtEnd {
 
             //print the linked list
             System.out.println("Linked List after insertion: ");
+            list.printList();
 
         }
     }
