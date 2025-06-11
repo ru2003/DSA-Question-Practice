@@ -43,12 +43,16 @@ public class _3insertAtEnd {
          public void printList() {
             Node current  = head;
             while ( current != null){
-                System.out.println(current.data+ "->");
+                System.out.print(current.data+ "->");
             }
+            System.out.println();
             
         }
 
         //linked list class
+        public static void main(String[] args) {
+            _3insertAtEnd list = new _3insertAtEnd();
+        }
     }
     
 
