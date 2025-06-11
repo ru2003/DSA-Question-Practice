@@ -11,6 +11,9 @@ class Node{
     }
 }
 public class _4InsertAtPosition {
+     Node head;
+     
+
 
     public static void main(String[] args){
 
