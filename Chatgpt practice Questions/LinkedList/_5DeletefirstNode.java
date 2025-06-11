@@ -20,6 +20,8 @@ public class _5DeletefirstNode {
         if(head == null){
             System.out.println("List is already empty.");
         }
+        //move head to the next node
+        head = head.next;
      }
 
     
