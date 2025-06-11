@@ -23,6 +23,23 @@ public class _6deleteLastNode {
             head = null;
             return;
         }
+
+        //otherwise if contains many nodes then
+        Node current = head;
+        while(current.next.next != null){
+            current = current.next;
+        }
+        //remove the last node
+        current.next = null;
+    }
+
+    public void append(int data) {
+        Node newNode = new Node(data);
+        if(head == null){
+            head = newNode;
+            return;
+        }
+        Node current = head;
     }
 
 
