@@ -24,7 +24,7 @@ public class _4InsertAtPosition {
         return;
      }
 
-     //teaverse to the node before the insertion point
+     //traverse to the node before the insertion point
      Node current=head;
      for(int i=0;i<position-1 && current != null ; i++ ){
         current = current.next;
@@ -36,7 +36,7 @@ public class _4InsertAtPosition {
         return;
      }
 
-     //insert new node
+     //insert new node ***** actual insertion
      newNode.next = current.next;
      current.next = newNode;
 
@@ -83,6 +83,16 @@ public class _4InsertAtPosition {
           //iinsert at position 1
           list.inserttheNodeAtPosition(15,1);
           System.out.println("\n After inserting 15 at position 1: ");
+          list.printList();
+
+          //insert at position 0
+          list.inserttheNodeAtPosition(5,0);
+          System.out.println("\nAfter inserting 5 at position 0: ");
+          list.printList();
+
+          //insert at position 5 
+          list.inserttheNodeAtPosition(40,5);
+          System.out.println("\n After inserting 40 at position 5 ");
           list.printList();
 
          
