@@ -19,9 +19,33 @@ public class _5DeletefirstNode {
         //if the list is empty do nothing
         if(head == null){
             System.out.println("List is already empty.");
+            return;
         }
         //move head to the next node
         head = head.next;
+        /*
+         * head currently points to Node(10)
+
+          head.next is Node(20)
+
+          This assignment makes head point directly to Node(20)
+          ******Node(10) is now orphaned (no references to it)*****
+          Java's Garbage Collection:
+
+When no variables reference an object (like our old head Node(10))
+
+Java automatically removes it from memory
+
+This happens sometime after the method executes
+
+Pointer Manipulation:
+
+We're not "deleting" in the traditional sense
+
+We're just moving the head pointer to the next node
+
+The old node becomes unreachable
+         */
      }
 
      //method to add nodes at the end (for testing)
@@ -71,13 +95,14 @@ public class _5DeletefirstNode {
 
         //Delete first node again
         list.deleteFirst();
-        System.out.println("\n after deleting first node");
+        System.out.println("\n after deleting first node again");
         list.printList();
 
         //try deleteing from empty list
-        list.deleteFirst();
-
-
+          list.deleteFirst();
+          list.deleteFirst();
+          System.out.println("\n after deleting from empty list.");
+          list.printList();
      }
 
     
