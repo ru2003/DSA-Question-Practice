@@ -52,6 +52,15 @@ public class _3insertAtEnd {
         //linked list class
         public static void main(String[] args) {
             _3insertAtEnd list = new _3insertAtEnd();
+
+            //inset some nodes at the end
+            list.insertAtEnd(10);
+            list.insertAtEnd(20);
+            list.insertAtEnd(30);
+
+            //print the linked list
+            System.out.println("Linked List after insertion: ");
+
         }
     }
     
