@@ -27,6 +27,13 @@ public class _3insertAtEnd {
             head = newNode;
             return;
         }
+        //else traverse till the end then add the node
+        Node current = head;
+        while(current.next == null) {
+            current = current.next;
+        }
+        //change the last node when it will be 
+        current.next = newNode;
         
       }
 
