@@ -65,6 +65,9 @@ public class _6deleteLastNode {
         list.append(20);
         list.append(30);
 
+        System.out.println("Original List: ");
+        list.printList();
+
     }
 
     
