@@ -21,19 +21,20 @@
 10. Reverse a linked list (iterative & recursive).
 
 ✅ Phase 2: Intermediate Applications
-Find the middle of the linked list.
+
+11. Find the middle of the linked list.
 (Use slow and fast pointer approach)
 
-Detect a loop in a linked list.
+12. Detect a loop in a linked list.
 (Floyd’s Cycle Detection Algorithm)
 
-Remove a loop in a linked list.
+13. Remove a loop in a linked list.
 
-Check if the linked list is a palindrome.
+14. Check if the linked list is a palindrome.
 
-Merge two sorted linked lists.
+15. Merge two sorted linked lists.
 
-Find the N-th node from the end of the list.
+16. Find the N-th node from the end of the list.
 
 Remove duplicates from a sorted linked list.
 
