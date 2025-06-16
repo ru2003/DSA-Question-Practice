@@ -24,6 +24,7 @@
 
 11. Find the middle of the linked list.
 (Use slow and fast pointer approach)
++
 
 12. Detect a loop in a linked list.
 (Floyd’s Cycle Detection Algorithm)
