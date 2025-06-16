@@ -35,6 +35,14 @@ class Node{
             }
             return length;
         }
+
+        public void printList() {
+            Node current = head;
+            while(current != null){
+                System.out.println(current.data+" ");
+                current = current.next;
+            }
+        }
     public static void main(String[] args) {
         
     }
