@@ -55,12 +55,14 @@ public class _7DleteNodeAtSpecific {
         Node tnode = head;
         while(tnode != null) {
             System.out.println(tnode.data + " ");
+            tnode = tnode.next;
         }
 
     }
 
 
     public static void main(String[] args) {
+        _7DleteNodeAtSpecific list = new _7DleteNodeAtSpecific();
         
     }
     
