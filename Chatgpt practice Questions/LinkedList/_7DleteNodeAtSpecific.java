@@ -50,6 +50,13 @@ public class _7DleteNodeAtSpecific {
         head = newNode;
     }
 
+    //method to print the linkedlist
+    public void printList() {
+        Node tnode = head;
+        
+
+    }
+
 
     public static void main(String[] args) {
         
