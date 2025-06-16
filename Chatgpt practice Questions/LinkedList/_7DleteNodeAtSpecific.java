@@ -75,6 +75,8 @@ public class _7DleteNodeAtSpecific {
         list.printList();
 
         list.DeleteNode(3);
+        System.out.println("\nLinked List after Deletion at position 3: ");
+        list.printList();
     }
     
 }
