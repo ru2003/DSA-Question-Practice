@@ -64,6 +64,15 @@ public class _7DleteNodeAtSpecific {
     public static void main(String[] args) {
         _7DleteNodeAtSpecific list = new _7DleteNodeAtSpecific();
         
+
+        list.push(7);
+        list.push(1);
+        list.push(5);
+        list.push(8);
+        list.push(9);
+
+        System.out.println("Created Linked list is: ");
+        list.printList();
     }
     
 }
