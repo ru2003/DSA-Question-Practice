@@ -2,9 +2,6 @@ package LinkedList;
 //Find the length of the linked list (iterative & recursive).
 //iterative method
 
-
-public class _8LengthofLinkedList {
-//node class to represent each elemnt in the linked list
 class Node{
     int data;
     Node next;
@@ -12,14 +9,22 @@ class Node{
     public Node(int data) {
         this.data  = data;
         this.next = null;
-
-        public Node(int data) {
-            this.data = data;
-            this.next = null;
-        }
     }
-}
 
+
+}
+       class _8LengthofLinkedList {
+        Node head;
+
+        public void push(int data) {
+
+            //method to add new node at the front of the list
+            Node newNode = new Node(data);
+            newNode.next = head;
+            head = newNode;
+
+
+        }
     public static void main(String[] args) {
         
     }
