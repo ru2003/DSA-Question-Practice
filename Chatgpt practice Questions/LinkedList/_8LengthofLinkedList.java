@@ -53,6 +53,7 @@ class Node{
 
 
         System.out.println("Created Linked list is: ");
+        list.printList();
         
     }
     
