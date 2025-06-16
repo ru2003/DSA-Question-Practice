@@ -54,7 +54,7 @@ public class _7DleteNodeAtSpecific {
     public void printList() {
         Node tnode = head;
         while(tnode != null) {
-            System.out.println(tnode.data + " ");
+            System.out.print(tnode.data + " ");
             tnode = tnode.next;
         }
 
