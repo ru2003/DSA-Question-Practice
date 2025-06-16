@@ -12,9 +12,21 @@ class Node {
 }
 public class _7DleteNodeAtSpecific {
 
-    Node head;
+    Node head;//head of the list
+    //method to delete the node at a givem position
     public void DeleteNode(int position) {
+        if (head == null){
+            return ;
+        }
+       //store head node
+       Node temp = head;
+
+       //if head needs to be removed
+       if(position == 0) {
+        head = temp.next;
+        return;
         
+       }
     }
 
 
