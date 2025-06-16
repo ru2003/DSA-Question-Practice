@@ -73,6 +73,8 @@ public class _7DleteNodeAtSpecific {
 
         System.out.println("Created Linked list is: ");
         list.printList();
+
+        list.DeleteNode(3);
     }
     
 }
