@@ -22,8 +22,18 @@ class Node{
             Node newNode = new Node(data);
             newNode.next = head;
             head = newNode;
+        }
 
+        //recursive method to find length of the linked list
+        public int getlengthofLinkedList(){
+            int length = 0 ;
+            Node current = head;
 
+            while(current != null){
+                length++;
+                current = current.next;
+            }
+            return length;
         }
     public static void main(String[] args) {
         
