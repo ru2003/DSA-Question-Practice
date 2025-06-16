@@ -55,6 +55,7 @@ class Node{
         System.out.println("Created Linked list is: ");
         list.printList();
         
+        System.out.println("\nlength using iterative method: " + list.getlengthofLinkedList());
     }
     
 }
