@@ -44,6 +44,15 @@ class Node{
             }
         }
     public static void main(String[] args) {
+        _8LengthofLinkedList list = new _8LengthofLinkedList();
+
+        list.push(4);
+        list.push(1);
+        list.push(4);
+        list.push(8);
+
+
+        System.out.println("Created Linked list is: ");
         
     }
     
