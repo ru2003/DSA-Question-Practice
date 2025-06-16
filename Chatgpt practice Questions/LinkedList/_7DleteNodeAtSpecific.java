@@ -53,7 +53,9 @@ public class _7DleteNodeAtSpecific {
     //method to print the linkedlist
     public void printList() {
         Node tnode = head;
-        
+        while(tnode != null) {
+            System.out.println(tnode.data + " ");
+        }
 
     }
 
