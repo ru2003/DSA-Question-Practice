@@ -31,6 +31,7 @@ public class _9SearchAnElement {
         }
         current = current.next;
      }
+     return false;
      
      }
 
