@@ -38,15 +38,30 @@ public class _9SearchAnElement {
      public void printlist(){
         Node current = head;
         while(current!=null){
-            System.out.println(current.data+" ");
+            System.out.print(current.data+" ");
             current = current.next;
         }
      }
 
      public static void main(String[] args){
-        _9SearchAnElement list = new _9SearchAnElement();
+        _9SearchAnElement list = new  _9SearchAnElement();
+        list.push(9);
+        list.push(1);
+        list.push(7);
+        list.push(11);
+        list.push(29);
+
+
         System.out.println("Created Linked list is: ");
         list.printlist();
+        int searchkey = 9;
+
+        //iterative search
+        if(list.SearchAnElemnt(searchkey)) {
+            System.out.println("\nElement "+ searchkey + " found");
+        }else{
+            System.out.println("\nElement "+searchkey+" not found");
+        }
 
      }
 
