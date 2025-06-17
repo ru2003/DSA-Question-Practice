@@ -31,11 +31,20 @@ public class _9SearchAnElement {
         }
         current = current.next;
      }
-     return false;
+     return false;//elemnt not found
      
      }
+
+     public void printlist(){
+        Node current = head;
+        while(current!=null){
+            System.out.println(current.data+" ");
+        }
+     }
+
+
 
 
     }
 
-}
+
