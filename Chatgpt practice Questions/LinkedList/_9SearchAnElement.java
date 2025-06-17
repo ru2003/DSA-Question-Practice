@@ -39,6 +39,7 @@ public class _9SearchAnElement {
         Node current = head;
         while(current!=null){
             System.out.println(current.data+" ");
+            current = current.next;
         }
      }
 
