@@ -45,6 +45,9 @@ public class _9SearchAnElement {
 
      public static void main(String[] args){
         _9SearchAnElement list = new _9SearchAnElement();
+        System.out.println("Created Linked list is: ");
+        list.printlist();
+
      }
 
 
