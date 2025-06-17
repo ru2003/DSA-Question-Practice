@@ -29,6 +29,7 @@ public class _9SearchAnElement {
         if(current.data == key){
             return true;
         }
+        current = current.next;
      }
      
      }
