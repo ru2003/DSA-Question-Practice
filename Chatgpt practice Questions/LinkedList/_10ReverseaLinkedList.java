@@ -58,5 +58,7 @@ public class _10ReverseaLinkedList {
 
         list.reverse();
 
+        System.out.println("REversed list: ");
+
     }
 }
