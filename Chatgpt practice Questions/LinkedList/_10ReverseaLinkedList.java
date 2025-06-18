@@ -46,6 +46,14 @@ public class _10ReverseaLinkedList {
 
     //main method to test
     public static void main(String[] args) {
-        
+        _10ReverseaLinkedList list = new _10ReverseaLinkedList();
+
+        list.push(5);
+        list.push(4);
+        list.push(3);
+        list.push(2);
+
+        System.out.println("Original list: ");
+
     }
 }
