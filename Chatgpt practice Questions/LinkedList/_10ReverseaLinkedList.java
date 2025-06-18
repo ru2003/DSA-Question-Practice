@@ -43,4 +43,9 @@ public class _10ReverseaLinkedList {
         }
         System.out.println();
     }
+
+    //main method to test
+    public static void main(String[] args) {
+        
+    }
 }
