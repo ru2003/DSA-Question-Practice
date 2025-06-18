@@ -11,5 +11,5 @@ class Node{
     }
 }
 public class _10ReverseaLinkedList {
-    
+    Node head;
 }
