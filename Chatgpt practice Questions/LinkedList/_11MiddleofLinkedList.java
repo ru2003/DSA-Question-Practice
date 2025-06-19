@@ -19,6 +19,13 @@ public class _11MiddleofLinkedList {
         newNode.next = head;
         head = newNode;
     }
+
+    //find the middle node using slow and fast pointer
+    public Node findMiddle() {
+        if(head == null){
+            return null;
+        }
+    }
     
 
     public static void main(String[] args) {
