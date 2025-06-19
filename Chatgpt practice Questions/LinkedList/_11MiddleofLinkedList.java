@@ -48,7 +48,7 @@ public class _11MiddleofLinkedList {
     
 
     public static void main(String[] args) {
-
+         _11MiddleofLinkedList list = new _11MiddleofLinkedList();
 
 
     }
