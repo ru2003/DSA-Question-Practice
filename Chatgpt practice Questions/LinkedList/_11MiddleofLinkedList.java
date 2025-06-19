@@ -13,6 +13,10 @@ class Node{
 }
 public class _11MiddleofLinkedList {
     Node head;
+
+    public void push(int data){
+        Node newNode = new Node(data);
+    }
     
 
     public static void main(String[] args) {
