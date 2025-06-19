@@ -25,6 +25,10 @@ public class _11MiddleofLinkedList {
         if(head == null){
             return null;
         }
+
+        Node slow = head;
+        Node fast = head;
+        
     }
     
 
