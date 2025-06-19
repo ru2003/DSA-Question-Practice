@@ -36,6 +36,11 @@ public class _11MiddleofLinkedList {
         }
         return slow;
     }
+
+    //print the element of the linked list
+    public void printlist() {
+        Node current = head;
+    }
     
 
     public static void main(String[] args) {
