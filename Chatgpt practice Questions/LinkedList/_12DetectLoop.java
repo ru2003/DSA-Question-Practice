@@ -9,12 +9,12 @@ class Node{
         this.data = data;
         this.next = null;
     }
-
 }
     
 
 public class _12DetectLoop {
 
+    Node head;
 
     public static void main(String[] args){
 
