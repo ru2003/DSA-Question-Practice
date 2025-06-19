@@ -29,6 +29,9 @@ public class _11MiddleofLinkedList {
         Node slow = head;
         Node fast = head;
         
+        while(fast != null && fast.next != null){
+
+        }
     }
     
 
