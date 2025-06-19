@@ -40,6 +40,10 @@ public class _11MiddleofLinkedList {
     //print the element of the linked list
     public void printlist() {
         Node current = head;
+        while(current != null){
+            System.out.print(current.data+" ");
+        }
+        System.out.println();
     }
     
 
