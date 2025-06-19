@@ -42,6 +42,7 @@ public class _11MiddleofLinkedList {
         Node current = head;
         while(current != null){
             System.out.print(current.data+" ");
+            current = current.next;
         }
         System.out.println();
     }
@@ -49,6 +50,19 @@ public class _11MiddleofLinkedList {
 
     public static void main(String[] args) {
          _11MiddleofLinkedList list = new _11MiddleofLinkedList();
+          
+         //create list: 
+         list.push(1);
+         list.push(2);
+         list.push(3);
+         list.push(4);
+         list.push(5);
+
+         System.out.println("Original List: ");
+         list.printlist();
+
+         Node middle = list.findMiddle();
+         System.out.println("Middle elment: " + middle.data );
 
 
     }
