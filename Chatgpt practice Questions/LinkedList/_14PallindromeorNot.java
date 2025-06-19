@@ -10,5 +10,8 @@ class Node{
     }
 }
 public class _14PallindromeorNot {
+    public static void main(String[] args){
+
+    }
     
 }
