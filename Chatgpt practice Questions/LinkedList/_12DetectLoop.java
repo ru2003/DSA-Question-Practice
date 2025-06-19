@@ -15,6 +15,10 @@ class Node{
 public class _12DetectLoop {
 
     Node head;
+    //add node to front the list
+    public void push(int data){
+        Node newNode = new Node(data);
+    }
 
     public static void main(String[] args){
 
