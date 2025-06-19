@@ -18,6 +18,8 @@ public class _12DetectLoop {
     //add node to front the list
     public void push(int data){
         Node newNode = new Node(data);
+        newNode.next = head;
+        head = newNode;
     }
 
     public static void main(String[] args){
