@@ -6,7 +6,7 @@ public class _2IfisEmpty {
         Stack<Integer> stack = new Stack<>();
 
         if(stack.isEmpty()){
-
+          System.out.println("Stack is empty.");
         }
     }
     
