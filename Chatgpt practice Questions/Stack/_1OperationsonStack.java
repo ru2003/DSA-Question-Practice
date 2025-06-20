@@ -10,6 +10,18 @@ public class _1OperationsonStack {
         stack.push(20);
         stack.push(30);
 
+        System.out.println("Top element is: "+stack.peek());
+
+        stack.pop();
+        System.out.println("Top aafter pop: " + stack.peek());
+
+        stack.pop();
+        stack.pop();
+
+        if(Stack is empty){
+            
+        }
+
     }
     
 }
