@@ -8,6 +8,10 @@ public class _2IfisEmpty {
         if(stack.isEmpty()){
           System.out.println("Stack is empty.");
         }
+        stack.push(10);
+        if(!stack.isEmpty()) {
+            System.out.println("Stack is not empty.");
+        }
     }
     
 }
