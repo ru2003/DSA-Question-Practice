@@ -16,10 +16,12 @@ public class _1OperationsonStack {
         System.out.println("Top aafter pop: " + stack.peek());
 
         stack.pop();
-        stack.pop();
+        //stack.pop();
 
-        if(Stack is empty){
-            
+        if(stack.isEmpty()){
+            System.out.println("Stack is empty.");
+        }else{
+            System.out.println("Stack is not empty:");
         }
 
     }
