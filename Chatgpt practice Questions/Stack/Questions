@@ -1,0 +1,60 @@
+1. Push, Pop, and Top in Stack
+(Implement these functions manually using array or list)
+
+ 2. Check if Stack is Empty
+
+ 3. Count the number of elements in a stack
+
+ 4. Peek the top element of a stack
+
+ 5. Reverse a Stack using recursion
+
+ 6. Copy one stack into another
+
+7. Implement a Stack using Arrays
+
+8. Implement a Stack using Linked List
+
+9. Implement Two Stacks in an Array
+
+10. Reverse a String using Stack
+
+11. Check for Balanced Parentheses (()[]{} etc.)
+
+12. Insert an Element at the Bottom of a Stack
+
+13. Evaluate Postfix Expression
+
+14. Convert Infix to Postfix
+
+15. Implement Min Stack (getMin in O(1))
+
+16. Next Greater Element
+
+17. Delete Middle Element of a Stack
+
+18. Sort a Stack using recursion
+
+19. Design a Stack that supports getMin(), push(), pop() in O(1)
+
+20. Celebrity Problem
+
+21. Stock Span Problem
+
+22. Largest Rectangle in Histogram
+
+23. Maximal Rectangle in a Binary Matrix
+
+24. Implement a Stack using Queues
+
+25. Implement a Queue using Stacks
+
+26. Decode String using Stack ("3[a2[c]]" ➝ "accaccacc")
+
+27. Remove K Digits to Make Smallest Number (Leetcode 402)
+
+28. Daily Temperatures (Leetcode 739)
+
+29. Asteroid Collision
+
+30. Exclusive Time of Functions
