@@ -1,0 +1,169 @@
+✅ 1. Core Java (Foundations)
+History and Features of Java
+
+JDK, JRE, JVM
+
+Data Types and Variables
+
+Operators and Expressions
+
+Control Statements: if, switch, loops (for, while, do-while)
+
+Type Casting and Conversion
+
+Input/Output (Scanner, BufferedReader)
+
+✅ 2. Object-Oriented Programming (OOPs)
+Class and Object
+
+Constructor (Default, Parameterized, Copy)
+
+Inheritance (Single, Multilevel, Hierarchical)
+
+Polymorphism (Compile-time and Runtime)
+
+Abstraction (Abstract Class and Interface)
+
+Encapsulation
+
+‘this’ and ‘super’ keyword
+
+Method Overloading and Overriding
+
+Access Modifiers (private, protected, public, default)
+
+Static Keyword
+
+final Keyword
+
+Wrapper Classes
+
+✅ 3. Strings in Java
+String vs StringBuilder vs StringBuffer
+
+String Methods
+
+Immutability of Strings
+
+String Pool Concept
+
+Important programs like reversing, palindrome, count characters, etc.
+
+✅ 4. Arrays and Collections
+Arrays (1D, 2D)
+
+ArrayList vs LinkedList
+
+Set (HashSet, LinkedHashSet, TreeSet)
+
+Map (HashMap, LinkedHashMap, TreeMap)
+
+Queue and Stack
+
+Comparator vs Comparable
+
+Iteration techniques (for-each, Iterator, ListIterator)
+
+✅ 5. Exception Handling
+try-catch-finally
+
+throw and throws
+
+Custom Exception
+
+Checked vs Unchecked Exception
+
+Common Exceptions (NullPointerException, ArithmeticException, etc.)
+
+✅ 6. Java 8 Features (Important for Interviews)
+Lambda Expressions
+
+Functional Interfaces
+
+Streams API
+
+Method References
+
+Default and Static methods in Interface
+
+Optional Class
+
+✅ 7. Multithreading and Concurrency
+Thread Class and Runnable Interface
+
+Thread Lifecycle
+
+Synchronization and Locks
+
+wait(), notify(), notifyAll()
+
+Executor Framework (basic idea)
+
+Deadlock, Race Condition
+
+✅ 8. File Handling
+FileReader, FileWriter
+
+BufferedReader, BufferedWriter
+
+Reading/Writing from File
+
+Serialization and Deserialization
+
+✅ 9. JDBC (Java Database Connectivity)
+DriverManager and Connection
+
+PreparedStatement vs Statement
+
+CRUD operations
+
+Transactions and Rollbacks
+
+✅ 10. Design Patterns (Basic Understanding)
+Singleton
+
+Factory
+
+Builder
+
+DAO (Data Access Object)
+
+✅ 11. Garbage Collection
+How GC works in Java
+
+finalize() method
+
+Ways to make object eligible for GC
+
+✅ 12. Annotations and Enums
+Built-in Annotations (@Override, @Deprecated, @SuppressWarnings)
+
+Custom Annotations
+
+Enum Basics and Usage
+
+✅ 13. Java Memory Management (Advanced)
+Stack vs Heap
+
+ClassLoader
+
+Static vs Instance memory
+
+✅ 14. Unit Testing (Optional but Bonus)
+JUnit (Basic Annotations and Assertions)
+
+✅ 15. Project-related Topics (if asked in interviews)
+Spring Boot Basics (if mentioned on resume)
+
+API integration (RestController, CRUD APIs)
+
+Postman testing
+
+Database connectivity with Spring JPA
+
+📌 Bonus Tips for Interview:
+Prepare DSA (Data Structures and Algorithms) using Java.
+
+Focus on Coding Patterns: sliding window, two-pointer, recursion, binary search, etc.
+
+Practice coding on LeetCode, HackerRank, CodeStudio.
