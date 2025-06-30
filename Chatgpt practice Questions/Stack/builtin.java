@@ -8,5 +8,8 @@ public class builtin{
        st.push(100);
        st.push(200);
        st.push(300);
+
+      System.out.println("");
+    
     }
 }
