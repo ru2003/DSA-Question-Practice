@@ -20,7 +20,8 @@ class Stack{
             System.out.println("Stack Overflow");
             return;
         }
-        stackArray[++top] = value;
+       stackArray[++top] = value;
+       System.out.println(value+" pushed to stack");
     }
 
     //pop elment from stack
@@ -53,6 +54,10 @@ class Stack{
             System.out.println("Stack is empty");
             return;
         }
+        System.out.println("Stack: ");
+        for(int i=0;i<=top;i++){
+            System.out.print(stackArray[i] + " ");
+        }
         System.out.println();
     }
 }
@@ -65,8 +70,14 @@ public class _7StackusingArrays {
         stack.push(20);
         stack.push(30);
         stack.push(40);//output stack: 10 20 30 40
+        stack.display();
 
         System.out.println("Top: " + stack.peek());
+
+        stack.pop();
+        stack.display();
+        stack.pop();
+        stack.display();
 
 
     }
