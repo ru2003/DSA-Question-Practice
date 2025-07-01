@@ -22,7 +22,8 @@ class Node{
 
 class StackLinkedlist{
     Node top;
-
+    
+    //constructor
     StackLinkedlist() {
         top = null;//initiallly stack is empty
     }
@@ -73,7 +74,28 @@ class StackLinkedlist{
 }
 //stack class using Linked list
 public class _8StackusinLinkedList {
+   public static void main(String[] args){
+    StackLinkedlist stack = new StackLinkedlist();
 
+    stack.push(10);
+    stack.push(20);
+    stack.push(30);
+    stack.push(40);
+    stack.display();
+
+    System.out.println("Top: " + stack.peek());
+
+    stack.pop();
+    stack.display();
+    stack.pop();//removes 30
+    stack.pop();//remove 20
+    stack.pop();//remove 10
+    stack.display();
+    
+  
+  
+
+   }
 
     
 }
