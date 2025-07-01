@@ -63,6 +63,12 @@ class StackLinkedlist{
         }
 
         System.out.println("Stack:");
+        Node current = top;
+        while(current != null) {
+            System.out.println(current.data + " ");
+            current = current.next;
+        }
+        System.out.println();
     }
 }
 //stack class using Linked list
