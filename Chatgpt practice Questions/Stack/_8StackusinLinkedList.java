@@ -19,11 +19,50 @@ class Node{
 }
 
 //stack class using linked list
+
 class StackLinkedlist{
     Node top;
 
     StackLinkedlist() {
         top = null;//initiallly stack is empty
+    }
+    //push operation
+    void push(int value){
+        Node newNode = new Node(value);
+        newNode.next = top;//point to previous top
+        top = newNode;
+        System.out.println(value+ " pushed to stack");
+    }
+    //pop operation
+    int pop(){
+        if(isEmpty()){
+            System.out.println("Stack Underflow");
+            return -1;
+        }
+        int popped = top.data;
+        top= top.next;
+        return popped;
+    }
+
+    //peek operation
+    int peek() {
+        if(isEmpty()){
+            System.out.println("Stack is empty");
+            return -1;       
+        }
+          return top.data;
+    }
+   boolean isEmpty() {
+    return top == null;
+   }
+    //display stack elements
+    void display() {
+        if(isEmpty()) {
+            System.out.println("Stack is empty");
+            return ;
+        }
+
+        System.out.println("Stack:");
     }
 }
 //stack class using Linked list
