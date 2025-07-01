@@ -17,6 +17,18 @@ class Node{
         this.next = null;
     }
 }
+
+//stack class using linked list
+class StackLinkedlist{
+    Node top;
+
+    StackLinkedlist() {
+        top = null;//initiallly stack is empty
+    }
+}
+//stack class using Linked list
 public class _8StackusinLinkedList {
+
+
     
 }
