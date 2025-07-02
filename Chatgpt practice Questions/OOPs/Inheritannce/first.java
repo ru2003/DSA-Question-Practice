@@ -14,5 +14,13 @@ class Dog extends Animal{
     }
 }
 public class first {
-    
+    public static void main(String[] args) {
+        Dog myDog = new Dog();
+
+        //access method from parent class
+        myDog.eat();
+
+        //access ethod from child class
+        myDog.bark();
+    }
 }
