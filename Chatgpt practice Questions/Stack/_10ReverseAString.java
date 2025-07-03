@@ -9,5 +9,26 @@
 import java.util.Stack;
 
 public class _10ReverseAString {
+
+    //method to reverse a string using stack
+    static String reverse(String input){
+        Stack<Character> stack = new Stack<>();
+
+        //Push all character and build reversed string
+        for(int i=0;i<input.length(); i++){
+            stack.push(input.charAt(i));
+        }
+
+        //pop a;; character and build reversed string
+        StringBuilder reversed = new StringBuilder();
+        while(!stack.isEmpty()){
+            reversed.append(stack.pop());
+        }
+        return reversed.toString();
+    }
+
+    public static void main(String[] args){
+        
+    }
     
 }
