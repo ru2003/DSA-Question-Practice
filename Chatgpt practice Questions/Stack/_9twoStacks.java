@@ -75,26 +75,21 @@ Both should stop when there is no space left in between
     void display() {
         System.out.println("Stack 1: ");
         for (int i = 0; i<=top1; i++) {
-            System.out.println(arr[i] + " ");
+            System.out.print(arr[i] + " ");
         }
         System.out.println();
 
         System.out.println("Stack 2: ");
         for(int i = size-1; i>= top2; i--) {
-            System.out.println(arr[i] + " ");
-        }
-        System.out.println();
-
-        System.out.print("Stack 2: ");
-        for (int i = size - 1; i >= top2; i--) {
             System.out.print(arr[i] + " ");
         }
         System.out.println();
+
     }
  }
 
 public class _9twoStacks {
-    public static void maiin(String[] args){
+    public static void main(String[] args){
         TwoStacks ts = new TwoStacks(10);
 
         ts.push1(1);
@@ -115,3 +110,33 @@ public class _9twoStacks {
 
     }
 }
+/* 
+ * Problem We’re Solving:
+You have very limited memory (like in embedded systems, old mobile apps, or memory-constrained environments).
+
+Now suppose you need:
+
+One stack to undo actions in an app
+
+Another stack to redo actions
+
+You could do:
+
+Two separate arrays, but that wastes space.
+
+❌ One stack may use up all its space even if the other is empty.
+
+So instead, we say:
+
+“Let’s create just one array.
+Let Stack 1 grow from the left.
+Let Stack 2 grow from the right.”
+
+ You See	💡 What’s Actually Happening
+One array => 	Memory-efficient shared space
+Two stacks =>  pushing	Two separate pointer systems (top1 and top2)
+Avoid overflow	=> By ensuring top1 < top2 - 1
+Still independent	=> Stack 1 & Stack 2 never overwrite each other
+Real-world use=>	Undo/redo, browser history, split-memory operations
+
+ */
