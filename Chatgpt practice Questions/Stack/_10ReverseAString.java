@@ -20,7 +20,10 @@ public class _10ReverseAString {
         }
 
         //pop a;; character and build reversed string
-        StringBuilder reversed = new StringBuilder();
+        StringBuilder reversed = new StringBuilder();//stringbuilder is mutable class
+        /*1)you can change its conent without creating new objects
+         * 2)its optiomized for repeated appends .
+         */
         while(!stack.isEmpty()){
             reversed.append(stack.pop());
         }
