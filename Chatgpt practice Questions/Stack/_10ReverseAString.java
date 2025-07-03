@@ -28,7 +28,12 @@ public class _10ReverseAString {
     }
 
     public static void main(String[] args){
-        
+        String original = "Ruchita";
+
+        String reversed = reverse(original);
+        System.out.println("Original String: " + original);
+        System.out.println("reversed String: " + reversed);
+
     }
     
 }
