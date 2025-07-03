@@ -29,7 +29,19 @@ In the end, if the stack is empty → ✅ Balanced.
 public class _11CheckforBalanceParenthesis {
 
     public static boolean isbalanced(String str){
+          Stack<Character> stack = new Stack<>();
 
+          for(char ch: str.toCharArray()){
+            //push opening brackets
+            if(ch =='(' || ch =='{' || ch =='['){
+                stack.push(ch);
+            }
+
+            //handle closing brackeets
+            else if(ch==')' || ch=='}' || ch=='}') {
+                if(stack.isEmpty()) return false;
+            }
+          }
     }
     
 }
