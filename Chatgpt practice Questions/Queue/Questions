@@ -1,0 +1,60 @@
+1. Implement a Queue using Array
+
+2. Implement a Queue using Linked List
+
+3. Implement a Circular Queue
+
+4. Implement a Queue using Two Stacks
+
+5. Reverse a Queue using recursion or stack
+
+6. Check for Palindrome using Queue
+
+7. Generate binary numbers from 1 to N using Queue
+
+8. Interleave the first and second half of the queue
+
+9. Find the first non-repeating character in a stream
+
+10. Check if given queue is sorted or not
+
+LRU Cache Implementation (Queue + HashMap)
+
+Rotten Oranges Problem (Multi-source BFS using queue)
+
+Level Order Traversal of a Binary Tree
+
+Reverse First K elements of Queue
+
+Distance of nearest 1 in binary matrix (BFS)
+
+First negative integer in every window of size K
+
+Maximum of all subarrays of size K (Sliding Window using Deque)
+
+Time taken to buy tickets (Leetcode-style problem)
+
+Design Hit Counter using Queue
+
+Sum of minimum and maximum elements of all subarrays of size K
+
+Shortest Path in Binary Matrix (BFS based)
+
+Course Schedule (Topological Sort) – Use Kahn’s Algorithm
+
+Clone a Graph using BFS (queue)
+
+Design a Task Scheduler (Leetcode hard)
+
+Walls and Gates (multi-source BFS)
+
+Snakes and Ladders – Minimum dice throws using BFS
+
+Rearrange characters in a string such that no two same are adjacent (Greedy + Queue)
+
+Sliding Puzzle (BFS + Queue)
+
+Minimum time to inform all employees (Leetcode)
+
+Trapping Rain Water II (Advanced – queue + heap)
+
