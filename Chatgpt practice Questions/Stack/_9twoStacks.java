@@ -103,6 +103,15 @@ public class _9twoStacks {
 
         ts.push2(100);
         ts.push2(200);
+        ts.push2(300);
+
+        ts.display();// // Should print Stack 1: 1 2 3 and Stack 2: 300 200 100
+        
+        ts.pop1();
+        ts.pop2();
+
+        ts.display();//Stack 1: 1 2, Stack 2: 300 200
+
 
     }
 }
