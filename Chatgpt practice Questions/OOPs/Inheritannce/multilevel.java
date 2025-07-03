@@ -1,8 +1,6 @@
 package OOPs.Inheritannce;
 
 
-
-
 class Animal{
     void eat() {
         System.out.println("Animal eats food");
@@ -22,5 +20,11 @@ class puppy extends Dog{
 
 }
 public class multilevel {
+    public static void main(){
+        puppy p = new puppy();
 
+     p.eat();//from animal
+     p.bark();//from dog
+     p.weep();//from puppy 
+    }
 }

@@ -19,7 +19,7 @@ class Node{
 }
 
 //stack class using linked list
-
+//this class will contain all the stack operation:push , pop,peek,usEmpty and display
 class StackLinkedlist{
     Node top;
     
