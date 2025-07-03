@@ -27,5 +27,9 @@ In the end, if the stack is empty → ✅ Balanced.
 
  import java.util.Stack;
 public class _11CheckforBalanceParenthesis {
+
+    public static boolean isbalanced(String str){
+
+    }
     
 }
