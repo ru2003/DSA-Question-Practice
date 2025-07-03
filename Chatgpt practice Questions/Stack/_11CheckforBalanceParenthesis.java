@@ -55,6 +55,15 @@ public class _11CheckforBalanceParenthesis {
           return stack.isEmpty();
     }
 
-    
+    public static void main(String[] args){
+        String input1 = "([{}])";
+        String input2 = "{(}";
+        String input3 = "{[[]}";
+
+       
+        System.out.println(input1 + " → " + isbalanced(input1)); 
+        System.out.println(input2 + " → " + isbalanced(input2)); 
+        System.out.println(input3 + " → " + isbalanced(input3));
+    }
     
 }
