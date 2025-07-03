@@ -40,8 +40,21 @@ public class _11CheckforBalanceParenthesis {
             //handle closing brackeets
             else if(ch==')' || ch=='}' || ch=='}') {
                 if(stack.isEmpty()) return false;
+
+                char top = stack.pop();
+
+                if((ch == ')' && top != '(') ||
+                (ch== '}' && top  != '{') || 
+                (ch == ']' &&  top != '[')) {
+                    return false;
+                }   
             }
           }
+
+          //if stack is empty in the end => its balanced
+          return stack.isEmpty();
     }
+
+    
     
 }
