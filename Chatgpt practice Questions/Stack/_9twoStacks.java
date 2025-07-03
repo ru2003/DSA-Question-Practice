@@ -36,7 +36,7 @@ Both should stop when there is no space left in between
     void push1(int x) {
         if(top1 < top2-1){
             arr[++top1] = x;
-            System.out.println("Pushed " + x + " to Stack 2");
+            System.out.println("Pushed " + x + " to Stack 1");
         }else{
             System.out.println("Stack Overflow (Stack 2)");
         }
@@ -131,6 +131,7 @@ So instead, we say:
 “Let’s create just one array.
 Let Stack 1 grow from the left.
 Let Stack 2 grow from the right.”
+
 
  You See	💡 What’s Actually Happening
 One array => 	Memory-efficient shared space
