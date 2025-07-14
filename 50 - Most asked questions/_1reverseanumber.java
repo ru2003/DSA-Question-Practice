@@ -9,7 +9,12 @@ public class _1reverseanumber{
 
          int number = sc.nextInt();
          int reversed = 0;
-
+         
+         while(number != 0) {
+            int digit  = number %10;
+            reversed = reversed * 10 + digit;
+            number /= 10;
+         }
 
     }
 }
