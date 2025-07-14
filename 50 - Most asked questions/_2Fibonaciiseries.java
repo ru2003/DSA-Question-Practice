@@ -8,7 +8,9 @@ public class _2Fibonaciiseries {
          for(int i=1;i<=num;i++){
             System.out.println(firstname + " ");
             int next = firstname+secondname;
-        
+            
+            firstname = secondname;
+            secondname = next;
 
          }
         
