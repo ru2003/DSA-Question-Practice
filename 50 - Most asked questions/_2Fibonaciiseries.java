@@ -5,8 +5,13 @@ public class _2Fibonaciiseries {
          int firstname = 0 ;
          int secondname  = 1;
          int num = 10;
-         for(int i=0;i<=num-1;i++){
-            System.out.println(s);
+         for(int i=1;i<=num;i++){
+            System.out.println(firstname + " ");
+            int next = firstname+secondname;
+        
+
          }
+        
+
      }
 }
