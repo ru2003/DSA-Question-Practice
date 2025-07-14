@@ -13,7 +13,5 @@ public class _2Fibonaciiseries {
             secondname = next;
 
          }
-        
-
      }
 }
