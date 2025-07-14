@@ -8,6 +8,7 @@ public class _1reverseanumber{
          System.out.println("Enter the number to reverse: ");
 
          int number = sc.nextInt();
+         int reversed = 0;
 
 
     }
