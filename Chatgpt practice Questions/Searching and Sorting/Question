@@ -1,0 +1,81 @@
+🟩 🔹 BASIC SEARCHING CONCEPTS (Start Here)
+✅ Linear Search
+1. Find Element in an Array
+➤ Given an array and a key, return its index or -1.
+
+2. Count Occurrences of an Element
+➤ Count how many times a number appears in an array.
+
+3. Find Maximum and Minimum Element in Array
+
+✅ Binary Search (Only works on sorted arrays)
+4. Binary Search (Iterative and Recursive)
+➤ Given a sorted array and a key, return index or -1.
+
+5. First and Last Occurrence of an Element
+➤ Use binary search to find the first/last index.
+
+6. Count Number of Occurrences in Sorted Array
+➤ Use binary search twice and calculate count.
+
+7. Find the Square Root of a Number (Binary Search)
+➤ Return floor of the square root.
+
+8. Search Insert Position in Sorted Array
+
+🟦 🔹 BASIC SORTING CONCEPTS
+✅ Learn and implement each:
+9. Bubble Sort
+➤ Repeatedly swap adjacent elements if out of order.
+
+10. Selection Sort
+➤ Select minimum in each pass and swap.
+
+11. Insertion Sort
+➤ Pick and insert in sorted part of array.
+
+🟨 🔹 INTERMEDIATE SEARCHING CONCEPTS
+12. Search in Rotated Sorted Array
+➤ Use modified binary search to find the element.
+
+13. Find Minimum in Rotated Sorted Array
+
+14. Find Peak Element in Array
+➤ Element greater than both neighbors.
+
+15. Find Floor and Ceil of a Number in Sorted Array
+
+🟧 🔹 INTERMEDIATE SORTING CONCEPTS
+16. Merge Sort (Divide and Conquer)
+➤ Learn how it divides and merges arrays.
+
+17. Quick Sort
+➤ Learn pivot, partitioning, and recursive calls.
+
+18. Count Inversions in Array (Using Merge Sort)
+➤ Good intro to modification of sorting.
+
+19. Sort 0s, 1s and 2s (Dutch National Flag)
+➤ Common interview problem.
+
+20. Kth Smallest Element Using Sorting
+
+🟫 🔹 PATTERN-BASED WORD PROBLEMS (Simplified)
+21. Find Missing Number from 1 to n
+➤ Use sum formula or binary search.
+
+22. Find Duplicate Element in Array
+➤ Use sorting, hashing or Floyd’s cycle method.
+
+23. Find Pair with Sum in Sorted Array
+➤ Two pointers approach.
+
+24. Two Sum in Unsorted Array
+
+25. Check if Array is Sorted
+
+🟪 BONUS: Binary Search on Answer Problems (Intro only)
+26. Allocate Books Problem (Intro to binary search on answer)
+➤ Allocate minimum pages to students.
+
+27. Aggressive Cows (Similar to above)
