@@ -1,5 +1,4 @@
 //1. Write a code to reverse a number
-
 import java.util.Scanner;
 public class _1reverseanumber{
     public static void main(String[] args) {
@@ -15,8 +14,6 @@ public class _1reverseanumber{
             reversed = reversed * 10 + digit; //shifts the existing reversed number left by one digit and adds the new digit to it.
             number /= 10;//removes the last digit from the original number by integer division.
          }
-
          System.out.println("Reversed number: " + reversed);
-
     }
 }
