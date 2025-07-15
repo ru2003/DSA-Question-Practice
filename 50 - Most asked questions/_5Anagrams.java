@@ -17,8 +17,17 @@ public class _5Anagrams {
 
         Arrays.sort(arr1);
         Arrays.sort(arr2);
+        //compare sorted array
+        return Arrays.equals(arr1,arr2);
     }
     public static void main(String[]args){
+           String num1 = "Listen";
+           String num2 = "Silent";
 
+           if(isAnagram(num1, num2)){
+            System.out.println("They are anagrams");
+           }else{
+            System.out.println("They are not anagrams");
+           }
     }
 }
