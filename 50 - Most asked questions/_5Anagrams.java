@@ -1,4 +1,5 @@
 //5. Write code to Check if two strings are Anagram or not
+import java.util.*;
 public class _5Anagrams {
 
     public static boolean isAnagram(String str1, String str2){
@@ -15,6 +16,7 @@ public class _5Anagrams {
         char[] arr2 = str2.toCharArray();
 
         Arrays.sort(arr1);
+        Arrays.sort(arr2);
     }
     public static void main(String[]args){
 
