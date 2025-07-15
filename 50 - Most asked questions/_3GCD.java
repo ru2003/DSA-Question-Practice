@@ -1,9 +1,8 @@
 //3. Write code of Greatest Common Divisor 
 /*This problem asks to find the Greatest Common Divisor (GCD) of two given numbers. The GCD of two numbers is the largest positive integer that divides both numbers without leaving a remainder. */
-
 import java.util.Scanner;
 public class _3GCD {
-
+    
     public static int findGCD(int a, int b){
         while (b != 0) {
             int temp = b;
@@ -18,6 +17,11 @@ public class _3GCD {
          int num1 = sc.nextInt();
 
          System.out.println("Enter second number: ");
-         int nume2 = sc.nextInt();
+         int num2 = sc.nextInt();
+         
+         int gcd = findGCD(num1 , num2);
+         System.out.println( "GCD is: " + gcd);
+
+
     }
 }
