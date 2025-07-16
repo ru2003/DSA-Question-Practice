@@ -13,8 +13,9 @@ public class _9BubbleSort {
             for(int j=0; j<n-1-i; j++) {
                 if(arr[j] > arr[j+1]) {
                     //swap elements if out of order
-                    int temp = arr[i];
+                    int temp = arr[j];
                     arr[j] = arr[j+1];
+                    arr[j+1] = temp;
                     swapped = true;
                 }
             }
@@ -29,6 +30,9 @@ public class _9BubbleSort {
         bubbleSort(arr);
 
         System.out.println("sorted array: ");
+        for(int num : arr){
+            System.out.println(num+ " ");
+        }
 
     }
     
