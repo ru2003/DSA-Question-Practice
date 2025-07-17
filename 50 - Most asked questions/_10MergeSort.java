@@ -9,7 +9,8 @@ public class _10MergeSort {
 
             mergeSort(arr, left,mid);
             mergeSort(arr, mid+1,right);
-            
+
+            merge(arr, left,mid,right);
         }
     }
     public static void main(String[] args){
