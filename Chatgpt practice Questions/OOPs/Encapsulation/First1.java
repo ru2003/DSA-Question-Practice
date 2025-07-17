@@ -46,6 +46,15 @@ public void withdral(double amount) {
 
    public class First{
     public static void main(String[] args){
+        First1 account = new First1("Ruchita" , 1000);
+
+        //accessing thorugh public methids only
+        System.out.println("Account Holder: " + account.getAccountHoldername());
+        System.out.println("Initial Balance: " + account.getBalance);
+
+        account.deposit(500);
+        System.out.println("Updated Balance: " + account.getBalance());
+
         
     }
    }
