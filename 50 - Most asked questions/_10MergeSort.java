@@ -63,7 +63,9 @@ public class _10MergeSort {
 
      //utility function to print the array
      public static void printArray(int[] arr){
-        
+        for (int i : arr)
+        System.out.println(i + " ");
+        System.out.println();
      }
     public static void main(String[] args){
           
