@@ -60,6 +60,11 @@ public class _10MergeSort {
                 }
 
      }
+
+     //utility function to print the array
+     public static void printArray(int[] arr){
+        
+     }
     public static void main(String[] args){
           
     }
