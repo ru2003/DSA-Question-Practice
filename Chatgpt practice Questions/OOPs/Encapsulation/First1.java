@@ -1,5 +1,5 @@
 //bank account example:
-public class First{
+public class First1{
 
    //Private fields: data hiding
    private String accountHolderName;
@@ -28,12 +28,25 @@ public void deposit(doubke amount) {
     if(amount > 0){
         balance += amount;
         System.out.println("Amount deposited successfully!");
+    }else{
+        System.out.println("Invalid deposit amount");
+    }
+}
+//withsrawl method with validation
+public void withdral(double amount) {
+    if(amount>0 && amount <=balance){
+        balance -= amount;
+        System.out.println("Amount withdrawl succefully");
+    }else{
+        System.out.println("Invalid or insufficient balance.");
     }
 }
 
 
 
+   public class First{
     public static void main(String[] args){
-
+        
     }
+   }
 }
