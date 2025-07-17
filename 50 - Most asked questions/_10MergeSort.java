@@ -67,7 +67,16 @@ public class _10MergeSort {
         System.out.println(i + " ");
         System.out.println();
      }
+
+     //Driver code to test the algorithm
     public static void main(String[] args){
-          
+          int[] arr = {38, 27,43,3,9,82,10};
+          System.out.println("Original array: ");
+          printArray(arr);
+
+          mergeSort(arr, 0 , arr.length-1);
+
+          System.out.println("Sorted array: ");
+          printArray(arr);
     }
 }
