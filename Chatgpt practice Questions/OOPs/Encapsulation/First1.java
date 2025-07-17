@@ -6,7 +6,7 @@ public class First1{
    private double balance;
    
    //constructor
-   public First(String name, double intialBalance) {
+   public First1(String name, double initialBalance) {
           this.accountHolderName = name;
           if(initialBalance > 0) {
             this.balance = initialBalance;
@@ -24,7 +24,7 @@ public class First1{
     this.accountHolderName = name;
    }
 //Deposit method with validation
-public void deposit(doubke amount) {
+public void deposit(double amount) {
     if(amount > 0){
         balance += amount;
         System.out.println("Amount deposited successfully!");
