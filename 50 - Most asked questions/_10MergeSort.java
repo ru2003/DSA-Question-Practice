@@ -1,12 +1,11 @@
 //10. How is the merge sort algorithm implemented? 
-
+//time and space complexity 
 public class _10MergeSort {
-
-
     public static void  mergeSort(int[] arr, int left, int right) {
         if(left < right){
             int mid = left + (right - left) / 2;
 
+            
             mergeSort(arr, left,mid);
             mergeSort(arr, mid+1,right);
 
@@ -26,7 +25,7 @@ public class _10MergeSort {
 
             //copy data to temporary arrays
             for(int i=0; i < n1 ; ++i)
-                L[i] arr[left + i ];
+                L[i] = arr[left + i ];
             for(int j=0; j < n2; ++j)
                 R[j] = arr[mid+1+j];
 
@@ -64,7 +63,7 @@ public class _10MergeSort {
      //utility function to print the array
      public static void printArray(int[] arr){
         for (int i : arr)
-        System.out.println(i + " ");
+        System.out.print(i + " ");
         System.out.println();
      }
 
