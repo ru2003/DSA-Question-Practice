@@ -10,11 +10,17 @@ public class _1LinearSearch{
         }
         return -1;
     }
-    public static void main(String[] args){
-          
-
+    public static void main(String[] args){   
         int[] arr = {2,4,5,6,77,65,90};
         int key = 4;
+        
+        int result = linearSearc(arr,key);
+        if(result != -1){
+            System.out.println("Element found at index: " + results);
+        }else {
+            System.out.println("Elent notfound in the arrya");
+        }
+        
         
     }
 }
