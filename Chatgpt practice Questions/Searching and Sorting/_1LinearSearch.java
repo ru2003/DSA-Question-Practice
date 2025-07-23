@@ -16,9 +16,9 @@ public class _1LinearSearch{
         
         int result = linearSearc(arr,key);
         if(result != -1){
-            System.out.println("Element found at index: " + results);
+            System.out.println("Element found at index: " + result);
         }else {
-            System.out.println("Elent notfound in the arrya");
+            System.out.println("Elent notfound in the array.");
         }
         
         
