@@ -18,7 +18,7 @@ public class _1LinearSearch{
         if(result != -1){
             System.out.println("Element found at index: " + result);
         }else {
-            System.out.println("Elent notfound in the array.");
+            System.out.println("Element notfound in the array.");
         }
         
         
