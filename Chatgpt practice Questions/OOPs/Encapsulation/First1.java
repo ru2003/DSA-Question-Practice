@@ -33,5 +33,6 @@ public class First1{
          s1.setAge(21);
 
          System.out.println("Student Name: " + s1.getName());
+         System.out.println("Student Age: "+ s1.getAge());
     }
 }
