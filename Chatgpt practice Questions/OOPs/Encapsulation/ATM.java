@@ -9,6 +9,14 @@ public class ATM {
 
     //private data (encapsulation)
     private double balance;
+
+    public ATM(double initialBalance){
+        if(initialBalance > 0){
+            balance = initialBalance;
+        }else {
+            balance = 0;
+        }
+    }
     
     public void deposit(double amount){
         if(amount > 0){
