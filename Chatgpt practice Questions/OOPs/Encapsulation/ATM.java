@@ -9,8 +9,16 @@ public class ATM {
 
     //private data (encapsulation)
     private double balance;
-    public static void main(String[] args){
+    
+    public void deposit(double amount){
+        if(amount > 0){
+            balance += amount;
+            System.out.println("Deposited: Rs." + amount);
+        }
+    }
 
+    public static void main(String[] args){
+ 
     }
     
 }
