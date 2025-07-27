@@ -16,6 +16,8 @@ public class _2CountOccurence {
         int[] a ={1,2,3,4,4,2,5,};
         int key = 4;
 
+        System.out.println("The key elment "+ key + " occurs: " + count(a, key) + " times");
+
     }
     
 }
