@@ -26,5 +26,6 @@ public class _4BinarySearch {
         int key = 40;
 
         int index = binarysearch(arr, key);
+        System.out.println("Element found at index: "+index);
     }
 }
