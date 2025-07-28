@@ -10,8 +10,15 @@ public abstract class _3StudentGradeSystem {
          int[] marks = new int[5];
          int total = 0;
 
-         for(int i=0; i<5; i++){
-            
+         for(int i=0; i<5; i++) {
+            System.out.println("Enter marks for subject " + (i+1)+":");
+            marks[i] = sc.nextInt();
+            total += marks[i];
          }
+
+         double percentage = total / 5.0;
+         
+         
+
     }
 }
