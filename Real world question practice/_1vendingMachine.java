@@ -3,6 +3,8 @@ import java.util.*;
 public class _1vendingMachine{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
+
+        System.out.println("1.Chips - Rs20\n 2. Choclate - Rs30\n 3.Sode - Rs40");
         
     }
 }
