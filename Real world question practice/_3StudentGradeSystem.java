@@ -17,7 +17,11 @@ public abstract class _3StudentGradeSystem {
          }
 
          double percentage = total / 5.0;
-         
+         System.out.println("Percentage :"+ percentage);
+
+         if(percentage >= 90){
+            System.out.println("Grade : A+");
+         }
          
 
     }
