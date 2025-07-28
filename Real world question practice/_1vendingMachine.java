@@ -20,5 +20,7 @@ public class _1vendingMachine{
             System.out.println("Invalid item");
             return ;
         }
+        int total = price * qty;
+        System.out.println("Total amount to pay: Rs." + total );
     }
 }
