@@ -1,13 +1,14 @@
 /* Concepts used: if-else, while loop, switch, conditionals
 
-🧠 Use Case: Handle withdrawal, balance check, and deposit using a menu-driven program.*/
+🧠Use Case: Handle withdrawal, balance check, and deposit using a menu-driven program.*/
+
 
 import java.util.*;
 public class _2ATMMachine {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int balance = 1000;
-
+          
         while(true) {
             System.out.println("\n1. Check Balance\n2. Withdrawn\n3. Deposit\n4. Exit");
             System.out.println("Choose an option: ");
@@ -28,6 +29,21 @@ public class _2ATMMachine {
                     System.out.println("Insufficient Balance.");
                 }
                 break;
+
+                case 3:
+                System.out.println("Enter amount to deposit: ");
+                int deposit = sc.nextInt();
+                balance += deposit;
+                System.out.println("Deposited : Rs." + deposit);
+                break;
+
+                case 4:
+                System.out.println("Thank you for using ATM");
+                return ;
+                
+
+                default:
+                System.out.println("Invalid Option!");
                
             }
         }
