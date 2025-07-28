@@ -13,7 +13,12 @@ public class _1vendingMachine{
 
         int price = 0;
         switch(item){
-            case 1: price = 20; break;
+            case 1: price = 20;break;
+            case 2: price = 30;break;
+            case 3: price = 40;break;
+            default: 
+            System.out.println("Invalid item");
+            return ;
         }
     }
 }
