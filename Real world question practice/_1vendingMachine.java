@@ -5,6 +5,9 @@ public class _1vendingMachine{
         Scanner sc = new Scanner(System.in);
 
         System.out.println("1.Chips - Rs20\n 2. Choclate - Rs30\n 3.Sode - Rs40");
-        
+        System.out.println("Enter item number: ");
+        int item = sc.nextInt();
+
+        System.out.println("Enter the quantity: ");
     }
 }
