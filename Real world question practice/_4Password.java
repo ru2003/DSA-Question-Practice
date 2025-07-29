@@ -25,7 +25,11 @@ public class _4Password {
 
            if(hasDigit && hasUpper && hasLower && hasSpecial) {
             System.out.println("Strong Password!");
+           }else {
+            System.out.println("Weak Password. Try again.");
            }
+        }else{
+            System.out.println("Password is too short!");
         }
     }
 }
