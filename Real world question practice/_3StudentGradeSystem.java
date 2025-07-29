@@ -2,6 +2,7 @@
 🧠Use Case: Take marks of 5 subjects and calculate total, percentage, and grade.
  */
 
+
 import java.util.*;
 
 public abstract class _3StudentGradeSystem {
@@ -20,9 +21,17 @@ public abstract class _3StudentGradeSystem {
          System.out.println("Percentage :"+ percentage);
 
          if(percentage >= 90){
-            System.out.println("Grade : A+");
+            System.out.println("Grade:A+");
+         }else if(percentage >= 75){
+            System.out.println("Grade :A");      
+         }else if(percentage >=60){
+            System.out.println("Grade :B");
+         }else if(percentage >= 40){
+            System.out.println("Grade :C");
+         }else {
+            System.out.println("Grade: F(Fail)");
          }
          
-
     }
 }
+
