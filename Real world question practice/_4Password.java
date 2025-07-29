@@ -12,7 +12,7 @@ public class _4Password {
 
         boolean hasDigit = false, 
         hasUpper = false,
-        hasLower =false,
+        hasLower = false,
         hasSpecial = false;
 
         if(password.length() >= 8) {
