@@ -21,6 +21,16 @@ public class _6Restaurentmenu {
 
          System.out.println("Enter the quantity.");
          int qty = sc.nextInt();
+        
+         int price = 0;
+         switch(item){
+            case 1: price = 100; break;
+            case 2: price = 150; break;
+            case 3: price = 200; break;
+            case 4: price = 250; break;
+            case 5: price = 300; break;
+
+         }
 
 
 
