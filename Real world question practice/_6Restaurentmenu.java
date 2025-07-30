@@ -19,6 +19,9 @@ public class _6Restaurentmenu {
          System.out.println("Enter item number: ");
          int item = sc.nextInt();
 
+         System.out.println("Enter the quantity.");
+         int qty = sc.nextInt();
+
 
 
     }
