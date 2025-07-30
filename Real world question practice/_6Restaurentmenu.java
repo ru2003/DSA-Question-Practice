@@ -16,6 +16,8 @@ public class _6Restaurentmenu {
     public static void main(String[] args){
          Scanner sc = new Scanner(System.in);
          System.out.println("1.pizzz \n2.Burger\n3.fries\n4.coke\n5.coffee");
+         System.out.println("Enter item number: ");
+         int item = sc.nextInt();
 
 
 
