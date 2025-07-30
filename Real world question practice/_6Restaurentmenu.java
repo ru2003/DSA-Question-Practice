@@ -15,7 +15,7 @@ import java.util.*;
 public class _6Restaurentmenu {
     public static void main(String[] args){
          Scanner sc = new Scanner(System.in);
-         System.out.println("1.pizzz \n2.Burger\n3.fries\n4.coke\n5.coffee");
+         System.out.println("1.pizzz-100 \n2.Burger-150\n3.fries-200\n4.coke-250\n5.coffee-300");
          System.out.println("Enter item number: ");
          int item = sc.nextInt();
 
@@ -29,8 +29,12 @@ public class _6Restaurentmenu {
             case 3: price = 200; break;
             case 4: price = 250; break;
             case 5: price = 300; break;
-
+           default:
+           System.out.println("Invalid items.");
+           return ;
          }
+         int total = price * qty;
+         System.out.println("total bill is: "+ total);
 
 
 
