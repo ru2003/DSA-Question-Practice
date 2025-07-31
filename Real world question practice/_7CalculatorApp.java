@@ -12,11 +12,17 @@ subtract(a, b)
 multiply(a, b)
 
 divide(a, b)
+**********here it is basically - clean java program that takes two numbers and an
+operator (+,-,*,/) ,performs the appropriate calculating using switch-case, and uses methods for each operation.
  */
 
+import java.util.*;
 
 public class _7CalculatorApp {
     public static void main(String[] args){
-        
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter First number: ");
+ 
     }
 }
