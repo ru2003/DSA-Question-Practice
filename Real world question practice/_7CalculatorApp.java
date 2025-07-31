@@ -46,7 +46,12 @@ public class _7CalculatorApp {
             result = multiply(num1,num2);break;
 
             case '/':
-            result = division(num1,num2);break;
+            if(num2 != 0){
+                result = divide(num1,num2);break;
+            }else{
+                System.out.println("error: division by zero is not alloed.");
+                validOperation = false;
+            }
 
 
 
