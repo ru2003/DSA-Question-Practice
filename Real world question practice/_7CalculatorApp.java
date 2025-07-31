@@ -32,6 +32,26 @@ public class _7CalculatorApp {
         char operator = sc.next().charAt(0);
 
         double result = 0;
+        boolean validOperation = true;
+
+        //switch case for operation
+        switch(operator){
+            case '+' :
+            result = add(num1,num2);break;
+
+            case '-':
+            result = subtract(num1,num2);break;
+
+            case '*':
+            result = multiply(num1,num2);break;
+
+            case '/':
+            result = division(num1,num2);break;
+
+
+
+
+        }
 
 
     }
