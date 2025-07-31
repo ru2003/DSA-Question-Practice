@@ -63,8 +63,11 @@ public class _7CalculatorApp {
             System.out.println("Result: "+ result);
         }
 
-
-
-
     }
+
+    //method for addition
+        static double add(double a,double b){
+            return a+b;
+        }
+
 }
