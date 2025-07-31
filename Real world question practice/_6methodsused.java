@@ -18,9 +18,7 @@ public class _6methodsused {
         }while(choice.equalsIgnoreCase("yes"));
 
             calculateBill();
-
-
-            
+        
 }
          static void displayMenu(){
                 System.out.println("===MENU====");
@@ -57,6 +55,11 @@ public class _6methodsused {
                 System.out.println("Item added. SubTotal : Rs" + currentTotal);
             }
             
+            static void calculateBill() {
+                System.out.println("========");
+                System.out.println("Total Bill: Rs." + totalBill);
+                System.out.println("Thanks for ordering");
+            }
             
 
 
