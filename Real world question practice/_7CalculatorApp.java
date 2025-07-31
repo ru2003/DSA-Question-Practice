@@ -28,6 +28,11 @@ public class _7CalculatorApp {
         System.out.println("Enter Second Number: ");
         double num2 = sc.nextDouble();
 
+        System.out.println("enter the operator: (+ , - , * , /)");
+        char operator = sc.next().charAt(0);
+
+        double result = 0;
+
 
     }
 }
