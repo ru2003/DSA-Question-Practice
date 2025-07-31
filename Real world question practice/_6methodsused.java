@@ -35,6 +35,9 @@ public class _6methodsused {
             static void takeOrder() {
                 System.out.println("enter item number: ");
                 int item  = sc.nextInt();
+
+                System.out.println("enter quantity: ");
+                int qty = sc.nextInt();
             }
 
 
