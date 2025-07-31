@@ -52,11 +52,18 @@ public class _7CalculatorApp {
                 System.out.println("error: division by zero is not alloed.");
                 validOperation = false;
             }
+            break;
 
-
-
-
+            default : 
+            System.out.println("Invalid Operator.");
+            validOperation = false;
         }
+
+        if(validOperation){
+            System.out.println("Result: "+ result);
+        }
+
+
 
 
     }
