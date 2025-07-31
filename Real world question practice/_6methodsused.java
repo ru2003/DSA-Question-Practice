@@ -38,8 +38,11 @@ public class _6methodsused {
 
                 System.out.println("enter quantity: ");
                 int qty = sc.nextInt();
-            }
 
+                int price = 0;
+            }
+            
+            
 
 
 
