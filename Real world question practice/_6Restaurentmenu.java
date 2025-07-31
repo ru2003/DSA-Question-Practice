@@ -10,7 +10,10 @@ displayMenu()
 
 takeOrder()
 
-calculateBill()*/
+calculateBill()
+- by this u can take only 1 order and then close.
+with methods u can take multiple orders
+*/
 import java.util.*;
 public class _6Restaurentmenu {
     public static void main(String[] args){
