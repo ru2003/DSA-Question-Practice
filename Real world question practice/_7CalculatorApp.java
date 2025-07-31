@@ -23,6 +23,11 @@ public class _7CalculatorApp {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter First number: ");
- 
+        double num1 = sc.nextDouble();
+
+        System.out.println("Enter Second Number: ");
+        double num2 = sc.nextDouble();
+
+
     }
 }
