@@ -9,6 +9,9 @@ public class Anagram {
         if(str1.length() != str2.length()){
             return true;
         }
+
+        char[] arr1 = str1.toCharArray();
+        char[] arr2 = str2.toCharArray();
          
     }
   public static void main(String[] args){
