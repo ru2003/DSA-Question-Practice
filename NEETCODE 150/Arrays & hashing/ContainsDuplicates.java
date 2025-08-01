@@ -55,7 +55,6 @@ public class ContainsDuplicates{
 //optimised version 
 
 import java.util.HashSet;
-
 public class ContainsDuplicates{
 
     public boolean hasDuplicates(int[] nums){
