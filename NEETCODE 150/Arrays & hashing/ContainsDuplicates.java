@@ -71,7 +71,10 @@ public class ContainsDuplicates{
     public static void main(String[] args){
           
         int[] arr = {1,2,3,4,5,5,6};
-        
+        ContainsDuplicates s = new ContainsDuplicates();
+        boolean result = s.hasDuplicates(arr);
+        System.out.println("Contains Duplicates: "+ result);
+
         
     }
 }
