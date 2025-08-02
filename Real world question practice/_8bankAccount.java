@@ -14,11 +14,23 @@ withdraw()
 
 checkBalance()
  */
+
 import java.util.*;
 public class _8bankAccount {
-    public static void main(String[] args){
-          Scanner sc = new Scanner(system.in);
 
+
+    static double balance = 0;
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        
+        
+
+
+
+          
+
+
+          
     }
     
 }
