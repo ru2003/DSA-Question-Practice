@@ -22,9 +22,16 @@ public class _9VoteEligibility {
             System.out.println("\nEnter age of user "+ i + ":");
 
             int age = sc.nextInt();
+            //call method to check eleigibility
+            checkeligibility(age);
           }
-
-
-
     }
+
+  public static void checkeligibility(int age){
+    if (age>=18){
+    System.out.println("Eligible for the voting.");
+    }else{
+        System.out.println("Not eligible for voting.");
+    }
+  }
 }
