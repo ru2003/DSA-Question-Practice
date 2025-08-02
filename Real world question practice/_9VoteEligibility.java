@@ -10,8 +10,10 @@ Method: checkEligibility(int age)
 
 
  */
+import java.util.*;
 public class _9VoteEligibility {
     public static void main(String[] args){
+          Scanner sc = new Scanner(System.in);
 
     }
 }
