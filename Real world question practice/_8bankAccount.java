@@ -58,5 +58,20 @@ public class _8bankAccount {
         }
           
     }
+            public static void deposit(Scanner sc){
+                System.out.println("enter the amount to deposit.");
+                double amount = sc.nextInt();
+                if(amount > 0){
+                    balance += amount;
+                    System.out.println("Deposited Rs.  "+ amount);
+                }else{
+                    System.out.println("Invalid deposit amount.");
+                }
+            }
+
+
+
+
+
     
 }
