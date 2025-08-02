@@ -73,7 +73,16 @@ public class _8bankAccount {
             public static void withdraw(Scanner sc){
                 System.out.println("enter amount to withdraw: ");
                 double amount = sc.nextDouble();
-                
+                if(amount > 0 && amount<=balance){
+                    balance -= amount;
+                    System.out.println("withdraw Rs. "+ amount);
+                }else{
+                    System.out.println("Insufficient balance or invalid amount.");
+                }
+            }
+
+            public static void checkbalance(){
+                System.out.println("Current balance : "+ balance);
             }
 
 
