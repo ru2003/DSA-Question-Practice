@@ -26,7 +26,12 @@ public class _8bankAccount {
         int choice ;
         while(true) {
             //display menu
-            
+            System.out.println("\n======Bank Menu========");
+            System.out.println("1.deposit");
+            System.out.println("2.Withdraw");
+            System.out.println("3.checkbalance");
+
+
         }
         
 
