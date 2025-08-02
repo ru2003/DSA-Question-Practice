@@ -68,7 +68,13 @@ public class _8bankAccount {
                     System.out.println("Invalid deposit amount.");
                 }
             }
-
+            
+            //public static withdraw money.
+            public static void withdraw(Scanner sc){
+                System.out.println("enter amount to withdraw: ");
+                double amount = sc.nextDouble();
+                
+            }
 
 
 
