@@ -15,5 +15,16 @@ public class _9VoteEligibility {
     public static void main(String[] args){
           Scanner sc = new Scanner(System.in);
 
+          System.out.println("Enter the number of users to check: ");
+          int numberofUsers = sc.nextInt();
+
+          for (int i=1;i<=numberofUsers;i++){
+            System.out.println("\nEnter age of user "+ i + ":");
+
+            int age = sc.nextInt();
+          }
+
+
+
     }
 }
