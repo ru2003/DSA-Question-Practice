@@ -23,10 +23,25 @@ Example 3:
 Input: nums = [5,5], target = 10
 
 Output: [0,1]
+
+-->in java we only create object of the class not the method.
+--->use static when - the method does not depend on any instance variables or non static members.
+--->you want to use it as a utility/helper method.
+
+without static :
+-->u need to create an object of the class to call the method.
+
+e.g. TwoSum obj = new TwoSumClass();
+     int[] result = obj.twoSum(nums,target);
+
  */
 
 public class TwosumBruteForce {
+    public static int[] twoSum(int[] nums, int target){
+        
+    }
     public static void main(String[] args){
         
+
     }
 }
