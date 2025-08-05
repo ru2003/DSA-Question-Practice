@@ -38,7 +38,12 @@ e.g. TwoSum obj = new TwoSumClass();
 
 public class TwosumBruteForce {
     public static int[] twoSum(int[] nums, int target){
-        
+        for(int i=0; i<nums.length;i++){
+            for(int j=i+1;j<nums.lenght;j++){
+                
+            }
+        }
+
     }
     public static void main(String[] args){
         
