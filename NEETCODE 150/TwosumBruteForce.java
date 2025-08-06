@@ -34,19 +34,28 @@ without static :
 e.g. TwoSum obj = new TwoSumClass();
      int[] result = obj.twoSum(nums,target);
 
+     Time complexity = O(n2)
+     Space Complexity = O(1)
+
  */
 
 public class TwosumBruteForce {
     public static int[] twoSum(int[] nums, int target){
         for(int i=0; i<nums.length;i++){
-            for(int j=i+1;j<nums.lenght;j++){
-                
+            for(int j=i+1;j<nums.length;j++){
+              if(nums[i] + nums[j] == target){
+                 return new int[] {i,j};
+              }
             }
         }
+        return null;
 
     }
     public static void main(String[] args){
-        
-
+        int[] arr = {2,34,5,1,9};
+        int target = 10;
+        int[] result = twoSum(arr, target);
+       //  System.out.println(result);==> that is because ypu are printing an arraya directly ,and in java that shows the arrays referce not its values.
+       System.out.println("Indices: " + result[0]+ ","+result[1]);
     }
 }
