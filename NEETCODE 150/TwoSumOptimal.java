@@ -18,6 +18,11 @@ public class TwoSumOptimal {
         return null;
     }
     public static void main(String[] args){
+         int[] arr = {1,2,3,4,4,9,5};
+         int target = 7;
 
+         TwoSumOptimal sum = new TwoSumOptimal();
+         int result = sum.twoSum(arr, target);
+         System.out.println("Indices are: "+ arr[0]+arr[1]);
     }
 }
