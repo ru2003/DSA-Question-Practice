@@ -22,8 +22,7 @@ public class _2SelectionSort {
             }
             //swap the found minimum element with the first element
             int temp = arr[minIndex];
-
-            arr[minIndex ] = arr[i] ;
+            arr[minIndex ] = arr[i];
             arr[i ] = temp;
         }
     }

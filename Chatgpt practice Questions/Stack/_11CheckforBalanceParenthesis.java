@@ -25,7 +25,7 @@ Else → ❌ Not balanced
 In the end, if the stack is empty → ✅ Balanced.
  */
 
- import java.util.Stack;
+import java.util.Stack;
 public class _11CheckforBalanceParenthesis {
 
     public static boolean isbalanced(String str){
@@ -38,7 +38,7 @@ public class _11CheckforBalanceParenthesis {
             }
 
             //handle closing brackeets
-            else if(ch==')' || ch=='}' || ch=='}') {
+            else if(ch==')' || ch==']' || ch=='}') {
                 if(stack.isEmpty()) return false;
 
                 char top = stack.pop();

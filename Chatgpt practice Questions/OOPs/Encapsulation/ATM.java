@@ -4,9 +4,7 @@
 
 //It allows only valid operations and prevents misuse (e.g., can't withdraw more than balance).
 
-
 public class ATM {
-
     //private data (encapsulation)
     private double balance;
 
@@ -40,7 +38,17 @@ public class ATM {
     }
 
     public static void main(String[] args){
- 
+      ATM atm = new ATM(1000);
+
+      //call public methods
+      System.out.println("Current balance: " + atm.getBalance());
+
+      atm.deposit(500);
+      System.out.println("Balance after deposit: Rs." + atm.getBalance());
+
+      atm.withdraw(100);
+      System.out.println("Balace after withdrawn: Rs." + atm.getBalance());
+
     }
     
 }

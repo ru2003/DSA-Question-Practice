@@ -1,0 +1,97 @@
+✅ Basic Level Questions (Understanding the Linked List Concepts)
+These will help you build your foundation.
+
+1. Implement a Singly Linked List
+
+2. Implement a Doubly Linked List
+
+3. Insert a Node at the Beginning / End / Given Position
+
+4. Delete a Node at Beginning / End / Given Position
+
+5. Search for a Value in a Linked List 
+
+6. Find Length of a Linked List
+
+7. Print the Linked List
+
+8. Reverse a Linked List (Iterative and Recursive)
+
+9. Find the Middle of a Linked List
+
+10. Check if Linked List is Palindrome
+
+11. Detect Loop in Linked List (Floyd’s Cycle Detection)
+
+12. Remove Loop in Linked List
+
+13. Find Nth Node from the End (Two Pointer Technique)
+
+14. Merge Two Sorted Linked Lists
+
+15. Find the Intersection Point of Two Linked Lists
+
+🔁 Intermediate Level Questions (Handling Edge Cases, Logic Building)
+Now that you’re comfortable, move to more logic-based problems.
+
+Reverse Linked List in Groups of K nodes
+
+Detect and Remove Cycle in Linked List
+
+Segregate Even and Odd Nodes in a Linked List
+
+Remove Duplicates from a Sorted Linked List
+
+Remove Duplicates from an Unsorted Linked List
+
+Delete N nodes after M nodes in Linked List
+
+Swap Nodes in Pairs
+
+Add 1 to a Number Represented by a Linked List
+
+Add Two Numbers Represented by Linked Lists
+
+Flatten a Multilevel Linked List
+
+Sort a Linked List using Merge Sort
+
+Intersection Point in Y Shaped Linked List
+
+Rotate Linked List by K positions
+
+Check if Linked List is Circular
+
+Clone a Linked List with Random Pointers
+
+🚀 Advanced / Interview-Level Questions (Top Tech Company Standard)
+These test your deep understanding of pointers and memory handling.
+
+Reverse Nodes in K Group
+
+LRU Cache using Linked List + HashMap
+
+Merge K Sorted Linked Lists (Use Min Heap)
+
+Copy List with Random Pointer (Leetcode 138)
+
+Reverse a Sublist in a Linked List (between position m and n)
+
+Partition List around a value x (Leetcode 86)
+
+Reorder List (Leetcode 143)
+
+Split Linked List into K Parts
+
+Detect Intersection in Two Linked Lists using Hashing
+
+Convert Binary Number in Linked List to Integer
+
+Check if Given Linked List is a Sublist of Another List
+
+Remove Zero Sum Consecutive Nodes from Linked List
+
+Flatten a Linked List of Linked Lists
+
+Sort a Linked List in O(n log n) Time and Constant Space
+

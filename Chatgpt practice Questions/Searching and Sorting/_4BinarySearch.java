@@ -1,7 +1,9 @@
 /*
  * 4. Binary Search (Iterative and Recursive)
-➤ Given a sorted array and a key, return index or -1.
+* Given a sorted array and a key, return index or -1.
  */
+/* Time Complexity -> O(log n) ==>very very optimised ->nearly about the constant time complexity  */
+ 
 public class _4BinarySearch {
     public static int binarysearch(int[] arr, int key){
         int left = 0, right = arr.length-1;
@@ -18,9 +20,9 @@ public class _4BinarySearch {
                 right = mid -1;   
             }
         }
-        return -1;
-        
+        return -1;     
     }
+
     public static void main(String[] args){
         int[] arr = {10,20,30,40,50,60};
         int key = 40;
@@ -29,3 +31,4 @@ public class _4BinarySearch {
         System.out.println("Element found at index: "+index);
     }
 }
+ 
