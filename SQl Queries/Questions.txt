@@ -1,0 +1,130 @@
+SQL Queries Practice Roadmap (50–60 Questions)
+✅ Part 1: Very Easy (Basic SELECT & WHERE)
+
+1. Select all columns from the Employee table.
+
+2. Select only name and salary of employees.
+
+3. Find employees whose salary is greater than 50,000.
+
+4. Retrieve employees who work in the "IT" department.
+
+5. Find employees whose names start with "A".
+
+Get distinct job titles from the Employee table.
+
+Count total number of employees.
+
+Find the maximum salary from the table.
+
+Find the minimum salary from the table.
+
+Find the average salary of employees.
+
+✅ Part 2: Medium (GROUP BY & Aggregates)
+
+Count employees in each department.
+
+Find department with maximum number of employees.
+
+Find average salary department-wise.
+
+Find employees having salary greater than department average.
+
+Retrieve top 3 highest salaries.
+
+Retrieve second highest salary.
+
+Retrieve nth highest salary (parameterized).
+
+Find employees who do not belong to "HR".
+
+List employees hired in year 2022.
+
+Find employees with NULL manager_id.
+
+✅ Part 3: Joins (Most Important for Interviews 🚀)
+
+List employees with their department names (INNER JOIN).
+
+Find employees who don’t belong to any department (LEFT JOIN).
+
+Find departments with no employees (RIGHT JOIN).
+
+Show employees with their manager’s name (SELF JOIN).
+
+Find employees who earn more than their manager.
+
+List employees and projects they are working on (JOIN 3 tables).
+
+Retrieve employees working on multiple projects.
+
+Find employees who are not assigned to any project.
+
+List employee name with department and project details.
+
+Find employees who work in the same department as "Ramesh".
+
+✅ Part 4: Subqueries
+
+Find employees with salary greater than the average salary.
+
+Find employees whose salary equals the maximum salary.
+
+Find employees in departments where average salary > 60000.
+
+Find employees who earn more than "Amit".
+
+Find the 3rd highest salary using subquery.
+
+Find employees who earn the minimum salary in their department.
+
+Retrieve employees who are in the same department as employee ID = 101.
+
+List employees who earn more than any employee in HR department.
+
+List employees who earn more than all employees in HR department.
+
+Find department where maximum salary < 40000.
+
+✅ Part 5: Advanced (Window Functions + Case + Misc.)
+
+Rank employees by salary (RANK, DENSE_RANK).
+
+Find top 2 employees per department by salary.
+
+Calculate running total of salaries (SUM OVER).
+
+Find employees with salary above department average using window functions.
+
+Show salary difference of each employee from department average.
+
+Find highest and lowest salary per department.
+
+Pivot department-wise employee count using CASE.
+
+Retrieve employees with odd row numbers (ROW_NUMBER).
+
+Show cumulative salary expense per department by hire date.
+
+Find employees who joined in last 3 months.
+
+Write query to fetch duplicate employee names.
+
+Delete duplicate records (keeping only one).
+
+Find employees who are not in the project table using NOT EXISTS.
+
+Update salaries by 10% for employees in IT.
+
+Write query to swap salary values of two employees.
+
+Find employees with the longest name.
+
+Find common employees between two tables (INTERSECT).
+
+Find employees present in one table but not the other (MINUS / EXCEPT).
+
+Write query to get employees whose salary is between 50k and 80k.
+
+Retrieve employees whose name is palindrome.
