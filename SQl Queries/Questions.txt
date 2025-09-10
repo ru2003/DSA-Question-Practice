@@ -11,15 +11,15 @@ SQL Queries Practice Roadmap (50–60 Questions)
 
 5. Find employees whose names start with "A".
 
-Get distinct job titles from the Employee table.
+6. Get distinct job titles from the Employee table.
 
-Count total number of employees.
+7. Count total number of employees.
 
-Find the maximum salary from the table.
+8. Find the maximum salary from the table.
 
-Find the minimum salary from the table.
+9. Find the minimum salary from the table.
 
-Find the average salary of employees.
+10. Find the average salary of employees.
 
 ✅ Part 2: Medium (GROUP BY & Aggregates)
 
