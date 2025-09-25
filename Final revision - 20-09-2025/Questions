@@ -1,1 +1,200 @@
 1. Print a square of *
+2.Right-angled triangle (left-aligned).
+
+*
+**
+***
+****
+3.Right-angled triangle (right-aligned).
+
+   *
+  **
+ ***
+****
+4.Inverted right triangle.
+
+****
+***
+**
+*
+5.Inverted right triangle (right-aligned).
+
+****
+ ***
+  **
+   *
+  6. Hollow square.
+
+****
+*  *
+*  *
+****
+7.Hollow right triangle.
+
+*
+**
+* *
+*  *
+****
+8.Half pyramid with numbers.
+
+1
+12
+123
+1234
+9.Half pyramid with alphabets.
+
+A
+AB
+ABC
+ABCD
+10.Full pyramid of stars.
+
+   *
+  ***
+ *****
+*******
+11.Inverted full pyramid.
+
+*******
+ *****
+  ***
+   *
+   12.Diamond pattern.
+
+   *
+  ***
+ *****
+  ***
+   *
+   13.Hollow pyramid.
+
+   *
+  * *
+ *   *
+*******
+14.Hollow diamond.
+
+   *
+  * *
+ *   *
+  * *
+   *
+   15.Floyd’s Triangle.
+
+1
+2 3
+4 5 6
+7 8 9 10
+16.Inverted number triangle.
+
+12345
+1234
+123
+12
+1
+17.Repeated number triangle.
+
+1
+22
+333
+4444
+
+18.Pascal’s Triangle.
+
+     1
+    1 1
+   1 2 1
+  1 3 3 1
+ 1 4 6 4 1
+
+ 19.Palindrome number pyramid.
+
+   1
+  121
+ 12321
+1234321
+
+20.Inverted alphabets.
+
+ABCD
+ABC
+AB
+A
+
+21.Pyramid with alphabets.
+
+   A
+  ABA
+ ABCBA
+ABCDCBA
+
+22.Repeated alphabet triangle.
+
+A
+BB
+CCC
+DDDD
+
+23.Butterfly Pattern.
+
+*      *
+**    **
+***  ***
+********
+***  ***
+**    **
+*      *
+
+24.Sandglass Pattern.
+
+********
+ ******
+  ****
+   **
+   **
+  ****
+ ******
+********
+
+25.Hollow hourglass.
+
+********
+*     *
+*    *
+*   *
+*    *
+*     *
+********
+
+Spiral matrix (numbers).
+
+1  2  3  4
+12 13 14 5
+11 16 15 6
+10  9  8 7
+
+
+Checkerboard pattern (like chess).
+
+* * * *
+ * * * *
+* * * *
+ * * * *
+
+
+Wave / Snake pattern (numbers).
+
+1  2  3  4
+8  7  6  5
+9 10 11 12
+16 15 14 13
+
+
+Concentric square pattern.
+
+44444
+43334
+43234
+43334
+44444
