@@ -1,26 +1,27 @@
 ARRAYS – Service-Based / Startup Level
 Basic / Easy
 
-Find the sum of all elements in an array.
+1.Find the sum of all elements in an array.
 
-Find the maximum and minimum element.
+2.Find the maximum and minimum element.
 
-Count even and odd numbers.
+3.Count even and odd numbers.
 
-Print all negative numbers in the array.
+4.Print all negative numbers in the array.
 
-Find the second largest element.
+5.Find the second largest element.
 
-Check if an array is sorted in ascending/descending order.
+6.Check if an array is sorted in ascending/descending order.
 
-Reverse an array.
+7.Reverse an array.
 
-Find the frequency of each element.
+8.Find the frequency of each element.
 
-Check if a number exists in an array.
+9.Check if a number exists in an array.
 
-Swap two arrays without using a third variable.
+10.Swap two arrays without using a third variable.
 
+***********************************************
 Intermediate
 
 Move all zeros to the end of the array.
@@ -58,6 +59,7 @@ Find the longest consecutive sequence.
 STRINGS – Service-Based / Startup Level
 Basic / Easy
 
+*************************************************
 Reverse a string.
 
 Check if a string is palindrome.
@@ -78,6 +80,7 @@ Check if a string contains only digits or letters.
 
 Print all substrings of a string.
 
+*************************************************
 Intermediate
 
 Longest substring without repeating characters.
@@ -100,6 +103,8 @@ Implement basic strstr() function.
 
 Convert string to integer without using built-in functions.
 
+
+*************************************************
 Advanced / Startup Medium
 
 Longest palindromic substring.
