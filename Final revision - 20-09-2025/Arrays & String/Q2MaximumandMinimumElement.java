@@ -7,16 +7,17 @@ public class Q2MaximumandMinimumElement {
         int max = arr[0];
         int min = arr[0];
          
-        for(int i :arr){
-            if(arr[i]>max){
-                max=arr[i];
+        for(int num :arr){
+            if(num>max){
+                max=num;
             }
 
-            if(arr[i] < min){
-                min = arr[i];
+            if(num < min){
+                min = num;
             }
         }
 
-   
+   System.out.println("MAximum elemenrnt is: "+ max);
+   System.out.println("Minimum Element is: "+ min);
     }
 }
