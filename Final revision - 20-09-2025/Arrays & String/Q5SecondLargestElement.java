@@ -13,7 +13,12 @@ public class Q5SecondLargestElement {
        int largest = Integer.MIN_VALUE;
        int secondLargest = Integer.MIN_VALUE;
 
-       for(int num :arr){}
+       for(int num :arr){
+        if(num>largest){
+            secondLargest = largest;
+            largest = num;
+        }
+       }
     }
     public static void main(String[] args){
        
