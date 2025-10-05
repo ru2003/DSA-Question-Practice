@@ -6,6 +6,13 @@ public class Q4CountWords {
         String str = "Ruchita Chaudhari is learning the java";
         
         String[] words= str.trim().split("\\s");
+        /*
+         * 1.str.trim() => removes extra space a the start or end
+         * split("\\s") => split by one or more space
+         */
+        
+        int wordcount = words.length;
+        System.out.println("Number of words "+  wordcount);
 
     }
 }
