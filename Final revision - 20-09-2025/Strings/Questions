@@ -1,0 +1,96 @@
+STRINGS – Service-Based / Startup Level
+Basic / Easy
+
+*************************************************
+1. Reverse a string.
+
+2. Check if a string is palindrome.
+
+3. Count vowels and consonants.
+
+4. Count words in a sentence.
+
+5. Remove duplicates from a string.
+
+6. Find first non-repeating character.
+
+7. Check if two strings are anagrams.
+
+8. Convert string to uppercase/lowercase.
+
+9. Check if a string contains only digits or letters.
+
+10. Print all substrings of a string.
+
+11. Convert all uppercase letters to lowercase and vice versa.
+
+12. Count the number of vowels and consonants in a string.
+
+13. Reverse a string without using built-in functions.
+
+14. Check if a string is a palindrome.
+
+15. Find the frequency of each character in a string.
+
+16. Remove all duplicate characters from a string.
+
+17. Count the number of words in a string.
+
+18. Check if two strings are anagrams of each other.
+
+19. Find the first non-repeating character in a string.
+
+20. Replace all spaces with underscores (or any symbol).
+
+21. Convert each word’s first letter to uppercase (title case).
+
+22. Count digits, letters, and special characters in a string.
+
+23. Convert a number in string form to integer (without using Integer.parseInt).
+
+24. Print the ASCII value of each character.
+
+25. Convert numbers to words, e.g. 123 → One Two Three.
+
+*************************************************
+Intermediate
+
+Longest substring without repeating characters.
+
+Count occurrences of each character.
+
+Compress a string (like “aaabbc” → “a3b2c1”).
+
+Reverse words in a sentence.
+
+Check if a string is a rotation of another.
+
+Remove all vowels from a string.
+
+Replace spaces with “%20” (URL encoding).
+
+Count palindromic substrings.
+
+Implement basic strstr() function.
+
+Convert string to integer without using built-in functions.
+
+
+*************************************************
+Advanced / Startup Medium
+
+Longest palindromic substring.
+
+Minimum number of insertions to make a string palindrome.
+
+Decode strings like “3[a2[c]]” → “accaccacc”.
+
+Count occurrences of a substring in a string.
+
+Check if two strings are anagrams using a hash table (optimized).
+
+Check if a string is a valid shuffle of two other strings.
+
+Find all permutations of a string.
+
+Remove duplicate letters while maintaining order.

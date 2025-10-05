@@ -1,0 +1,94 @@
+ARRAYS – Service-Based / Startup Level
+Basic / Easy
+
+1.Find the sum of all elements in an array.
+
+2.Find the maximum and minimum element.
+
+3.Count even and odd numbers.
+
+4.Print all negative numbers in the array.
+
+5.Find the second largest element.
+
+6.Check if an array is sorted in ascending/descending order.
+
+7.Reverse an array.
+
+8.Find the frequency of each element.
+
+9.Check if a number exists in an array.
+
+10.Swap two arrays without using a third variable.
+
+
+Find the maximum and minimum element in an array.
+
+Reverse an array.
+
+Check if an array is sorted (ascending or descending).
+
+Find the frequency of each element.
+
+Find duplicates in an array.
+
+Remove duplicates from an array.
+
+Search an element in an array (Linear Search).
+
+Find second largest / smallest element.
+
+Sort an array (without using Arrays.sort()).
+
+Rotate an array by k positions.
+
+Sum of all elements in an array.
+
+Check if two arrays are equal.
+
+Merge two arrays into one.
+
+Swap two arrays (without third variable).
+
+Find pair of elements whose sum equals a given number.
+
+***********************************************
+Intermediate
+
+11. Move all zeros to the end of the array.
+
+12. Find the “leader” elements (elements greater than all elements to their right).
+
+13. Find the union and intersection of two arrays.
+
+14. Find the majority element (> n/2 occurrences).
+
+15. Find subarray with maximum sum (Kadane’s algorithm).
+
+16. Rotate array by k positions.
+
+17. Count pairs with a given sum.
+
+18. Find duplicates in an array.
+
+19. Replace each element with the product of all other elements (without using division).
+
+20. Find missing number in a sequence (1 to n).
+
+Advanced / Startup Medium
+
+Find the maximum difference between two elements such that larger element comes after smaller.
+
+Trapping rain water problem (basic prefix-suffix approach).
+
+Find subarray with given sum (positive numbers).
+
+Sort an array of 0s, 1s, 2s (Dutch National Flag).
+
+Find the longest consecutive sequence.
+
+
+
+
+
+
