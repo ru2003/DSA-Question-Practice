@@ -1,7 +1,7 @@
 package Strings;
 //3. Count vowels and consonants.
 
-public class Q4CountVowels {
+public class Q3CountVowels {
     public static void vowelsConsonantsCount(String str){
 
         int vowels = 0;
@@ -16,9 +16,14 @@ public class Q4CountVowels {
                 consonants++;
             }
         }
+        System.out.println("Vowels: " + vowels + ", Consonants: " + consonants);
+
     }
     public static void main(String[] args){
-        
+
+        String str = "Ruchita Chaudhari 145.";
+        vowelsConsonantsCount(str);
+
 
     }
 }
