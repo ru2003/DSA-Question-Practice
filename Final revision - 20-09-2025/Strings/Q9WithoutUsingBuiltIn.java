@@ -7,7 +7,10 @@ public class Q9WithoutUsingBuiltIn {
         boolean allDigits = true;
         boolean allDigita = true;
         
-        
+       for(int i=0; i<=str.length()-1; i++){
+          char ch = str.charAt(i);
+              
+       } 
 
     }
 }
