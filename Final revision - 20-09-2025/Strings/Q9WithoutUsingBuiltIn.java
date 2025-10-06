@@ -21,6 +21,10 @@ public class Q9WithoutUsingBuiltIn {
 
        if (allDigits){
         System.out.println("String contains only digits.");
+       }else if(allLetter){
+        System.out.println("String contains only letters.");
+       }else{
+        System.out.println("String contains both digits and letters.");
        }
 
     }

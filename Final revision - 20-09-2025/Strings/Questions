@@ -26,29 +26,19 @@ Basic / Easy
 
 12. Reverse a string with using built-in functions.
 
-13. Check if a string is a palindrome.
+13. Find the first non-repeating character in a string.
 
-14. Find the frequency of each character in a string.
+14. Replace all spaces with underscores (or any symbol).
 
-16. Remove all duplicate characters from a string.
+15. Convert each word’s first letter to uppercase (title case).
 
-17. Count the number of words in a string.
+16. Count digits, letters, and special characters in a string.
 
-18. Check if two strings are anagrams of each other.
+17. Convert a number in string form to integer (without using Integer.parseInt).
 
-19. Find the first non-repeating character in a string.
+18. Print the ASCII value of each character.
 
-20. Replace all spaces with underscores (or any symbol).
-
-21. Convert each word’s first letter to uppercase (title case).
-
-22. Count digits, letters, and special characters in a string.
-
-23. Convert a number in string form to integer (without using Integer.parseInt).
-
-24. Print the ASCII value of each character.
-
-25. Convert numbers to words, e.g. 123 → One Two Three.
+19. Convert numbers to words, e.g. 123 → One Two Three.
 
 *************************************************
 Intermediate
