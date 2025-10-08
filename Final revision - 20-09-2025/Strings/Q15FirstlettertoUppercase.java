@@ -8,7 +8,22 @@ public class Q15FirstlettertoUppercase {
            Scanner sc = new Scanner(System.in);
 
            String str = sc.nextLine();
-           
+
+           //split the string into words based on space
+           String[] words = str.split(" ");
+           String result="";
+
+           for(String word :  words){
+              //convert first letter to capital and rest to lowercase
+
+              String capitalized = word.substring(0,1).toUpperCase() + word.substring(1).toLowerCase();
+              result += capitalized;
+              
+
+           }
+
+
+
 
     }
 }
