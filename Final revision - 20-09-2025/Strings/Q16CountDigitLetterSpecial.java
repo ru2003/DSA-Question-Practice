@@ -8,23 +8,21 @@ public class Q16CountDigitLetterSpecial {
         System.out.println("Enter the String u want to work on: ");
         String str = sc.nextLine();
         int digit =0;
-        char ch =0;
-        char specialCharacter = 0;
+        int ch =0;
+        int specialCharacter = 0;
 
-
-    
-        if(str.matches("0-9")){
-            digit++;
-        }else if(str.matches("a-zA-Z")){
-            ch++;
-        }else{
-           specialCharacter++;
-        }
-
-        System.out.println("therefore total count of each category is: " + digit + ch + specialCharacter );
-
+       for (int i=0;i<=str.length()-1; i++){
+        char cha = str.charAt(i);
         
-
-
+         if(Character.isDigit(ch)){
+            digit +=1;
+        }else if(Character.isLetter(cha)){
+            ch += 1;
+        }else{
+           specialCharacter +=1;
+        }
+       }
+        System.out.println( " Total Digit: " + digit + "\n, Total Character: " + ch + ", \n Total Special Character: " + specialCharacter );    
     }
 }
+
