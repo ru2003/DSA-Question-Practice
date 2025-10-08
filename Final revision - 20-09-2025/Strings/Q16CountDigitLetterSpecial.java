@@ -12,8 +12,7 @@ public class Q16CountDigitLetterSpecial {
         char specialCharacter = 0;
 
 
-        
-
+    
         if(str.matches("0-9")){
             digit++;
         }else if(str.matches("a-zA-Z")){
@@ -22,7 +21,7 @@ public class Q16CountDigitLetterSpecial {
            specialCharacter++;
         }
 
-        System.out.println("therefore total count of each category is: "+ );
+        System.out.println("therefore total count of each category is: " + digit + ch + specialCharacter );
 
         
 
