@@ -19,12 +19,7 @@ public class Q15FirstlettertoUppercase {
               String capitalized = word.substring(0,1).toUpperCase() + word.substring(1).toLowerCase();
               result += capitalized + " ";
            }
-
            //print the result
            System.out.println("Title Case:  "+ result.trim());
-
-
-
-
     }
 }
