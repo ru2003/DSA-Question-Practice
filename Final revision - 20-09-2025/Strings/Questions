@@ -43,25 +43,25 @@ Basic / Easy
 *************************************************
 Intermediate
 
-Longest substring without repeating characters.
+1. Longest substring without repeating characters.
 
-Count occurrences of each character.
+2. Count occurrences of each character.
 
-Compress a string (like “aaabbc” → “a3b2c1”).
+3. Compress a string (like “aaabbc” → “a3b2c1”).
 
-Reverse words in a sentence.
+4. Reverse words in a sentence.
 
-Check if a string is a rotation of another.
+5. Check if a string is a rotation of another.
 
-Remove all vowels from a string.
+6. Remove all vowels from a string.
 
-Replace spaces with “%20” (URL encoding).
+7. Replace spaces with “%20” (URL encoding).
 
-Count palindromic substrings.
+8. Count palindromic substrings.
 
-Implement basic strstr() function.
+9. Implement basic strstr() function.
 
-Convert string to integer without using built-in functions.
+10. Convert string to integer without using built-in functions.
 
 
 *************************************************
