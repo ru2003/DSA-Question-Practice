@@ -43,42 +43,42 @@ Basic / Easy
 *************************************************
 Intermediate
 
-1. Longest substring without repeating characters.
+20. Longest substring without repeating characters.
 
-2. Count occurrences of each character.
+21. Count occurrences of each character.
 
-3. Compress a string (like “aaabbc” → “a3b2c1”).
+22. Compress a string (like “aaabbc” → “a3b2c1”).
 
-4. Reverse words in a sentence.
+23. Reverse words in a sentence.
 
-5. Check if a string is a rotation of another.
+24. Check if a string is a rotation of another.
 
-6. Remove all vowels from a string.
+25. Remove all vowels from a string.
 
-7. Replace spaces with “%20” (URL encoding).
+26. Replace spaces with “%20” (URL encoding).
 
-8. Count palindromic substrings.
+27. Count palindromic substrings.
 
-9. Implement basic strstr() function.
+28. Implement basic strstr() function.
 
-10. Convert string to integer without using built-in functions.
+29. Convert string to integer without using built-in functions.
 
 
 *************************************************
 Advanced / Startup Medium
 
-Longest palindromic substring.
+30. Longest palindromic substring.
 
-Minimum number of insertions to make a string palindrome.
+31. Minimum number of insertions to make a string palindrome.
 
-Decode strings like “3[a2[c]]” → “accaccacc”.
+32. Decode strings like “3[a2[c]]” → “accaccacc”.
 
-Count occurrences of a substring in a string.
+33. Count occurrences of a substring in a string.
 
-Check if two strings are anagrams using a hash table (optimized).
+34. Check if two strings are anagrams using a hash table (optimized).
 
-Check if a string is a valid shuffle of two other strings.
+35. Check if a string is a valid shuffle of two other strings.
 
-Find all permutations of a string.
+36. Find all permutations of a string.
 
-Remove duplicate letters while maintaining order.
+37. Remove duplicate letters while maintaining order.
