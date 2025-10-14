@@ -6,7 +6,8 @@ public class Q19NumbertoWords {
          
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a string that u want to convert: ");
-        String str = sc.nextInt();
+        int num  = sc.nextInt();
+        
 
 
 
