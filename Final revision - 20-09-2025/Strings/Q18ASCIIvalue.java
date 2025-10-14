@@ -1,6 +1,6 @@
 package Strings;
 import java.util.*;
-
+//18. Print the ASCII value of each character.
 public class Q18ASCIIvalue {
     public static void main(String[] args){
         
