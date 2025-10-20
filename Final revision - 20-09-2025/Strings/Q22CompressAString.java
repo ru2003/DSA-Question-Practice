@@ -16,6 +16,16 @@ public class Q22CompressAString {
         }
 
         StringBuilder result = new StringBuilder();
-        
+        int count  = 1;
+
+        for(int i=0;i<str.length()-1;i++){
+            if(str.charAt(i) == str.charAt(i+1)) {
+                count++;
+            } else{
+                result.append(str.charAt(i)).append(count);
+                count = 1;
+            }
+        }
+
      }
 }
