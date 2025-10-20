@@ -26,6 +26,9 @@ public class Q22CompressAString {
                 count = 1;
             }
         }
+        //append the last character and its count
+        result.append(str.charAt(str.length()-1)).append(count);
+        return result.toString();
 
      }
 }
