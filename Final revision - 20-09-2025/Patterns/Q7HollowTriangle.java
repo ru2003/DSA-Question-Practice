@@ -13,7 +13,7 @@ public class Q7HollowTriangle {
         int m=5;
         for(int i=1;i<=m;i++){
             for(int j=1;j<=n;j++){
-                if(j==1 || i==n ||  i==j || i==1){
+                if(j==1 || i==n ||  i==j ){
                     System.out.print("*");
                 }else{
                     System.out.print(" ");
