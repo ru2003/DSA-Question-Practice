@@ -23,25 +23,25 @@ SQL Queries Practice Roadmap (50–60 Questions)
 
 ✅ Part 2: Medium (GROUP BY & Aggregates)
 
-Count employees in each department.
+11. Count employees in each department.
 
-Find department with maximum number of employees.
+12. Find department with maximum number of employees.
 
-Find average salary department-wise.
+13. Find average salary department-wise.
 
-Find employees having salary greater than department average.
+14. Find employees having salary greater than department average.
 
-Retrieve top 3 highest salaries.
+15. Retrieve top 3 highest salaries.
 
-Retrieve second highest salary.
+16. Retrieve second highest salary.
 
-Retrieve nth highest salary (parameterized).
+17. Retrieve nth highest salary (parameterized).
 
-Find employees who do not belong to "HR".
+18. Find employees who do not belong to "HR".
 
-List employees hired in year 2022.
+19. List employees hired in year 2022.
 
-Find employees with NULL manager_id.
+20. Find employees with NULL manager_id.
 
 ✅ Part 3: Joins (Most Important for Interviews 🚀)
 
@@ -67,25 +67,25 @@ Find employees who work in the same department as "Ramesh".
 
 ✅ Part 4: Subqueries
 
-Find employees with salary greater than the average salary.
+31. Find employees with salary greater than the average salary.
 
-Find employees whose salary equals the maximum salary.
+32. Find employees whose salary equals the maximum salary.
 
-Find employees in departments where average salary > 60000.
+33. Find employees in departments where average salary > 60000.
 
-Find employees who earn more than "Amit".
+34. Find employees who earn more than "Amit".
 
-Find the 3rd highest salary using subquery.
+35. Find the 3rd highest salary using subquery.
 
-Find employees who earn the minimum salary in their department.
+36. Find employees who earn the minimum salary in their department.
 
-Retrieve employees who are in the same department as employee ID = 101.
+37. Retrieve employees who are in the same department as employee ID = 101.
 
-List employees who earn more than any employee in HR department.
+38. List employees who earn more than any employee in HR department.
 
-List employees who earn more than all employees in HR department.
+39. List employees who earn more than all employees in HR department.
 
-Find department where maximum salary < 40000.
+40. Find department where maximum salary < 40000.
 
 ✅ Part 5: Advanced (Window Functions + Case + Misc.)
 
