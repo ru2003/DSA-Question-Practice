@@ -1,31 +1,31 @@
-Number-Based Questions
+1. Number-Based Questions
 
-Check if a number is prime.
+2. Check if a number is prime.
 
-Find the factorial of a number.
+3. Find the factorial of a number.
 
-Check if a number is Armstrong.
+4. Check if a number is Armstrong.
 
-Check if a number is palindrome.
+5. Check if a number is palindrome.
 
-Generate Fibonacci series.
+6. Generate Fibonacci series.
 
-Find GCD and LCM of two numbers.
+7. Find GCD and LCM of two numbers.
 
-Find the sum of digits of a number.
+8. Find the sum of digits of a number.
 
-Reverse a number.
+9. Reverse a number.
 
-Count even and odd digits in a number.
+10. Count even and odd digits in a number.
 
-Convert numbers to words (e.g. 512 → “Five One Two”).
+11. Convert numbers to words (e.g. 512 → “Five One Two”).
 
-Check if a number is perfect.
+12. Check if a number is perfect.
 
-Swap two numbers without using a third variable.
+13. Swap two numbers without using a third variable.
 
-Find the largest of three numbers.
+14. Find the largest of three numbers.
 
-Sum of all prime numbers in a range.
+15. Sum of all prime numbers in a range.
 
-Find power of a number without using Math.pow().
+16. Find power of a number without using Math.pow().
