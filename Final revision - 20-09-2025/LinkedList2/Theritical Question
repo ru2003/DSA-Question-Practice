@@ -27,3 +27,25 @@ Difference between Stack and Linked List implementation?
 How memory is allocated for linked list nodes?
 
 Can you implement a queue or stack using a linked list?
+
+
+| Question                                                                         | Concept Tested                       |
+| -------------------------------------------------------------------------------- | ------------------------------------ |
+| If a linked list has N nodes, how many `next` pointers will it have?             | N (each node has one `next` pointer) |
+| In a singly linked list, can we traverse backward?                               | No                                   |
+| In a doubly linked list, how many pointers are in each node?                     | 2 (`next` and `prev`)                |
+| What is the time complexity to access the k-th element?                          | O(k)                                 |
+| Time complexity of inserting at the beginning of a linked list?                  | O(1)                                 |
+| Time complexity of inserting at the end (without tail pointer)?                  | O(n)                                 |
+| Is random access possible in a linked list?                                      | No                                   |
+| What is the space complexity of a linked list node compared to an array element? | Higher (extra pointer space)         |
+
+
+🧾 Time & Space Complexities Summary
+Operation	        Singly LL         	Doubly LL
+Traversal	           O(n)                	O(n)
+Insertion at beginning  	O(1)    	O(1)
+Insertion at end (no tail)	O(n)	    O(n)
+Deletion at beginning	   O(1)     	O(1)
+Deletion at end	O(n)	                O(1) 
+Search	O(n)	                          O(n)
