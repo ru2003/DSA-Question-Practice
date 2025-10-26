@@ -3,11 +3,13 @@ import java.util.*;
 public class Q4ArmStrongNum {
      public static boolean isArmStrongNumber(int num){
         int temp = num;
-        int count =0;
-         while( temp != 0){
+        int count = 0;
+
+         while(temp != 0){
           temp = temp /10;
           count++;
         }
+        temp = num ;
         
 
      }

@@ -1,0 +1,29 @@
+What is a linked list and how is it different from an array?
+
+What are the advantages and disadvantages of using a linked list?
+
+What is the difference between singly, doubly, and circular linked lists?
+
+What is a node in a linked list?
+
+How do you find the length of a linked list?
+
+How to insert a new node at the beginning / end / middle of a linked list?
+
+How to delete a node from a linked list?
+
+What happens when you delete the head or last node?
+
+How do you reverse a linked list? (explain logic — iterative or recursive)
+
+How to detect a loop in a linked list? (Floyd’s Cycle Detection Algorithm)
+
+How to find the middle element of a linked list in one pass?
+
+How to check if two linked lists intersect?
+
+Difference between Stack and Linked List implementation?
+
+How memory is allocated for linked list nodes?
+
+Can you implement a queue or stack using a linked list?
