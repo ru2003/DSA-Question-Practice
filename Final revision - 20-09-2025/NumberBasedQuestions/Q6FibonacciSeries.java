@@ -3,7 +3,9 @@ package NumberBasedQuestions;
 public class Q6FibonacciSeries {
 
     public static void main(String[] args){
-        
+         int first = 0;
+         int second = 1;
+         
     }
     
 }
