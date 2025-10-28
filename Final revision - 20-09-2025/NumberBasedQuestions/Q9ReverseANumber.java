@@ -10,5 +10,7 @@ public class Q9ReverseANumber {
              num = num/10;
         }
 
+        System.out.println("The reversed number is : "+ reversed);
+
     }
 }
