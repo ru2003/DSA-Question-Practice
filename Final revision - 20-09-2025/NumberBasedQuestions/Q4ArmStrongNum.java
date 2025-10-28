@@ -10,7 +10,11 @@ public class Q4ArmStrongNum {
           count++;
         }
         temp = num ;
+
+        int sum  = 0;
         
+        
+
 
      }
     public static void main(String[] args){
