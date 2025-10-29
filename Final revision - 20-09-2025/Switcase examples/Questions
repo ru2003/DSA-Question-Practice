@@ -1,0 +1,152 @@
+🏦 Banking & Finance Based
+
+
+Bank Account Menu:
+Write a program that lets the user:
+Deposit money
+Withdraw money
+Check balance
+Exit
+Use switch-case and maintain a running balance.
+
+
+ATM Simulation:
+Create an ATM program where the user enters a PIN (fixed, e.g., 1234).
+If correct → show a menu:
+Withdraw
+Check Balance
+Change PIN
+Exit
+Perform the selected operation using switch-case.
+
+
+Simple Interest / Compound Interest Calculator:
+Ask user to choose interest type:
+Simple
+Compound
+Then calculate accordingly.
+
+
+Currency Converter:
+User enters choice like
+INR → USD
+USD → INR
+INR → EUR
+Use fixed rates and perform conversion.
+
+
+🛒 Shopping & Billing System
+Shopping Cart Program:
+Use switch-case to add products (like Laptop ₹50000, Phone ₹20000, Headphones ₹2000).
+Keep adding until user chooses “Exit”.
+Show final bill at the end.
+
+
+Discount Calculator:
+Ask user for category:
+Student (10%)
+Senior Citizen (15%)
+Regular (0%)
+Apply discount on entered bill amount.
+
+
+Electricity Bill Calculator:
+Ask for units consumed, then use switch for slab type:
+Domestic
+Commercial
+Each with different per-unit rates.
+
+
+🚌 Transport & Ticket Booking
+Ticket Booking System:
+Use switch-case to choose travel type:
+Train
+Flight
+Bus
+Each has a different base fare.
+Calculate total based on passenger count.
+
+
+
+
+
+
+Parking Lot System:
+User enters vehicle type:
+Two Wheeler (₹20/hr)
+Four Wheeler (₹50/hr)
+Truck (₹100/hr)
+Ask for hours and calculate total.
+
+
+
+
+
+
+Fuel Station:
+Ask for fuel type:
+Petrol ₹105/ltr
+Diesel ₹95/ltr
+CNG ₹80/kg
+Input liters and print total cost.
+
+
+
+
+
+
+
+🍔 Restaurant & Food Orders
+Restaurant Menu Card:
+Show a food menu (Pizza, Burger, Sandwich, Coffee).
+Ask user for their choice and quantity.
+Use switch-case to calculate total bill.
+
+
+
+Online Food Discount Offer:
+User selects food category and payment method:
+Food: Fast Food / Healthy / Dessert
+Payment: UPI (10% off), Card (5%), COD (0%)
+Use nested switch to apply both.
+
+
+
+
+
+🧾 Utility / Miscellaneous
+Calculator Program:
+Take two numbers and an operation choice (1. Add, 2. Subtract, 3. Multiply, 4. Divide) using switch-case.
+
+
+Grade Evaluation:
+Input marks and use switch (with conditions using ranges or logical checks) to print grade (A/B/C/Fail).
+
+
+Library Management Mini-System:
+Menu-driven program:
+Add book
+Remove book
+View all books
+Search book by name
+(You can use an array or list to store book names.)
+
+
+
+
+
+
+
+⚡ Bonus Ideas (for advanced rounds)
+
+
+🎯 Wallet app (Recharge, Transfer, Check balance)
+
+
+🎯 Gym membership plan (Monthly/Quarterly/Yearly fees)
+
+
+🎯 Movie ticket booking (select movie, seat type, snacks add-on)
+
+
+
