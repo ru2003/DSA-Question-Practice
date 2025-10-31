@@ -10,6 +10,12 @@ public class Q11ConvertNumbertoWords {
 
 
          int originalNum = num;
+
+
+         if(num ==0){
+            System.out.println("zero");
+            return;
+         }
          
 
 
