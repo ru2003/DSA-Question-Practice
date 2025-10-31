@@ -14,7 +14,7 @@ public class Q12PerfectNumber {
         }
 
         if(num == sum){
-            System.out.println("The given number is Prime Number. ");
+            System.out.println("The given number is Prime Number.");
         }else{
             System.out.println("the given number is not the prime number.");
         }
