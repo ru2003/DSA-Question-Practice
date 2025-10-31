@@ -10,6 +10,7 @@ public class Q11ConvertNumbertoWords {
 
 
          int originalNum = num;
+         String result = " ";
 
 
          if(num ==0){
