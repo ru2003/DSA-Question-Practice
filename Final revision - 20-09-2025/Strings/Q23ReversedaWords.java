@@ -3,7 +3,9 @@ package Strings;
 import java.util.*;
 public class Q23ReversedaWords {
     public static void main(String[] args){
-        Scanner sc = new Scanner(system.in);
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the sentence u want to reverse the words within it : ");
+        String sentence = sc.nextLine();
 
         
 
