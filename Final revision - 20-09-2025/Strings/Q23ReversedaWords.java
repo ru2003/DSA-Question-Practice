@@ -6,7 +6,8 @@ public class Q23ReversedaWords {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the sentence u want to reverse the words within it : ");
         String sentence = sc.nextLine();
-
+        
+        String[] words = sentence.split(" ");
         
 
 
