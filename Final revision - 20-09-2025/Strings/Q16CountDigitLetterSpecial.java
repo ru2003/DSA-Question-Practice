@@ -14,7 +14,7 @@ public class Q16CountDigitLetterSpecial {
        for (int i=0;i<=str.length()-1; i++){
         char cha = str.charAt(i);
         
-         if(Character.isDigit(ch)){
+         if(Character.isDigit(cha)){
             digit +=1;
         }else if(Character.isLetter(cha)){
             ch += 1;

@@ -18,8 +18,8 @@ public class Q5RemoveDuplicates {
          char ch = str.charAt(i);
 
          //check if character is already present or not.
-         if(result.indexOf(ch) == -1) {
-            result +=ch;
+         if(result.indexOf(ch) == -1) {//add the character to result only if doesnt already exist there.
+            result +=ch;//In Java, the indexOf() method is used to find the position (index) of a character or substring inside a string.
          }
     }
     System.out.println("String after removing duplicates: " + result);
