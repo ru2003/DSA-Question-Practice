@@ -7,6 +7,9 @@ public class Q15SumOfAllPrimeNum {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the start number: ");
         int start  = sc.nextInt();
+        System.out.println("enter the last number: ");
+        int last = sc.nextInt();
+        
 
 
     }
