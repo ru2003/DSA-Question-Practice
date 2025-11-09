@@ -32,6 +32,39 @@ public class Q1SinglyLinkedList {
         temp.next = newNode;
      }
 
+
+     //insert at beginning
+     public void insertAtBeginning(int data){
+        Node newNode = new Node(data);
+
+        newNode.next = head;
+        head = newNode;
+     }
+
+     //delete by value
+      public void deleteByValue(int value){
+        if(head == null){
+            return;
+        }
+
+        if(head.data == value){
+            head = head.next;
+            return ;
+        }
+
+        Node temp = head;
+        while(temp.next != null && temp.next.data == value){
+            temp = temp.next;
+            
+        }
+        temp.next = temp.next.next;
+      }
+
+      //display list
+      public void display() {
+        
+      }
+
     }
 
     public static void main(String[] args){
