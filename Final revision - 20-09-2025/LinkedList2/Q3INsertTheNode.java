@@ -12,6 +12,16 @@ public class Q3INsertTheNode {
         }
      }
 
+    static class LinkedList {
+        Node head ;
+        //insert at beginning
+        
+
+    }
+
+
+
+
 
     public static void main(String[] args){
          LinkedList list = new LinkedList();
