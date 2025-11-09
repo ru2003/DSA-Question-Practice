@@ -1,0 +1,324 @@
+🧠 TOP 150 DSA QUESTIONS (Topic-Wise)
+🔹 1. Arrays (15)
+
+Find the largest element in an array
+
+Find the second largest element in an array
+
+Reverse an array
+
+Rotate an array by K positions
+
+Find missing number in a sequence
+
+Find duplicates in an array
+
+Move all zeros to the end
+
+Merge two sorted arrays
+
+Find intersection of two arrays
+
+Kadane’s algorithm – Maximum Subarray Sum
+
+Find pair with given sum
+
+Count frequency of elements
+
+Sort an array of 0s, 1s and 2s (Dutch Flag problem)
+
+Find leaders in an array
+
+Rearrange array alternatively (max, min, max, min)
+
+🔹 2. Strings (15)
+
+Reverse a string
+
+Check if a string is palindrome
+
+Find duplicate characters in a string
+
+Count vowels and consonants
+
+Remove spaces from a string
+
+Check if two strings are anagrams
+
+Find the first non-repeating character
+
+Longest common prefix
+
+Check if one string is rotation of another
+
+String compression (Run Length Encoding)
+
+Implement strstr() (find substring)
+
+Convert string to integer (atoi)
+
+Longest substring without repeating characters
+
+Permutations of a string
+
+Minimum number of deletions to make a palindrome
+
+🔹 3. Searching & Sorting (10)
+
+Binary Search (Iterative and Recursive)
+
+Find first and last occurrence of an element
+
+Count number of occurrences in sorted array
+
+Find peak element
+
+Search in rotated sorted array
+
+Merge Sort
+
+Quick Sort
+
+Count inversions in an array
+
+Find kth smallest/largest element
+
+Find pair with given difference
+
+🔹 4. Linked List (15)
+
+Implement singly linked list
+
+Reverse a linked list (Iterative and Recursive)
+
+Detect loop in linked list
+
+Remove loop in linked list
+
+Find middle of linked list
+
+Find nth node from the end
+
+Merge two sorted linked lists
+
+Remove duplicates from sorted list
+
+Delete node without head pointer
+
+Intersection point of two linked lists
+
+Add two numbers represented by linked lists
+
+Flatten a linked list
+
+Sort a linked list
+
+Check if linked list is palindrome
+
+Rotate linked list by k nodes
+
+🔹 5. Stack (10)
+
+Implement stack using array
+
+Implement stack using linked list
+
+Implement two stacks in one array
+
+Next greater element
+
+Valid parentheses
+
+Evaluate postfix expression
+
+Infix to postfix conversion
+
+Stock span problem
+
+Largest rectangle in histogram
+
+Min stack (getMin() in O(1))
+
+🔹 6. Queue (10)
+
+Implement queue using array
+
+Implement queue using linked list
+
+Implement circular queue
+
+Implement stack using two queues
+
+Implement queue using two stacks
+
+LRU Cache (Least Recently Used)
+
+Sliding window maximum
+
+Rotten oranges (grid BFS)
+
+Generate binary numbers from 1 to N using queue
+
+Reverse first K elements of queue
+
+🔹 7. Trees (15)
+
+Inorder, Preorder, Postorder traversal (Recursive & Iterative)
+
+Level order traversal (BFS)
+
+Height of a binary tree
+
+Check if two trees are identical
+
+Diameter of binary tree
+
+Mirror of a binary tree
+
+Lowest common ancestor (LCA)
+
+Check if tree is height balanced
+
+Convert sorted array to BST
+
+Convert binary tree to sum tree
+
+Left view / Right view of binary tree
+
+Boundary traversal of tree
+
+Zigzag traversal
+
+Count leaf nodes
+
+Maximum path sum in binary tree
+
+🔹 8. Binary Search Tree (BST) (10)
+
+Search in BST
+
+Insert in BST
+
+Delete node in BST
+
+Check if a tree is BST
+
+Find kth smallest element
+
+Lowest common ancestor in BST
+
+Floor and Ceil in BST
+
+Convert BST to balanced BST
+
+Inorder predecessor and successor
+
+Recover BST if two nodes are swapped
+
+🔹 9. Heap / Priority Queue (10)
+
+Implement Max Heap and Min Heap
+
+Heap Sort
+
+Kth largest/smallest element in array
+
+Find median in stream
+
+Merge k sorted arrays
+
+Top K frequent elements
+
+Connect ropes with minimum cost
+
+Convert min heap to max heap
+
+Find k closest numbers
+
+Reorganize string (no same adjacent chars)
+
+🔹 10. Recursion & Backtracking (10)
+
+Factorial of a number
+
+Fibonacci series
+
+Tower of Hanoi
+
+Print all subsets (Power set)
+
+Permutations of a string/array
+
+N-Queens problem
+
+Rat in a maze
+
+Sudoku solver
+
+Generate parentheses
+
+Word search in grid
+
+🔹 11. Dynamic Programming (15)
+
+Fibonacci (DP)
+
+Longest common subsequence
+
+Longest increasing subsequence
+
+Edit distance
+
+0/1 Knapsack problem
+
+Subset sum problem
+
+Coin change problem
+
+Matrix chain multiplication
+
+Minimum path sum in matrix
+
+Maximum product subarray
+
+Rod cutting problem
+
+Longest palindromic subsequence
+
+Minimum number of jumps
+
+Partition equal subset sum
+
+Palindrome partitioning
+
+🔹 12. Graphs (15)
+
+Represent graph (Adjacency list/matrix)
+
+DFS traversal
+
+BFS traversal
+
+Detect cycle in undirected graph
+
+Detect cycle in directed graph
+
+Topological sort
+
+Dijkstra’s shortest path algorithm
+
+Bellman-Ford algorithm
+
+Floyd Warshall algorithm
+
+Kruskal’s algorithm (MST)
+
+Prim’s algorithm (MST)
+
+Number of islands (using DFS/BFS)
+
+Clone a graph
+
+Bipartite graph check
+
+Course schedule problem
