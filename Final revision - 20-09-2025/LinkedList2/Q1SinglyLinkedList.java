@@ -3,7 +3,7 @@ package LinkedList2;
 
 public class Q1SinglyLinkedList {
 
-    class Node {
+    static class Node {
         int data;
         Node next;
 
@@ -13,8 +13,7 @@ public class Q1SinglyLinkedList {
         }
     }
 
-
-    class LinkedList{
+       static class LinkedList{
         Node head;
 
      //Insert at end 
@@ -26,7 +25,7 @@ public class Q1SinglyLinkedList {
             return ;
         }
         Node temp = head;
-        while(temp.next == null){
+        while(temp.next != null){
             temp = temp.next;
         }
         temp.next = newNode;
@@ -34,7 +33,7 @@ public class Q1SinglyLinkedList {
 
 
      //insert at beginning
-     public void insertAtBeginning(int data){
+     public void insertAtbeginning(int data){
         Node newNode = new Node(data);
 
         newNode.next = head;
@@ -53,7 +52,7 @@ public class Q1SinglyLinkedList {
         }
 
         Node temp = head;
-        while(temp.next != null && temp.next.data == value){
+        while(temp.next != null && temp.next.data != value){
             temp = temp.next;
             
         }
@@ -62,10 +61,16 @@ public class Q1SinglyLinkedList {
 
       //display list
       public void display() {
-        
+        Node temp = head;
+        while(temp != null){
+            System.out.print(temp.data+ " ");
+            temp = temp.next;
+        }
+        System.out.println();
       }
 
     }
+    
 
     public static void main(String[] args){
         LinkedList list = new LinkedList();

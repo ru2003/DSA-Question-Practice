@@ -11,7 +11,7 @@ Exit
 Use switch-case and maintain a running balance.
 
 
-ATM Simulation:
+2. ATM Simulation:
 Create an ATM program where the user enters a PIN (fixed, e.g., 1234).
 If correct → show a menu:
 Withdraw
@@ -21,14 +21,14 @@ Exit
 Perform the selected operation using switch-case.
 
 
-Simple Interest / Compound Interest Calculator:
+3. Simple Interest / Compound Interest Calculator:
 Ask user to choose interest type:
 Simple
 Compound
 Then calculate accordingly.
 
 
-Currency Converter:
+4. Currency Converter:
 User enters choice like
 INR → USD
 USD → INR
@@ -36,14 +36,14 @@ INR → EUR
 Use fixed rates and perform conversion.
 
 
-🛒 Shopping & Billing System
+5. 🛒 Shopping & Billing System
 Shopping Cart Program:
 Use switch-case to add products (like Laptop ₹50000, Phone ₹20000, Headphones ₹2000).
 Keep adding until user chooses “Exit”.
 Show final bill at the end.
 
 
-Discount Calculator:
+6. Discount Calculator:
 Ask user for category:
 Student (10%)
 Senior Citizen (15%)
@@ -51,14 +51,14 @@ Regular (0%)
 Apply discount on entered bill amount.
 
 
-Electricity Bill Calculator:
+7. Electricity Bill Calculator:
 Ask for units consumed, then use switch for slab type:
 Domestic
 Commercial
 Each with different per-unit rates.
 
 
-🚌 Transport & Ticket Booking
+8. 🚌 Transport & Ticket Booking
 Ticket Booking System:
 Use switch-case to choose travel type:
 Train
