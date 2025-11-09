@@ -15,7 +15,11 @@ public class Q3INsertTheNode {
     static class LinkedList {
         Node head ;
         //insert at beginning
-        
+        public void insertAtBeginning(int data){
+        Node newNode = new Node(data);
+        newNode.next = head;
+        head = newNode;
+        }
 
     }
 
@@ -31,7 +35,7 @@ public class Q3INsertTheNode {
          list.insertAtEnd(30);
          list.display();
 
-         list.insertAtBEginning(5);
+         list.insertAtBeginning(5);
          list.insertAtBeginning(2);
          list.display();
 
