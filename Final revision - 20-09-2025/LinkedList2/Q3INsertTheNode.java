@@ -35,6 +35,13 @@ public class Q3INsertTheNode {
             temp.next = newNode;
         }
 
+        //insert At given position
+        public void insertAtPosition(int value){
+             Node newNode = new Node(data);
+
+             if(pos )
+        }
+
     }
 
     
