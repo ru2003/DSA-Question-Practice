@@ -21,7 +21,13 @@ public class Q3INsertTheNode {
         head = newNode;
         }
 
+        public static void insertAtEnd(int data){
+            
+        }
+
     }
+
+    
 
 
 
