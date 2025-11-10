@@ -36,7 +36,7 @@ public class Q3INsertTheNode {
         }
 
         //insert At given position
-        public void insertAtPosition(int value, int pos){
+        public void insertAtPosition(int data, int pos){
              Node newNode = new Node(data);
 
              if(pos < 0 ){
@@ -49,6 +49,31 @@ public class Q3INsertTheNode {
                 head = newNode;
                 return ;
              }
+
+             Node temp = head;
+             for(int i=1; i<pos-1; i++){
+                temp = temp.next;
+             }
+
+             if(temp == null){
+                System.out.println("Position out of range.");
+                return ;
+             }
+
+             newNode.next  = temp.next;
+             temp.next = newNode;
+             
+        }
+
+        //display the list 
+        public void display(){
+            Node temp = head;
+            while(temp != null){
+                System.out.print(temp.data+ " ");
+                temp = temp.next;
+            }
+            System.out.println();
+
         }
 
     }
@@ -71,8 +96,8 @@ public class Q3INsertTheNode {
          list.insertAtBeginning(2);
          list.display();
 
-         list.insertAtPosition(99);
-         list.insertAtposition(78);
+         list.insertAtPosition(99,2);
+         list.insertAtPosition(78,4);
          list.display();
 
 
