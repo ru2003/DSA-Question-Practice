@@ -36,10 +36,19 @@ public class Q3INsertTheNode {
         }
 
         //insert At given position
-        public void insertAtPosition(int value){
+        public void insertAtPosition(int value, int pos){
              Node newNode = new Node(data);
 
-             if(pos )
+             if(pos < 0 ){
+                System.out.println("Invalid position !");
+                return ;
+             }
+
+             if(pos == 1){
+                newNode.next = head;
+                head = newNode;
+                return ;
+             }
         }
 
     }
