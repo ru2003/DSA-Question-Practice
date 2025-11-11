@@ -47,10 +47,7 @@ Else → after traversal, print “Not Found”
             }else{
                 temp = temp.next;
                 position++;
-            }
-           
-           
-
+            }  
         }
          if(!found){
                 System.out.println("element " + key + " not found.");
