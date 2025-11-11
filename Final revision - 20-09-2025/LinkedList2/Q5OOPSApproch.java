@@ -23,7 +23,7 @@ public class Q5OOPSApproch {
             return;
             } 
             Node temp  = head;
-            while(temp != null){
+            while(temp.next != null){
                 temp = temp.next;
             }
             temp.next = newNode;
@@ -33,7 +33,7 @@ public class Q5OOPSApproch {
         public void display(){
             Node temp = head;
             while(temp != null){
-                System.out.println(temp.data + " ");
+                System.out.print(temp.data + " ");
                 temp = temp.next;
             }
             System.out.println();
@@ -45,6 +45,7 @@ public class Q5OOPSApproch {
 
             while(temp.next != null){
                 if(temp.data == key){
+                    System.out.println("Element found at "+ position);
                     return position;
                 }else{
                     temp = temp.next;
