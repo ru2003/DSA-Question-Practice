@@ -22,35 +22,35 @@ Basic / Easy
 10.Swap two arrays without using a third variable.
 
 
-Find the maximum and minimum element in an array.
+11. Find the maximum and minimum element in an array.
 
-Reverse an array.
+12. Reverse an array.
 
-Check if an array is sorted (ascending or descending).
+13. Check if an array is sorted (ascending or descending).
 
-Find the frequency of each element.
+14. Find the frequency of each element.
 
-Find duplicates in an array.
+15. Find duplicates in an array.
 
-Remove duplicates from an array.
+16. Remove duplicates from an array.
 
-Search an element in an array (Linear Search).
+17. Search an element in an array (Linear Search).
 
-Find second largest / smallest element.
+18. Find second largest / smallest element.
 
-Sort an array (without using Arrays.sort()).
+19. Sort an array (without using Arrays.sort()).
 
-Rotate an array by k positions.
+20. Rotate an array by k positions.
 
-Sum of all elements in an array.
+21. Sum of all elements in an array.
 
-Check if two arrays are equal.
+22. Check if two arrays are equal.
 
-Merge two arrays into one.
+23. Merge two arrays into one.
 
-Swap two arrays (without third variable).
+24. Swap two arrays (without third variable).
 
-Find pair of elements whose sum equals a given number.
+25. Find pair of elements whose sum equals a given number.
 
 ***********************************************
 Intermediate
