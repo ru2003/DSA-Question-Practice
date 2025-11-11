@@ -67,8 +67,9 @@ public class Q4DeleteAnode {
             }
 
             //display the linked list
-            Node temp = head ;
+           
           public void display(){
+             Node temp = head ;
               while(temp != null){
                 System.out.print(temp.data + " ");
                 temp = temp.next;
@@ -85,5 +86,18 @@ public class Q4DeleteAnode {
          list.head.next = new Node(20);
          list.head.next.next  =new Node(30);
           list.head.next.next.next  =new Node(40);
+
+          System.out.print("Original List: ");
+          list.display();
+
+          list.deleteAtbeginning();
+          list.display();
+          
+          list.deleteAtPosition(30,2);
+          list.display();
+
+          list.deleteAtEnd();
+          list.display();
+
     }
 }
