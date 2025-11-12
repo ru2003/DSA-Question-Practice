@@ -31,7 +31,7 @@ public class Q7printtheLinkedList {
         public void display(){
             Node temp  = head;
             while(temp != null){
-                System.out.print("Printing the Linkedlist: " + temp.data);
+                System.out.print( temp.data +" ");
                 temp = temp.next;
             }
             System.out.println();
