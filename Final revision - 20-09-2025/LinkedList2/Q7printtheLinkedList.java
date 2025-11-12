@@ -19,6 +19,7 @@ public class Q7printtheLinkedList {
 
             if(head == null){
                  head = newNode;
+                 return;
             }
             Node temp  = head;
             while(temp.next != null){
@@ -43,6 +44,8 @@ public class Q7printtheLinkedList {
            list.insertAtEnd(20);
             list.insertAtEnd(30);
              list.insertAtEnd(40);
-
+             
+             
+             list.display();
     }
 }
