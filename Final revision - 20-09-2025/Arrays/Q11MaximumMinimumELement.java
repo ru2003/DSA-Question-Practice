@@ -14,7 +14,7 @@ public class Q11MaximumMinimumELement {
          
         int maximum = 0;
         for(int i=0 ; i<=arr.length-1;i++){
-          
+          if()
         }
 
     }
