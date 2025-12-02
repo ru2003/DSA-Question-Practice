@@ -13,8 +13,14 @@ public class Q8ReverseaLinkedList {
        }
 
     }
-    public static void main(String[] args){
 
+    public Node reverse(Node head){
+        Node temp = null;
+        Node curr  = head;
+        Node nxt  = null;
+    }
+    public static void main(String[] args){
+       
         
     }
 }
