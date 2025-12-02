@@ -46,12 +46,23 @@ public class Q8ReverseaLinkedList {
           }
           temp.next = newNode;
     }
+
+    static void display(){
+         Node temp = head;
+         while( temp != null){
+            System.out.println("Linked List is : " + temp.data + " ");
+            temp = temp.next;
+         }
+         System.out.println();
+    }
    }
 
 
-    public 
+
     public static void main(String[] args){
-       
+       LinkedList list = new LinkedList();
+
+       list.insertAtEnd(10);
         
     }
 }
