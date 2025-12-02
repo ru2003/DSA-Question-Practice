@@ -3,7 +3,7 @@ package LinkedList2;
 // Time Complexity : O(n)  &&& Space Complexity : O(1)
 public class Q8ReverseaLinkedList {
 
-     class Node{
+     static class Node{
        int data;
        Node next;
 
@@ -14,21 +14,7 @@ public class Q8ReverseaLinkedList {
 
     }
 
-    public Node reverse(Node head){
-        Node prev = null;
-        Node curr  = head;
-        Node nxt  = null;
-
-
-        while(curr != null){
-            nxt = curr.next;
-            curr.next = prev;
-
-            prev = curr ;
-            curr = nxt;
-        }
-        return prev;
-    }
+    
 
    static class LinkedList{
     Node head;
@@ -47,10 +33,28 @@ public class Q8ReverseaLinkedList {
           temp.next = newNode;
     }
 
-    static void display(){
+    public void reverse(){
+        Node prev = null;
+        Node curr  = head;
+        Node nxt  = null;
+
+
+        while(curr != null){
+            nxt = curr.next;
+            curr.next = prev;
+
+            prev = curr ;
+            curr = nxt;
+        }
+        head= prev;
+    }
+
+    public  void display() {
          Node temp = head;
+         System.out.println("Linked List is: ");
          while( temp != null){
-            System.out.println("Linked List is : " + temp.data + " ");
+
+            System.out.print( temp.data + " ");
             temp = temp.next;
          }
          System.out.println();
@@ -67,6 +71,11 @@ public class Q8ReverseaLinkedList {
        list.insertAtEnd(30);
        list.insertAtEnd(40);
        list.display();
+
+       list.reverse();
+       list.display();
+    
+
 
        
         
