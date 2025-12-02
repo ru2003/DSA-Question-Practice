@@ -15,9 +15,18 @@ public class Q8ReverseaLinkedList {
     }
 
     public Node reverse(Node head){
-        Node temp = null;
+        Node prev = null;
         Node curr  = head;
         Node nxt  = null;
+
+
+        while(curr != null){
+            nxt = curr.next;
+            curr.next = prev;
+            
+
+
+        }
     }
     public static void main(String[] args){
        
