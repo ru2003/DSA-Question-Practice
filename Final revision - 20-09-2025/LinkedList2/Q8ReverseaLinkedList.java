@@ -23,11 +23,33 @@ public class Q8ReverseaLinkedList {
         while(curr != null){
             nxt = curr.next;
             curr.next = prev;
-            
 
-
+            prev = curr ;
+            curr = nxt;
         }
+        return prev;
     }
+
+   static class LinkedList{
+    Node head;
+     public void insertAtEnd(int data){
+          Node newNode =  new Node(data);
+
+          if(head == null){
+            head = newNode;
+            return ;
+          }
+
+          Node temp  = head ;
+          while( temp.next != null){
+               temp = temp.next;
+          }
+          temp.next = newNode;
+    }
+   }
+
+
+    public 
     public static void main(String[] args){
        
         
