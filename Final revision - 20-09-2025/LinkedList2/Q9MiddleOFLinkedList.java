@@ -14,6 +14,19 @@ public class Q9MiddleOFLinkedList {
 
     static class LinkedList{
         Node head;
+
+        public void insertAtEnd(int data){
+            Node newNode = new Node(data);
+
+            if(head == null){
+                head = newNode;
+                return;
+            }
+
+            Node temp = head;
+
+        }
+        
     }
     public static void main(String[] args){
         
