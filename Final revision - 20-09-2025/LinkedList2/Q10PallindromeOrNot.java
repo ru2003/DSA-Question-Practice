@@ -44,6 +44,33 @@ public class Q10PallindromeOrNot {
             }
             temp.next = newNode;
         }
+        
+        public void display(){
+            Node temp = head;
+            while(temp != null){
+                System.out.println(temp.data + " ");
+                temp = temp.next;
+            }
+            System.out.println();
+        }
+        //reverse a linked list
+        private Node reverse(Node head){
+             Node prev = null;
+             Node curr = head;
+             Node next = null;
+
+             while(curr != null){
+               next = curr.next;
+               curr.next = prev;
+               prev = curr;
+               curr = next;
+             }
+             return prev;
+        }
+
+
+
+
     }
 
 
