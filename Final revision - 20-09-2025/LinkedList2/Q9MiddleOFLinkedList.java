@@ -49,9 +49,27 @@ public class Q9MiddleOFLinkedList {
 
         
         }
+
+        public void display() {
+            Node temp  = head;
+            while(temp != null){
+                System.out.println( temp.data +" ");
+                temp = temp.next;
+            }
+            System.out.println();
+        }
         
     }
     public static void main(String[] args){
+        LinkedList list = new LinkedList();
+
+        list.insertAtEnd(10);
+         list.insertAtEnd(20);
+         list.insertAtEnd(30);
+         list.insertAtEnd(40);
+         list.insertAtEnd(50);
+         list.insertAtEnd(60);
+         list.insertAtEnd(70);
         
     }
 }
