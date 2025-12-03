@@ -11,7 +11,11 @@ public class Q9MiddleOFLinkedList {
             this.next = null;
         }
     }
-    public static void main(String[] args){
 
+    static class LinkedList{
+        Node head;
+    }
+    public static void main(String[] args){
+        
     }
 }
