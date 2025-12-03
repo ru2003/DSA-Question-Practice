@@ -87,13 +87,17 @@ public class Q10PallindromeOrNot {
             //compare both 
             Node first  = head ;
             Node second  = secondhalf;
+            
+
+            while(second != null){
+                if(first.data != second.data){
+                    return false;
+                }
+               first = first.next;
+               second  =second.next;
+            }
+            return true;
         }
-
-
-
-
-
-
 
     }
 
