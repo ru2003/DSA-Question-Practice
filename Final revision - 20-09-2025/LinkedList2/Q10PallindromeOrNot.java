@@ -39,7 +39,7 @@ public class Q10PallindromeOrNot {
             }
 
             Node temp  = head;
-            while(temp != null){
+            while(temp.next != null){
                 temp = temp.next;
             }
             temp.next = newNode;
@@ -48,7 +48,7 @@ public class Q10PallindromeOrNot {
         public void display(){
             Node temp = head;
             while(temp != null){
-                System.out.println(temp.data + " ");
+                System.out.print(temp.data + " ");
                 temp = temp.next;
             }
             System.out.println();
@@ -114,7 +114,13 @@ public class Q10PallindromeOrNot {
         list.insertAtEnd(20);
         list.insertAtEnd(10);
      
-        
+        list.display();
+        if(list.isPallindrome()){
+            System.out.println("Yes  Linkedlist is pallindrome");
+
+        }else{
+            System.out.println("No , Linked list is not pallindrome.");
+        }
         
 
     }
