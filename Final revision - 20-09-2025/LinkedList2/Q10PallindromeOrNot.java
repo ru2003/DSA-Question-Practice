@@ -76,7 +76,17 @@ public class Q10PallindromeOrNot {
             // to find the middle
             Node slow = head;
             Node fast = head;
-            
+
+            while(fast != null && fast.next != null){
+                slow =slow.next;
+                fast = fast.next.next;
+            }
+             
+            Node secondhalf = reverse(slow);
+
+            //compare both 
+            Node first  = head ;
+            Node second  = secondhalf;
         }
 
 
