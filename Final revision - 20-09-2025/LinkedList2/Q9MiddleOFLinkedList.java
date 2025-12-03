@@ -22,20 +22,25 @@ public class Q9MiddleOFLinkedList {
                 head = newNode;
                 return;
             }
+           Node temp = head;
+            while(temp.next != null){
+                temp = temp.next;
+            }
+            temp.next = newNode;
+
+        
+        
+        }
 
          
-        public Node findtheMiddle(){
+        public int findtheMiddle(){
             if(head == null){
                 System.out.println("LnkedList is empty. ");
                 return -1;
 
             }
             
-            Node temp = head;
-            while(temp.next != null){
-                temp = temp.next;
-            }
-            temp.next = newNode;
+           
 
             Node slow = head;
             Node fast = head;
@@ -53,7 +58,7 @@ public class Q9MiddleOFLinkedList {
         public void display() {
             Node temp  = head;
             while(temp != null){
-                System.out.println( temp.data +" ");
+                System.out.print( temp.data +" ");
                 temp = temp.next;
             }
             System.out.println();
@@ -70,6 +75,10 @@ public class Q9MiddleOFLinkedList {
          list.insertAtEnd(50);
          list.insertAtEnd(60);
          list.insertAtEnd(70);
+
+         list.display();
+
+         System.out.println("Middle of linkedlist: " + list.findtheMiddle());
         
     }
 }
