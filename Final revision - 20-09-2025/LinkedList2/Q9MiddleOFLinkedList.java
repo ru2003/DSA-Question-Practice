@@ -1,5 +1,20 @@
 package LinkedList2;
+/*
+leetcode type answer;
+class solution {
+public ListNode middleNode(ListNode head){
+ Listnode slow = head;
+ Listnode fast= head;
+ while(fast != null && fast.next != null){
+ slow = slow.next;
+ fast = fast.next.next;
+ 
+ }
+ return slow;
 
+
+}}
+ */
 public class Q9MiddleOFLinkedList {
 
     static class Node{
@@ -33,10 +48,10 @@ public class Q9MiddleOFLinkedList {
         }
 
          
-        public int findtheMiddle(){
+        public Node findtheMiddle(){
             if(head == null){
                 System.out.println("LnkedList is empty. ");
-                return -1;
+                return null;
 
             }
             
@@ -50,7 +65,7 @@ public class Q9MiddleOFLinkedList {
                 fast = fast.next.next;
 
             }
-            return slow.data;//slow is at the middle
+            return slow;//slow is at the middle
 
         
         }
@@ -77,8 +92,9 @@ public class Q9MiddleOFLinkedList {
          list.insertAtEnd(70);
 
          list.display();
-
-         System.out.println("Middle of linkedlist: " + list.findtheMiddle());
+        
+         Node  mid = list.findtheMiddle();//agr node return kr rhe hai toh pura node retunr hoga .if u want to return the dat then convert and ask for data
+         System.out.println("Middle of linkedlist: " +mid.data);
         
     }
 }
