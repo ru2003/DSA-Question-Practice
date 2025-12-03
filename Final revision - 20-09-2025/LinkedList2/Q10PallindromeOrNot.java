@@ -68,6 +68,20 @@ public class Q10PallindromeOrNot {
              return prev;
         }
 
+        public boolean isPallindrome(){
+
+            if(head == null || head.next == null){
+                return true;
+            }
+            // to find the middle
+            Node slow = head;
+            Node fast = head;
+            
+        }
+
+
+
+
 
 
 
