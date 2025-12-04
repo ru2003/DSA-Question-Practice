@@ -101,6 +101,9 @@ public class Q11startignofLoop {
         
         list.head.next.next.next = list.head.next.next;
 
+        Node answer = list.findLoopStart();
+        System.out.println("The startign of the loop is: " + answer.data);
+
 
 
     }
