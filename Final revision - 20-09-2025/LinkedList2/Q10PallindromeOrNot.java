@@ -94,7 +94,7 @@ public class Q10PallindromeOrNot {
                     return false;
                 }
                first = first.next;
-               second  =second.next;
+               second  = second.next;
             }
             return true;
         }
