@@ -28,7 +28,7 @@ but main tujhe example se 2 sec me samjhati hoon.
 
 */
 public class Q11startignofLoop {
-    class Node{
+    static class Node{
         int data;
         Node next;
 
@@ -38,14 +38,67 @@ public class Q11startignofLoop {
         }
     }
 
-    class Linkedlist{
+    static class Linkedlist{
           Node head;
 
-          
+
+          public void insertAtEnd(int data){
+              Node newNode = new Node(data);
+              if(head == null) {
+                head = newNode;
+                return;
+              }
+
+              Node temp  = head;
+              while(temp.next != null){
+                temp = temp.next;
+
+              }
+              temp.next = newNode;
+
+          }
+
+          public Node findLoopStart() {
+            Node slow = head;
+            Node fast = head;
+
+            //detect loop 
+            while(fast != null && fast.next != null){
+                slow  = slow.next;
+                fast  = fast.next.next;
+
+                if(fast == slow){
+                    slow = head;
+
+                     while(slow != fast){
+                    slow = slow.next ;
+                    fast = fast.next;
+
+                }
+                return slow;
+                }
+
+              
+            }
+             return null;
+
+          }
+         
+
     }
     
 
     public static void main(String[] args){
+        Linkedlist list = new Linkedlist();
+        
+
+        list.insertAtEnd(10);
+        list.insertAtEnd(20);
+        list.insertAtEnd(30);
+        list.insertAtEnd(40); 
+        list.insertAtEnd(50);
+        list.insertAtEnd(60);
+        
 
     }
     
