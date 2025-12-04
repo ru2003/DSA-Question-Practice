@@ -31,5 +31,17 @@ public class Q11DetectLoop {
             this.next = null;
         }
     }
+
+    static class LinkedList{
+
+        public void insertAtEnd(int data){
+            Node newNode  = new Node(data);
+            
+        }
+    }
+
+    public static void main(String[] args){
+
+    }
     
 }
