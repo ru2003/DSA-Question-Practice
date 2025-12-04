@@ -99,6 +99,9 @@ public class Q11startignofLoop {
         list.insertAtEnd(50);
         list.insertAtEnd(60);
         
+        list.head.next.next.next = list.head.next.next;
+
+
 
     }
     
