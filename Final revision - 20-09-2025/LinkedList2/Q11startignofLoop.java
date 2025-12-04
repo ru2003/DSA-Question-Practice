@@ -38,6 +38,13 @@ public class Q11startignofLoop {
         }
     }
 
+    class Linkedlist{
+          Node head;
+
+          
+    }
+    
+
     public static void main(String[] args){
 
     }
