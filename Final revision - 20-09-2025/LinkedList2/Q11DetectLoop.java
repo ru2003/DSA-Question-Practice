@@ -27,7 +27,8 @@ public class Q11DetectLoop {
         Node next;
 
         Node(int data){
-            
+            this.data = data;
+            this.next = null;
         }
     }
     
