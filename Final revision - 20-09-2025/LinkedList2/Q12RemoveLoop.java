@@ -20,10 +20,7 @@ Set fast.next = null → loop removed.
 ⏱ Time: O(n)
 🧠 Space: O(1)
  */
-
-public class Q12RemoveLoop {
-
-    class Node{
+class Node{
         int data;
         Node next;
 
@@ -31,7 +28,13 @@ public class Q12RemoveLoop {
             this.data = data;
             this.next = null;
         }
+
     }
+
+public class Q12RemoveLoop {
+
+    
+    
     public static void main(String[] args){
         
     }
