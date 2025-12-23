@@ -1,0 +1,29 @@
+
+3.🔥 QUESTION 1 – INHERITANCE (HIGH PROBABILITY)
+📝 Problem Statement
+
+Design a system to calculate salary using inheritance.
+
+Requirements:
+
+Create a base class Employee
+
+fields: int basicSalary
+
+method: int calculateSalary()
+
+Create a child class Developer
+
+additional field: int bonus
+
+override calculateSalary()
+
+Create another child class Manager
+
+additional field: int incentive
+
+override calculateSalary()
+
+Use DSA logic (variables, addition)
+
+Demonstrate method overriding
