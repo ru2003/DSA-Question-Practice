@@ -32,6 +32,8 @@ public class multilevel {
     public static void main(String[] args){
         BackendDeveloper bd = new BackendDeveloper();
         bd.backend();
+        bd.code();
+        bd.work();
         
     }
 }
