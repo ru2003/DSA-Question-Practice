@@ -1,10 +1,11 @@
 /*
  * Right-angled triangle (right-aligned).
 
-   *
-  **
- ***
+
 ****
+***
+**
+*
  */
 
 public class Q3RighInvertedTriangle {
